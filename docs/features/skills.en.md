@@ -1,6 +1,6 @@
 # Skills System
 
-DeepResValue includes **100+ professional skills** covering the full research workflow. Selecting a matching skill causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality.
+DeepResValue includes **100+ professional skills** covering the full research workflow. Skills have been **validated through thousands of real research projects** and are at the **global cutting edge**. Selecting a matching skill causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality. All research data is built-in — just state your needs and the Agent calls autonomously. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
 
 ## Skill Categories
 

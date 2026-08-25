@@ -71,3 +71,9 @@ You can earn more credits through:
 - Streamline files before upload — remove irrelevant columns, keep only needed observations
 - State full requirements in one message to avoid repeated back-and-forth
 - Reasonably control data scope and file count
+
+## MCP External Connectors
+
+### What are MCP connectors? Is there an extra charge?
+
+MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.

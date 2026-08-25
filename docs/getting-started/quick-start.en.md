@@ -1,6 +1,6 @@
 # Quick Start
 
-Get started with DeepResValue in just a few minutes.
+**Zero install, zero configuration** — all four compute kernels + Word/LaTeX typesetting engine are cloud-pre-configured. Open your browser for a full research environment. Works on phone, tablet, and desktop with one account. Get started with DeepResValue in just a few minutes.
 
 ## Register & Login
 

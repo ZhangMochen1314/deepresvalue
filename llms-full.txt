@@ -352,6 +352,12 @@ You can earn more credits through:
 - State full requirements in one message to avoid repeated back-and-forth
 - Reasonably control data scope and file count
 
+## MCP External Connectors
+
+### What are MCP connectors? Is there an extra charge?
+
+MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.
+
 
 # docs/faq/index.zh.md
 # 常见问题
@@ -440,6 +446,12 @@ You can earn more credits through:
 - 上传前精简文件——去掉无关列、只保留分析需要的观测值
 - 一次把需求说清楚，避免反复追问导致重复消耗
 - 合理控制数据范围和文件数量
+
+## MCP 外部连接器
+
+### 外部连接器（MCP）是什么？使用要额外收费吗？
+
+外部连接器（MCP）让你在对话中直接调用第三方专业数据源（如智慧芽 PatSnap、北大法宝、万得 Wind、同花顺 iFinD、企查查等），无需离开平台。平台已接入**数十个 MCP 连接器**，覆盖专利与知识产权、法律检索、金融数据、企业信息、学术搜索、地理服务、量化行情等领域。**平台不额外收取 MCP 连接器的服务费**，你只需承担第三方数据源本身的调用费用（如有）。你的 Token 采用加密存储，可随时停用或解绑吊销。
 
 # docs/faq/README.md
 # 常见问题 / FAQ
@@ -781,6 +793,26 @@ AI automatically loads the appropriate data collection skill to fetch structured
 | 📚 **Literature Search** | NCPSSD Chinese journals, CNKI enhanced abstracts, arXiv preprints, PubMed biomedical, Crossref metadata |
 | 🌐 **Web Content** | Extract main text from specified URLs |
 
+## MCP External Connectors
+
+The platform has integrated **dozens of MCP connectors**, letting you call third-party professional data sources directly in conversation — without leaving the platform. The AI automatically determines when to invoke connectors; you can also trigger them explicitly.
+
+| Connector | Type | Description |
+|-----------|------|-------------|
+| **PatSnap (智慧芽)** ★ | Patent & IP | 34 official MCP services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ engine, etc. |
+| **PKULaw (北大法宝)** | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
+| **Wind (万得)** | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **iFinD (同花顺)** | Financial Markets | A-share, public funds, macro data, bonds, financial news |
+| **Qichacha (企查查)** | Business Intelligence | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic** | Academic Search | AI-powered academic literature search |
+| **Baidu Wenku / OCR** | Document Processing | Literature image recognition, document parsing |
+| **Open Academic Suite** | Academic Metadata | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geolocation | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Collaboration | Survey research, meeting minutes |
+| **TickDB** | Quantitative Data | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
+
+> Connectors are continuously expanding. Some connectors (e.g., PKULaw, Wind) require your own API Token (BYOK) — the platform charges no additional service fee.
+
 ## Usage
 
 1. **Describe your data needs** — In the chat, state in Chinese what data type, time range, and variables you need.
@@ -832,6 +864,26 @@ AI 自动加载对应数据搜集技能，从外部数据源获取结构化数�
 | 🧬 **生物数据** | EMBL-EBI 生物数据库、bioRxiv 预印本 |
 | 📚 **文献检索** | NCPSSD 中文期刊、CNKI 摘要增强、arXiv 英文预印本、PubMed 生物医学、Crossref 元数据 |
 | 🌐 **网页正文** | 指定 URL 的网页正文内容提取 |
+
+## MCP 外部连接器
+
+平台已接入**数十个 MCP 连接器**，在对话中直接调用第三方专业数据源——无需离开平台、无需切换网页。AI 会自动判断是否需要调用连接器，你也可以主动触发。
+
+| 连接器 | 类型 | 说明 |
+|--------|------|------|
+| **智慧芽 PatSnap** ★ | 专利与知识产权 | 官方 34 个 MCP 服务：专利检索/分析/估值/景观、临床试验、药物资产、靶点疾病、监管指南、TRIZ 引擎等 |
+| **北大法宝** | 法律检索 | 中国法律法规、司法案例、学术期刊检索 |
+| **万得 Wind** | 金融数据 | 上市公司财务、宏观经济、行业数据 |
+| **同花顺 iFinD** | 金融行情 | A 股、公募基金、宏观数据、债券、财经新闻 |
+| **企查查** | 企业信息 | 工商注册、风险信息、知识产权、经营数据、历史变更 |
+| **百度 AI 学术搜索** | 学术检索 | AI 驱动的学术文献智能搜索 |
+| **百度文库 / OCR** | 文档处理 | 文献图像识别、文档解析 |
+| **开放学术四件套** | 学术元数据 | arXiv / PubMed / Crossref / Semantic Scholar（免认证） |
+| **腾讯地图** | 地理服务 | 地理编码、POI 搜索、路线规划 |
+| **腾讯问卷 / 会议** | 协作工具 | 问卷调研、会议纪要 |
+| **TickDB** | 量化行情 | 外汇、贵金属、指数、美股/港股/A 股、加密货币量化数据 |
+
+> 连接器持续扩展中。部分连接器（如北大法宝、万得 Wind）需要你填入自己的 API Token（BYOK），平台不额外收取服务费。
 
 ## 使用步骤
 
@@ -1136,7 +1188,7 @@ During AI analysis, you can see in real time which tools it invokes:
 # docs/features/skills.en.md
 # Skills System
 
-DeepResValue includes **100+ professional skills** covering the full research workflow. Selecting a matching skill causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality.
+DeepResValue includes **100+ professional skills** covering the full research workflow. Skills have been **validated through thousands of real research projects** and are at the **global cutting edge**. Selecting a matching skill causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality. All research data is built-in — just state your needs and the Agent calls autonomously. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
 
 ## Skill Categories
 
@@ -1182,7 +1234,7 @@ Selecting a skill is equivalent to loading a **domain-specific knowledge base** 
 # docs/features/skills.zh.md
 # 技能系统
 
-深度研值内置 **100+ 个专业技能**，覆盖科研全流程。选择匹配的技能后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。
+深度研值内置 **100+ 个专业技能**，覆盖科研全流程。技能经**数千真实科研项目实战检验**，达到**全球顶尖水平**。选择匹配的技能后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。各类科研数据内置，只需说需求 Agent 自主调用。前沿科研分析方法全覆盖——没有做不了的科研分析方法，Agent 实时在专业 skills 指导下写代码、云端执行。
 
 ## 技能分类
 
@@ -1231,7 +1283,7 @@ Selecting a skill is equivalent to loading a **domain-specific knowledge base** 
 # docs/features/typesetting.en.md
 # Typesetting
 
-DeepResValue includes a built-in LaTeX typesetting engine that generates journal-standard professional charts and documents, ready to paste directly into your paper.
+DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-pre-configured and ready to use** — no local TeX distribution or Office installation required. Open your browser and start typesetting immediately. Generates journal-standard professional charts and documents, ready to paste directly into your paper.
 
 ## Features
 
@@ -1271,7 +1323,7 @@ DeepResValue includes a built-in LaTeX typesetting engine that generates journal
 # docs/features/typesetting.zh.md
 # 排版功能
 
-深度研值内置 LaTeX 排版引擎，生成期刊标准的专业图表和文档，直接复制进论文。
+深度研值内置 LaTeX 排版引擎和 Word 排版引擎，**全部云端预配置、开箱即用**——无需本地安装 TeX 发行版或 Office，打开网页即可使用。生成期刊标准的专业图表和文档，直接复制进论文。
 
 ## 功能特点
 
@@ -1506,7 +1558,7 @@ Right-click any conversation in the sidebar:
 # docs/getting-started/quick-start.en.md
 # Quick Start
 
-Get started with DeepResValue in just a few minutes.
+**Zero install, zero configuration** — all four compute kernels + Word/LaTeX typesetting engine are cloud-pre-configured. Open your browser for a full research environment. Works on phone, tablet, and desktop with one account. Get started with DeepResValue in just a few minutes.
 
 ## Register & Login
 
@@ -1559,7 +1611,7 @@ Stata-grade analysis, no coding required. Describe your analysis needs in Chines
 # docs/getting-started/quick-start.zh.md
 # 快速开始
 
-只需几分钟，即可开始使用深度研值进行专业科研分析。
+**零安装零配置**——四大计算内核 + Word/LaTeX 排版引擎全部云端预配置，打开网页即得满配科研环境。手机、平板、电脑三端互通，随时随地开展科研。只需几分钟，即可开始使用深度研值进行专业科研分析。
 
 ## 注册与登录
 
@@ -1951,7 +2003,7 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 
 ## One-Line Summary
 
-**DeepResValue** is an AI research assistant for researchers across all disciplines — drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. No programming skills required.
+**DeepResValue** is an AI research assistant for researchers across all disciplines — **zero-install, zero-configuration: open your browser for a full-stack research environment**. Drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. Works on **phone, tablet, and desktop** with one unified account. All frontier research analysis methods are supported — no method is out of reach. The Agent writes code in real time guided by specialized skills and executes in the cloud.
 
 ---
 
@@ -1963,12 +2015,18 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 | 🔴 **Fragmented toolchain** | One-stop pipeline: Search → Analyze → Write → Typeset — no more switching between Stata, SPSS, Word, and LaTeX |
 | 🔴 **Data acquisition difficulty** | 6 built-in panel datasets (city/provincial/county/listed-company) + 100+ skills for multi-source data collection |
 | 🔴 **Non-reproducible analysis** | Full code and execution logs preserved at every step — 100% traceable and reproducible for defense presentations |
-| 🔴 **Time-consuming typesetting** | Word + LaTeX professional typesetting engine — export PDF/Word/LaTeX source with one click |
+| 🔴 **Time-consuming typesetting** | Word + LaTeX professional typesetting engine **pre-configured in the cloud, ready to use** — export PDF/Word/LaTeX source with one click |
 | 🔴 **Language & expression barrier** | Fully Chinese interface with built-in AIGC detection reduction engine for confident paper submission |
+| 🔴 **Environment setup hassle** | Four compute kernels + typesetting engine all **cloud-pre-configured — zero install, zero setup** |
+| 🔴 **Device lock-in** | **Phone, tablet, desktop — one account, synced data**, all with full capability |
 
 ---
 
 ## Core Capabilities
+
+### Zero-Config Full-Stack Environment
+
+All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / LaTeX typesetting engine are **pre-configured in the cloud**. No installation, no setup — open your browser and you have a full research environment. **Phone, tablet, desktop — one account, synced data, seamless switching**, all with full capability.
 
 ### Four Computing Kernels
 
@@ -1984,16 +2042,27 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 - LaTeX engine generates journal-standard professional charts (three-line tables, regression tables, SEM diagrams, etc.)
 - Export **PDF / Word / LaTeX source** — meet submission format requirements instantly
 - Built-in DeepResValue-SciPlot plotting skill covering 20+ academic chart types
+- **Cloud-pre-configured, ready to use** — no local TeX distribution or Office installation needed
 
 ### MCP External Connectors
 
-Call third-party professional data sources directly via Model Context Protocol:
+Call third-party professional data sources directly via Model Context Protocol — **dozens of connectors** already integrated:
 
 | Connector | Type | Description |
 |-----------|------|-------------|
-| PKULaw (北大法宝) | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
-| Wind (万得) | Financial Data | Listed company financials, macroeconomic data, industry data |
-| More connectors | Expanding | Wolters Kluwer, Baidu Cloud, and more coming soon |
+| **PatSnap (智慧芽)** ★ | Patent & IP | 34 official MCP services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ innovation engine, and more |
+| **PKULaw (北大法宝)** | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
+| **Wind (万得)** | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **iFinD (同花顺)** | Financial Markets | A-share, public funds, macro data, bonds, financial news |
+| **Qichacha (企查查)** | Business Intelligence | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic** | Academic Search | AI-powered academic literature search |
+| **Baidu Wenku / OCR** | Document Processing | Literature image recognition, document parsing |
+| **Open Academic Suite** | Academic Metadata | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geolocation | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Collaboration | Survey research, meeting minutes |
+| **TickDB** | Quantitative Data | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
+
+> Connectors are continuously expanding. Visit the "External Connectors" page on the platform for the full list.
 
 ### BYOK — Bring Your Own Key
 
@@ -2002,7 +2071,9 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 ### Chinese-Driven + Rigorous & Traceable
 
 - Fully Chinese interaction — just describe your analysis needs
-- 100+ professional research skills auto-matched
+- 100+ professional research skills auto-matched, **validated through thousands of real research projects**
+- **All frontier research analysis methods supported** — no method is out of reach; Agent writes code in real time guided by specialized skills and executes in the cloud
+- All research data built-in — just state your needs and the Agent calls autonomously
 - Complete code and execution logs at every step, meeting academic standards
 
 ---
@@ -2063,7 +2134,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ## 一句话简介
 
-**DeepResValue（深度研值）** 是面向全学科科研工作者的 AI 科研助手——用中文一句话驱动，自动写码分析、检索文献、排版论文，让不懂编程的研究者也能完成专业级科研任务。
+**DeepResValue（深度研值）** 是面向全学科科研工作者的 AI 科研助手——**零安装零配置，打开网页即得满配科研环境**，用中文一句话驱动，自动写码分析、检索文献、排版论文。手机、平板、电脑三端互通，随时随地开展科研。前沿科研分析方法全覆盖，没有做不了的科研分析方法——Agent 实时在专业 skills 指导下写代码、云端执行。
 
 ---
 
@@ -2075,12 +2146,18 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 | 🔴 **工具链割裂** | 一站式完成检索 → 分析 → 写作 → 排版，无需在 Stata、SPSS、Word、LaTeX 之间反复切换 |
 | 🔴 **数据获取难** | 预置 6 套面板数据（城市/省级/县域/上市公司）+ 100+ 技能驱动多源数据搜集 |
 | 🔴 **分析不可复现** | 全程保留完整代码与执行日志，100% 可追溯可复现，答辩时直接展示证据链 |
-| 🔴 **排版耗时费力** | Word + LaTeX 专业排版引擎，一键导出 PDF/Word/LaTeX 源码，投稿格式快速达标 |
+| 🔴 **排版耗时费力** | Word + LaTeX 专业排版引擎**云端预配置开箱即用**，一键导出 PDF/Word/LaTeX 源码，投稿格式快速达标 |
 | 🔴 **语言与表达门槛** | 全中文交互界面，内置降 AIGC 检测率引擎，论文安心提交 |
+| 🔴 **环境配置繁琐** | 四大计算内核 + 排版引擎全部云端预配置，**零安装零配置**，打开网页即用 |
+| 🔴 **设备受限** | **手机、平板、电脑三端统一账号、数据互通**，均具备满配能力，随时随地科研 |
 
 ---
 
 ## 核心能力
+
+### 零配置满配环境
+
+四大计算内核（Python / R / MATLAB-Octave / SPICE-ngspice）+ Word / LaTeX 排版引擎全部**云端预配置**，用户无需任何安装配置，打开网页应用即得满配环境。**手机、平板、电脑三端统一账号、数据互通、随意切换**，均具备满配能力。
 
 ### 四大计算内核
 
@@ -2096,16 +2173,27 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 - LaTeX 排版引擎生成期刊标准专业图表（三线表、回归表、结构方程图等）
 - 支持导出 **PDF / Word / LaTeX 源码**，投稿格式一键达标
 - 内置 DeepResValue-SciPlot 绘图技能，覆盖 20+ 学术图表类型
+- **云端预配置，开箱即用**——无需本地安装 TeX 发行版或 Office
 
 ### MCP 外部连接器
 
-通过 Model Context Protocol 直接调用第三方专业数据源：
+通过 Model Context Protocol 直接调用第三方专业数据源——**已接入数十个 MCP 连接器**：
 
 | 连接器 | 类型 | 说明 |
 |--------|------|------|
-| 北大法宝 | 法律检索 | 中国法律法规、司法案例、学术期刊检索 |
-| 万得 Wind | 金融数据 | 上市公司财务、宏观经济、行业数据 |
-| 更多连接器 | 持续扩展 | 威科先行、百度网盘等即将开放 |
+| **智慧芽 PatSnap** ★ | 专利与知识产权 | 官方 34 个 MCP 服务：专利检索/分析/估值/景观、临床试验、药物资产、靶点疾病、监管指南、TRIZ 创新引擎等 |
+| **北大法宝** | 法律检索 | 中国法律法规、司法案例、学术期刊检索 |
+| **万得 Wind** | 金融数据 | 上市公司财务、宏观经济、行业数据 |
+| **同花顺 iFinD** | 金融行情 | A 股、公募基金、宏观数据、债券、财经新闻 |
+| **企查查** | 企业信息 | 工商注册、风险信息、知识产权、经营数据、历史变更 |
+| **百度 AI 学术搜索** | 学术检索 | AI 驱动的学术文献智能搜索 |
+| **百度文库 / OCR** | 文档处理 | 文献图像识别、文档解析 |
+| **开放学术四件套** | 学术元数据 | arXiv / PubMed / Crossref / Semantic Scholar（免认证） |
+| **腾讯地图** | 地理服务 | 地理编码、POI 搜索、路线规划 |
+| **腾讯问卷 / 会议** | 协作工具 | 问卷调研、会议纪要 |
+| **TickDB** | 量化行情 | 外汇、贵金属、指数、美股/港股/A 股、加密货币量化数据 |
+
+> 连接器持续扩展中，平台首页「外部连接器」页面可查看完整列表。
 
 ### BYOK 自接 LLM
 
@@ -2114,7 +2202,9 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 ### 中文驱动 + 严谨可溯源
 
 - 全中文交互，说出分析需求即可自动完成全流程
-- 100+ 专业科研技能自动匹配
+- 100+ 专业科研技能自动匹配，**经数千真实科研项目实战检验**
+- **前沿科研分析方法全覆盖**——没有做不了的科研分析方法，Agent 实时在专业 skills 指导下写代码、云端执行
+- 各类科研数据内置，只需说需求 Agent 自主调用
 - 每一步分析保留完整代码与执行日志，满足学术规范要求
 
 ---
@@ -2316,7 +2406,11 @@ Built-in city/provincial/county macro panels and listed company financial/govern
 
 ### ⚡ Chinese Interaction — Just Speak Chinese
 
-No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**.
+No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
+
+### 🌐 Zero-Config Full-Stack — Open Browser & Go
+
+All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / LaTeX typesetting engine are **cloud-pre-configured**. No installation, no setup — open your browser for a full research environment. **Phone, tablet, desktop — one account, synced data, seamless switching**, all with full capability.
 
 ### 🎯 Focus Mode — Autopilot for Complex Tasks
 
@@ -2651,7 +2745,7 @@ A: Send "please continue" to resume from the breakpoint. Refresh the page if nee
 A: Maximum **2 concurrent sessions** per user.
 
 **Q: What are MCP External Connectors?**
-A: They let you call third-party data sources (PKULaw, Wind, etc.) directly in conversation. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
+A: They let you call third-party data sources directly in conversation — **dozens of connectors** already integrated, including PatSnap (34 patent & IP services), PKULaw (legal), Wind (financial), iFinD (markets), Qichacha (business intelligence), Baidu AI Academic Search, Open Academic Suite (arXiv/PubMed/Crossref/Semantic Scholar), Tencent Maps, TickDB (quantitative data), and more. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
 
 **Q: Can I use my own model (API Key)?**
 A: Yes. BYOK (Bring Your Own Key) is supported. Go to Settings → Model Settings → Add Model Config. Supports any OpenAI-compatible HTTPS endpoint (DeepSeek, OpenAI, Moonshot, GLM, Qwen, etc.).
@@ -2678,10 +2772,21 @@ External connectors (MCP, Model Context Protocol) let you call third-party profe
 
 **Available Connectors:**
 
+The platform has integrated **dozens of MCP connectors**, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data:
+
 | Connector | Type | Description |
 |-----------|------|-------------|
-| 🔍 PKULaw | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
-| 📊 Wind | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **PatSnap (智慧芽)** ★ | Patent & IP | 34 official MCP services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ engine, etc. |
+| 🔍 **PKULaw (北大法宝)** | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
+| 📊 **Wind (万得)** | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **iFinD (同花顺)** | Financial Markets | A-share, public funds, macro data, bonds, financial news |
+| **Qichacha (企查查)** | Business Intelligence | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic** | Academic Search | AI-powered academic literature search |
+| **Baidu Wenku / OCR** | Document Processing | Literature image recognition, document parsing |
+| **Open Academic Suite** | Academic Metadata | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geolocation | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Collaboration | Survey research, meeting minutes |
+| **TickDB** | Quantitative Data | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
 
 **How to Enable:**
 
@@ -2800,7 +2905,11 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 ### ⚡ 中文交互 — 说中文就行
 
-不需要学编程语言，不需要懂统计公式。用中文说出你的分析需求，同时支持 **Python 和 R** 双分析引擎，并可直接运行 MATLAB 脚本（.m）与 SPICE 电路仿真，AI 自动选方法、写代码、跑回归、出三线表。**注册即用，3 分钟上手**。
+不需要学编程语言，不需要懂统计公式。用中文说出你的分析需求，同时支持 **Python 和 R** 双分析引擎，并可直接运行 MATLAB 脚本（.m）与 SPICE 电路仿真，AI 自动选方法、写代码、跑回归、出三线表。**注册即用，3 分钟上手**。前沿科研分析方法全覆盖——没有做不了的科研分析方法，Agent 实时在专业 skills 指导下写代码、云端执行。
+
+### 🌐 零配置满配 — 打开网页即用
+
+四大计算内核（Python / R / MATLAB-Octave / SPICE-ngspice）+ Word / LaTeX 排版引擎全部**云端预配置**，用户无需任何安装配置，打开网页应用即得满配环境。**手机、平板、电脑三端统一账号、数据互通、随意切换**，均具备满配能力。
 
 ### 🎯 专注模式 —— 复杂任务自动驾驶
 
@@ -3586,7 +3695,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 ### Q15：外部连接器（MCP）是什么？使用要额外收费吗？
 
-外部连接器（MCP）让你在对话中直接调用第三方专业数据源（如北大法宝、万得 Wind），无需离开平台。使用方式：
+外部连接器（MCP）让你在对话中直接调用第三方专业数据源（如智慧芽 PatSnap、北大法宝、万得 Wind、同花顺 iFinD、企查查、百度 AI 学术搜索等），无需离开平台。平台已接入**数十个 MCP 连接器**，覆盖专利与知识产权、法律检索、金融数据、企业信息、学术搜索、地理服务、量化行情等领域。使用方式：
 
 1. 侧边栏点击「外部连接器」入口
 2. 选择连接器 → 填入你自己的 API Token → 保存并启用
@@ -3664,12 +3773,21 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 **已接入的数据源：**
 
+平台已接入**数十个 MCP 连接器**，覆盖专利与知识产权、法律检索、金融数据、企业信息、学术搜索、地理服务、量化行情等领域：
+
 | 连接器 | 类型 | 说明 |
 |--------|------|------|
+| **智慧芽 PatSnap** ★ | 专利与知识产权 | 官方 34 个 MCP 服务：专利检索/分析/估值/景观、临床试验、药物资产、靶点疾病、监管指南、TRIZ 创新引擎等 |
 | 🔍 **北大法宝** | 法律检索 | 中国法律法规、司法案例、学术期刊检索 |
 | 📊 **万得 Wind** | 金融数据 | 上市公司财务、宏观经济、行业数据 |
-| 📚 **威科先行** | 法律+财务 | 待法务签核，即将开放 |
-| ☁️ **百度网盘** | 云存储 | 文件存取与管理，即将开放 |
+| **同花顺 iFinD** | 金融行情 | A 股、公募基金、宏观数据、债券、财经新闻 |
+| **企查查** | 企业信息 | 工商注册、风险信息、知识产权、经营数据、历史变更 |
+| **百度 AI 学术搜索** | 学术检索 | AI 驱动的学术文献智能搜索 |
+| **百度文库 / OCR** | 文档处理 | 文献图像识别、文档解析 |
+| **开放学术四件套** | 学术元数据 | arXiv / PubMed / Crossref / Semantic Scholar（免认证） |
+| **腾讯地图** | 地理服务 | 地理编码、POI 搜索、路线规划 |
+| **腾讯问卷 / 会议** | 协作工具 | 问卷调研、会议纪要 |
+| **TickDB** | 量化行情 | 外汇、贵金属、指数、美股/港股/A 股、加密货币量化数据 |
 
 > 💡 连接器会持续新增，平台首页「外部连接器」页面可查看完整列表和上线状态。
 
@@ -3782,6 +3900,10 @@ BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能
 
 ## Core Capabilities
 
+### Zero-Config Full-Stack Environment
+
+All four compute kernels + Word/LaTeX typesetting engine are **pre-configured in the cloud**. No installation, no setup — open your browser and you have a full research environment ready. Works identically on **phone, tablet, and desktop** — one account, synced data, seamless switching.
+
 ### Four Compute Kernels
 
 | Kernel | Language | Use Cases |
@@ -3796,17 +3918,35 @@ BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能
 - **Word** — Automated report generation with institutional templates
 - **LaTeX** — Publication-ready papers, equations, and bibliography management
 
-### Extensible by Design
+### Dozens of MCP Connectors
 
-- **MCP Connectors** — Connect external data sources, APIs, and tools via the Model Context Protocol
-- **BYOK (Bring Your Own Key)** — Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, etc.)
+Connect external data sources and tools via Model Context Protocol — **dozens of connectors** already integrated:
+
+| Connector | Domain |
+|-----------|--------|
+| **PatSnap (智慧芽)** | 34 patent & IP intelligence services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ innovation engine, and more |
+| **PKULaw (北大法宝)** | Legal search — Chinese laws, regulations, judicial cases |
+| **Wind (万得)** | Financial data — listed company financials, macro, industry |
+| **iFinD (同花顺)** | A-share, public funds, macro, bonds, financial news |
+| **Qichacha (企查查)** | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic Search** | Academic literature AI search |
+| **Baidu Wenku / OCR** | Document parsing, literature image recognition |
+| **Open Academic Suite** | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Survey research, meeting minutes |
+| **TickDB** | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
+
+### BYOK (Bring Your Own Key)
+
+Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compatible API).
 
 ### One Sentence, Full Traceability
 
 - 中文一句话驱动复杂科研全流程
 - Every reasoning step, code execution, and data transformation is **fully traceable** and auditable
+- Research skills validated through **thousands of real research projects** — all research data built-in, Agent calls autonomously
 
-> 100+ professional research skills guide the Agent through domain-specific workflows.
+> 100+ professional research skills guide the Agent through domain-specific workflows. No research analysis method is out of reach — the Agent writes code in real time guided by specialized skills and executes in the cloud.
 
 ---
 

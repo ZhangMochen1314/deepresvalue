@@ -58,7 +58,11 @@ Built-in city/provincial/county macro panels and listed company financial/govern
 
 ### ⚡ Chinese Interaction — Just Speak Chinese
 
-No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**.
+No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
+
+### 🌐 Zero-Config Full-Stack — Open Browser & Go
+
+All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / LaTeX typesetting engine are **cloud-pre-configured**. No installation, no setup — open your browser for a full research environment. **Phone, tablet, desktop — one account, synced data, seamless switching**, all with full capability.
 
 ### 🎯 Focus Mode — Autopilot for Complex Tasks
 
@@ -393,7 +397,7 @@ A: Send "please continue" to resume from the breakpoint. Refresh the page if nee
 A: Maximum **2 concurrent sessions** per user.
 
 **Q: What are MCP External Connectors?**
-A: They let you call third-party data sources (PKULaw, Wind, etc.) directly in conversation. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
+A: They let you call third-party data sources directly in conversation — **dozens of connectors** already integrated, including PatSnap (34 patent & IP services), PKULaw (legal), Wind (financial), iFinD (markets), Qichacha (business intelligence), Baidu AI Academic Search, Open Academic Suite (arXiv/PubMed/Crossref/Semantic Scholar), Tencent Maps, TickDB (quantitative data), and more. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
 
 **Q: Can I use my own model (API Key)?**
 A: Yes. BYOK (Bring Your Own Key) is supported. Go to Settings → Model Settings → Add Model Config. Supports any OpenAI-compatible HTTPS endpoint (DeepSeek, OpenAI, Moonshot, GLM, Qwen, etc.).
@@ -420,10 +424,21 @@ External connectors (MCP, Model Context Protocol) let you call third-party profe
 
 **Available Connectors:**
 
+The platform has integrated **dozens of MCP connectors**, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data:
+
 | Connector | Type | Description |
 |-----------|------|-------------|
-| 🔍 PKULaw | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
-| 📊 Wind | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **PatSnap (智慧芽)** ★ | Patent & IP | 34 official MCP services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ engine, etc. |
+| 🔍 **PKULaw (北大法宝)** | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
+| 📊 **Wind (万得)** | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **iFinD (同花顺)** | Financial Markets | A-share, public funds, macro data, bonds, financial news |
+| **Qichacha (企查查)** | Business Intelligence | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic** | Academic Search | AI-powered academic literature search |
+| **Baidu Wenku / OCR** | Document Processing | Literature image recognition, document parsing |
+| **Open Academic Suite** | Academic Metadata | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geolocation | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Collaboration | Survey research, meeting minutes |
+| **TickDB** | Quantitative Data | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
 
 **How to Enable:**
 

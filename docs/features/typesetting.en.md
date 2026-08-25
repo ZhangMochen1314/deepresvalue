@@ -1,6 +1,6 @@
 # Typesetting
 
-DeepResValue includes a built-in LaTeX typesetting engine that generates journal-standard professional charts and documents, ready to paste directly into your paper.
+DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-pre-configured and ready to use** — no local TeX distribution or Office installation required. Open your browser and start typesetting immediately. Generates journal-standard professional charts and documents, ready to paste directly into your paper.
 
 ## Features
 

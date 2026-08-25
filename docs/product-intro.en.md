@@ -6,7 +6,7 @@
 
 ## One-Line Summary
 
-**DeepResValue** is an AI research assistant for researchers across all disciplines — drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. No programming skills required.
+**DeepResValue** is an AI research assistant for researchers across all disciplines — **zero-install, zero-configuration: open your browser for a full-stack research environment**. Drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. Works on **phone, tablet, and desktop** with one unified account. All frontier research analysis methods are supported — no method is out of reach. The Agent writes code in real time guided by specialized skills and executes in the cloud.
 
 ---
 
@@ -18,12 +18,18 @@
 | 🔴 **Fragmented toolchain** | One-stop pipeline: Search → Analyze → Write → Typeset — no more switching between Stata, SPSS, Word, and LaTeX |
 | 🔴 **Data acquisition difficulty** | 6 built-in panel datasets (city/provincial/county/listed-company) + 100+ skills for multi-source data collection |
 | 🔴 **Non-reproducible analysis** | Full code and execution logs preserved at every step — 100% traceable and reproducible for defense presentations |
-| 🔴 **Time-consuming typesetting** | Word + LaTeX professional typesetting engine — export PDF/Word/LaTeX source with one click |
+| 🔴 **Time-consuming typesetting** | Word + LaTeX professional typesetting engine **pre-configured in the cloud, ready to use** — export PDF/Word/LaTeX source with one click |
 | 🔴 **Language & expression barrier** | Fully Chinese interface with built-in AIGC detection reduction engine for confident paper submission |
+| 🔴 **Environment setup hassle** | Four compute kernels + typesetting engine all **cloud-pre-configured — zero install, zero setup** |
+| 🔴 **Device lock-in** | **Phone, tablet, desktop — one account, synced data**, all with full capability |
 
 ---
 
 ## Core Capabilities
+
+### Zero-Config Full-Stack Environment
+
+All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / LaTeX typesetting engine are **pre-configured in the cloud**. No installation, no setup — open your browser and you have a full research environment. **Phone, tablet, desktop — one account, synced data, seamless switching**, all with full capability.
 
 ### Four Computing Kernels
 
@@ -39,16 +45,27 @@
 - LaTeX engine generates journal-standard professional charts (three-line tables, regression tables, SEM diagrams, etc.)
 - Export **PDF / Word / LaTeX source** — meet submission format requirements instantly
 - Built-in DeepResValue-SciPlot plotting skill covering 20+ academic chart types
+- **Cloud-pre-configured, ready to use** — no local TeX distribution or Office installation needed
 
 ### MCP External Connectors
 
-Call third-party professional data sources directly via Model Context Protocol:
+Call third-party professional data sources directly via Model Context Protocol — **dozens of connectors** already integrated:
 
 | Connector | Type | Description |
 |-----------|------|-------------|
-| PKULaw (北大法宝) | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
-| Wind (万得) | Financial Data | Listed company financials, macroeconomic data, industry data |
-| More connectors | Expanding | Wolters Kluwer, Baidu Cloud, and more coming soon |
+| **PatSnap (智慧芽)** ★ | Patent & IP | 34 official MCP services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ innovation engine, and more |
+| **PKULaw (北大法宝)** | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
+| **Wind (万得)** | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **iFinD (同花顺)** | Financial Markets | A-share, public funds, macro data, bonds, financial news |
+| **Qichacha (企查查)** | Business Intelligence | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic** | Academic Search | AI-powered academic literature search |
+| **Baidu Wenku / OCR** | Document Processing | Literature image recognition, document parsing |
+| **Open Academic Suite** | Academic Metadata | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geolocation | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Collaboration | Survey research, meeting minutes |
+| **TickDB** | Quantitative Data | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
+
+> Connectors are continuously expanding. Visit the "External Connectors" page on the platform for the full list.
 
 ### BYOK — Bring Your Own Key
 
@@ -57,7 +74,9 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 ### Chinese-Driven + Rigorous & Traceable
 
 - Fully Chinese interaction — just describe your analysis needs
-- 100+ professional research skills auto-matched
+- 100+ professional research skills auto-matched, **validated through thousands of real research projects**
+- **All frontier research analysis methods supported** — no method is out of reach; Agent writes code in real time guided by specialized skills and executes in the cloud
+- All research data built-in — just state your needs and the Agent calls autonomously
 - Complete code and execution logs at every step, meeting academic standards
 
 ---

@@ -30,6 +30,26 @@ AI automatically loads the appropriate data collection skill to fetch structured
 | 📚 **Literature Search** | NCPSSD Chinese journals, CNKI enhanced abstracts, arXiv preprints, PubMed biomedical, Crossref metadata |
 | 🌐 **Web Content** | Extract main text from specified URLs |
 
+## MCP External Connectors
+
+The platform has integrated **dozens of MCP connectors**, letting you call third-party professional data sources directly in conversation — without leaving the platform. The AI automatically determines when to invoke connectors; you can also trigger them explicitly.
+
+| Connector | Type | Description |
+|-----------|------|-------------|
+| **PatSnap (智慧芽)** ★ | Patent & IP | 34 official MCP services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ engine, etc. |
+| **PKULaw (北大法宝)** | Legal Search | Chinese laws, regulations, judicial cases, academic journals |
+| **Wind (万得)** | Financial Data | Listed company financials, macroeconomic data, industry data |
+| **iFinD (同花顺)** | Financial Markets | A-share, public funds, macro data, bonds, financial news |
+| **Qichacha (企查查)** | Business Intelligence | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic** | Academic Search | AI-powered academic literature search |
+| **Baidu Wenku / OCR** | Document Processing | Literature image recognition, document parsing |
+| **Open Academic Suite** | Academic Metadata | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geolocation | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Collaboration | Survey research, meeting minutes |
+| **TickDB** | Quantitative Data | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
+
+> Connectors are continuously expanding. Some connectors (e.g., PKULaw, Wind) require your own API Token (BYOK) — the platform charges no additional service fee.
+
 ## Usage
 
 1. **Describe your data needs** — In the chat, state in Chinese what data type, time range, and variables you need.

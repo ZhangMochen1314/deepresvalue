@@ -30,6 +30,10 @@
 
 ## Core Capabilities
 
+### Zero-Config Full-Stack Environment
+
+All four compute kernels + Word/LaTeX typesetting engine are **pre-configured in the cloud**. No installation, no setup — open your browser and you have a full research environment ready. Works identically on **phone, tablet, and desktop** — one account, synced data, seamless switching.
+
 ### Four Compute Kernels
 
 | Kernel | Language | Use Cases |
@@ -44,17 +48,35 @@
 - **Word** — Automated report generation with institutional templates
 - **LaTeX** — Publication-ready papers, equations, and bibliography management
 
-### Extensible by Design
+### Dozens of MCP Connectors
 
-- **MCP Connectors** — Connect external data sources, APIs, and tools via the Model Context Protocol
-- **BYOK (Bring Your Own Key)** — Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, etc.)
+Connect external data sources and tools via Model Context Protocol — **dozens of connectors** already integrated:
+
+| Connector | Domain |
+|-----------|--------|
+| **PatSnap (智慧芽)** | 34 patent & IP intelligence services: patent search/analysis/valuation/landscape, clinical trials, drug assets, target-disease mapping, regulatory guidance, TRIZ innovation engine, and more |
+| **PKULaw (北大法宝)** | Legal search — Chinese laws, regulations, judicial cases |
+| **Wind (万得)** | Financial data — listed company financials, macro, industry |
+| **iFinD (同花顺)** | A-share, public funds, macro, bonds, financial news |
+| **Qichacha (企查查)** | Business registration, risk, IP, operations, historical data |
+| **Baidu AI Academic Search** | Academic literature AI search |
+| **Baidu Wenku / OCR** | Document parsing, literature image recognition |
+| **Open Academic Suite** | arXiv, PubMed, Crossref, Semantic Scholar (no auth required) |
+| **Tencent Maps** | Geocoding, POI search, route planning |
+| **Tencent Survey / Meeting** | Survey research, meeting minutes |
+| **TickDB** | Forex, precious metals, indices, US/HK/A-share, crypto quantitative data |
+
+### BYOK (Bring Your Own Key)
+
+Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compatible API).
 
 ### One Sentence, Full Traceability
 
 - 中文一句话驱动复杂科研全流程
 - Every reasoning step, code execution, and data transformation is **fully traceable** and auditable
+- Research skills validated through **thousands of real research projects** — all research data built-in, Agent calls autonomously
 
-> 100+ professional research skills guide the Agent through domain-specific workflows.
+> 100+ professional research skills guide the Agent through domain-specific workflows. No research analysis method is out of reach — the Agent writes code in real time guided by specialized skills and executes in the cloud.
 
 ---
 
