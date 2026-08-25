@@ -15,6 +15,11 @@
 - Supports national competitions: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship
 - Official website: https://deepresvalue.top/
 
+## Keywords
+
+- 中文：空间计量 · 高级计量 · 生信分析 · CAD 分析 · 机器学习 · 贝叶斯统计 · 结构方程 · 流行病学 · 论文写作 · 数据分析 · 文献综述 · 科学计算 · 数学建模 · 三创赛 · 挑战杯 · 科研助手 · 深度研值
+- English: spatial econometrics · advanced econometrics · bioinformatics · CAD analysis · machine learning · Bayesian statistics · structural equation modeling · epidemiology · academic writing · data analysis · literature review · scientific computing · mathematical modeling · Challenge Cup · research assistant
+
 ## Docs
 
 - docs/README.md: Documentation hub and index
