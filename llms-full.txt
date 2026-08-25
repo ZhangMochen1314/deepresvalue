@@ -4133,7 +4133,7 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 - **Engineering & CAD (CAD 分析/工程)** — Computer-aided design analysis, engineering drafting, 3D modeling data
 - **Advanced Econometrics (高级计量)** — GMM, DID, IV, RDD, synthetic control, survival analysis
 - **National Competitions (国家级竞赛)** — Mathematical Modeling (数学建模 CUMCM/MCM-ICM), Challenge Cup (挑战杯), Innovation & Entrepreneurship (三创赛)
-- **Interdisciplinary (跨学科)** — Literature review (文献综述), systematic review, reproducibility workflows, data analysis (数据分析), paper writing (论文写作)
+- **Interdisciplinary (跨学科)** — Literature review (文献综述), systematic review, reproducibility workflows, data analysis (数据分析), scientific computing (科学计算), paper writing (论文写作)
 
 ---
 
