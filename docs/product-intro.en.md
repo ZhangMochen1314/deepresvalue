@@ -85,16 +85,25 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | Discipline | Capability Examples |
 |------------|-------------------|
-| **Economics** | DID, IV, RDD, synthetic control, panel fixed effects |
-| **Management** | Mediation/moderation, multi-level HLM, SEM, corporate financial panel analysis |
+| **Economics** | DID, IV, GMM, RDD, synthetic control, panel fixed/random effects |
+| **Management & Marketing** | SEM, scale reliability (Cronbach's α / CFA), mediation/moderation, multilevel HLM, experimental design (RCT/quasi-experimental), marketing econometrics |
+| **Psychology & Education** | IRT (Item Response Theory), behavioral experiments & ANOVA, educational assessment & learning analytics, corpus linguistics, sentiment analysis |
 | **Biomedical** | Survival analysis (Kaplan-Meier, Cox), clinical trial data, PubMed literature search |
-| **Environmental Science** | Spatial econometrics (Moran's I, GWR), carbon emission panels, EKC analysis |
+| **Epidemiology & Public Health** | Cohort/case-control studies, meta-analysis, competing risks (Cox/Fine-Gray), propensity score matching (PSM), public health big data |
+| **Bioinformatics** | Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data |
+| **Bayesian Statistics** | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization |
+| **Machine Learning & AI** | Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications |
+| **Environment & Energy** | Spatial econometrics (SAR/SEM/SDM, Moran's I, GWR), carbon emission panels, carbon accounting, EKC analysis |
+| **Spatial & Geography** | Spatial weight matrices, spatial autocorrelation, GeoJSON boundaries, remote sensing & GIS, map visualization |
 | **Social Sciences** | Qualitative coding assistance, survey data analysis, social network graphs, sentiment analysis |
-| **Spatial & Geography** | GeoJSON administrative boundaries, spatial weight matrices, geographic weighted regression, map visualization |
 | **Health & Medicine** | NHANES/BRFSS CDC data, MeSH terminology, NCBI gene information |
 | **Humanities & Social Sciences** | Literature review generation, academic writing polish, AIGC detection reduction |
-| **Engineering Computing** | MATLAB script execution, SPICE circuit simulation, CAD/engineering file processing |
-| **Competition Support** | National Statistical Modeling, Mathematical Modeling, Challenge Cup / Innovation & Entrepreneurship |
+| **Civil/Mechanical/Automation** | Structural mechanics & FEA, mechanical simulation, control systems (PID/state-space), electronic circuits & PCB design, signal processing |
+| **Agriculture** | Agricultural economics, remote sensing & GIS spatial analysis, environmental & resource economics |
+| **Engineering & CAD** | MATLAB script execution, SPICE circuit simulation, CAD/engineering drafting, computer-aided design |
+| **Mathematical Modeling** | CUMCM (China), MCM/ICM (USA) — full workflow from problem analysis to paper |
+| **Challenge Cup** | National extracurricular academic science & technology works / entrepreneurship plan competition |
+| **Innovation & Entrepreneurship** | National e-commerce "Innovation, Creativity & Entrepreneurship" competition — full pitch workflow |
 
 > All capabilities listed above have been verified through real-world use. Continuously expanding.
 

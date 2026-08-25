@@ -202,12 +202,19 @@ Upload your data (CSV, Excel, Stata, SAS, PDF, Word, 80+ formats) and describe y
 
 | Category | Example Methods |
 |----------|----------------|
-| Traditional Econometrics | DID, IV, RDD, Synthetic Control, Panel FE |
+| Advanced Econometrics | DID, IV, GMM, RDD, Synthetic Control, Panel Fixed/Random Effects |
 | Causal ML | DML, Causal Forest, Meta-learner, Neural Causal |
+| Bayesian Statistics | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization |
+| Structural Equation & Psychometrics | SEM, CFA, scale reliability (Cronbach's α), IRT (Item Response Theory) |
+| Epidemiology & Public Health | Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM |
 | Statistical Tests | Descriptive stats, correlation, t-test, ANOVA, chi-square |
-| Machine Learning | Random Forest, XGBoost, Neural Networks, PCA, Clustering |
-| Survival Analysis | Kaplan-Meier, Cox Proportional Hazards, Competing Risks |
-| Spatial Econometrics | Spatial Weight Matrix, Moran's I, GWR |
+| Machine Learning & AI | Random Forest, XGBoost, deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME) |
+| Survival Analysis | Kaplan-Meier, Cox Proportional Hazards, Competing Risks (Fine-Gray) |
+| Spatial Econometrics | Spatial Weight Matrix, Spatial Autocorrelation (Moran's I), SAR/SEM/SDM, GWR |
+| Bioinformatics | Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data |
+| Civil/Mechanical/Automation | Structural mechanics & FEA, mechanical simulation, control systems (PID/state-space), electronic circuits & PCB design, signal processing |
+| Agriculture/Energy/Environment | Agricultural economics, energy econometrics & carbon emissions, carbon accounting, remote sensing & GIS, EKC analysis |
+| CAD Analysis | Computer-aided design, engineering drafting, 3D modeling data |
 | Text Analysis | BERT/LLM classification, Sentiment Analysis, Topic Modeling |
 
 ### 6.2 Data Collection & Sources
@@ -233,9 +240,10 @@ AI automatically searches Chinese and English literature, extracts key findings,
 
 Built-in 100+ professional skills with competition-specific modules:
 
-- **National Statistical Modeling Competition**: Full workflow from topic selection to report writing
-- **National Mathematical Modeling**: AI-assisted modeling and solving, LaTeX output
-- **Challenge Cup / Innovation Competition**: Business plan, market analysis, data visualization, pitch deck
+- **Mathematical Modeling (CUMCM / MCM-ICM)**: Covers China's CUMCM and USA's MCM/ICM — full workflow from problem analysis to 20-page paper, including differential equations, optimization, neural networks, spatial econometrics
+- **National Statistical Modeling Competition**: Full workflow from topic selection to report writing; DML/DID/RDD/Causal Forest/Synthetic Control all supported
+- **Challenge Cup**: Covers the national extracurricular academic science & technology works competition and entrepreneurship plan competition — topic selection to report writing
+- **Innovation & Entrepreneurship (三创赛)**: Full workflow skill: innovation project → business planning → practice verification → pitch defense
 
 ### 6.6 AIGC Detection Reduction
 

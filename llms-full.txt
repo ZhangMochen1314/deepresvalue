@@ -2,7 +2,7 @@
 
 # DeepResValue
 
-> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
+> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Covers frontier methods including spatial econometrics (SAR/SEM/SDM), advanced econometrics (GMM/DID/IV/RDD), bioinformatics (genomics/transcriptomics/proteomics), CAD/engineering analysis, Bayesian statistics (MCMC/Stan/PyMC), machine learning & AI (deep learning/NLP/SHAP), structural equation modeling (SEM/CFA/IRT), epidemiology (meta-analysis/PSM/competing risks). Supports national competition scenarios: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
 
 ## Notes
 
@@ -13,6 +13,8 @@
 - New users get a free usage quota on signup; pay-as-you-go credit top-ups available
 - Sharing your invite code earns credit rewards with no cap
 - Dozens of MCP connectors integrated and continuously expanding
+- Covers frontier methods: spatial econometrics, advanced econometrics, bioinformatics, CAD analysis, Bayesian statistics, machine learning/AI, structural equation modeling, epidemiology
+- Supports national competitions: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship
 - Official website: https://deepresvalue.top/
 
 
@@ -631,6 +633,54 @@ DeepResValue's exclusive Chinese AIGC detection reduction engine helps solve the
 # docs/features/competition-modeling.en.md
 # Competition Modeling
 
+DeepResValue includes **100+ professional skills** covering all academic disciplines. Competition-specific modules are continuously updated to ensure every national-level competition has dedicated skill guidance.
+
+## Supported Competitions
+
+### 🔢 Mathematical Modeling (CUMCM / MCM-ICM)
+
+- Covers **CUMCM (China Undergraduate Mathematical Contest in Modeling)** and **MCM/ICM (USA Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling)**
+- AI-assisted modeling + automated programming + LaTeX typesetting output
+- Differential equations, optimization models, neural networks, stochastic processes, spatial econometrics — full coverage
+- Full workflow from problem analysis to 20-page paper
+
+### 🏆 National Statistical Modeling Competition
+
+- Dedicated `DeepResValue-StatModel` skill
+- Covers the full workflow: topic selection → data processing → model construction → report writing
+- DML / DID / RDD / Causal Forest / Synthetic Control — **all methods commonly used in award-winning submissions are fully supported**
+
+### 🚀 Challenge Cup
+
+- Covers **"Challenge Cup" National Undergraduate Extracurricular Academic Science & Technology Works Competition** and **Entrepreneurship Plan Competition**
+- Built-in dedicated skills for topic selection, research design, data analysis, and report writing
+- AI-assisted market analysis + financial forecasting + risk assessment
+
+### 💡 Innovation & Entrepreneurship (三创赛)
+
+- Covers **National E-Commerce "Innovation, Creativity & Entrepreneurship" Challenge**
+- Full workflow skill: innovation project initiation → business planning → practice verification → pitch defense
+- Business plans, market research analysis, data visualization, pitch decks — one-stop output
+
+## Step-by-Step Usage
+
+1. **Select the competition skill** — In the skill panel, choose the dedicated competition skill (e.g., StatModel, Mathematical Modeling).
+2. **Describe the competition problem** — Paste the competition problem or requirements into the chat, explain your approach and where you need help.
+3. **Complete tasks step by step** — The AI guides and produces output following the competition workflow (topic selection → data processing → model construction → report writing).
+
+## Example Prompts
+
+> "This is a CUMCM problem. Help me analyze the problem structure, recommend modeling approaches, and draft the solution framework."
+
+> "Use DML to analyze the causal effect in this Statistical Modeling problem — perform cross-validation and robustness checks."
+
+> "Typeset this Mathematical Modeling paper in LaTeX, following the national competition paper format requirements."
+
+> Competition skills are continuously updated, covering methods commonly used in national-level competitions. In a three-day-three-night contest, while others pull all-nighters writing code, you pull all-nighters polishing your paper.
+
+> Familiarize yourself with platform features before the competition to maximize efficiency during the actual event.
+
+
 # docs/features/competition-modeling.zh.md
 # 竞赛建模
 
@@ -638,23 +688,30 @@ DeepResValue's exclusive Chinese AIGC detection reduction engine helps solve the
 
 ## 支持的竞赛类型
 
+### 🔢 数学建模（CUMCM / MCM-ICM）
+
+- 覆盖**全国大学生数学建模竞赛（CUMCM）**与**美国大学生数学建模竞赛（MCM/ICM）**
+- AI 辅助建模 + 自动编程求解 + LaTeX 排版输出
+- 微分方程、优化模型、神经网络、随机过程、空间计量全覆盖
+- 从问题分析到 20 页论文全流程
+
 ### 🏆 全国统计建模大赛
 
 - `DeepResValue-StatModel` 专属技能
 - 覆盖选题论证 → 数据处理 → 模型构建 → 报告撰写全流程
 - DML / DID / RDD / 因果森林 / 合成控制——**往年获奖作品常用方法全部支持**
 
-### 🔢 全国大学生数学建模
+### 🚀 挑战杯
 
-- AI 辅助建模 + 自动编程求解 + LaTeX 排版输出
-- 微分方程、优化模型、神经网络、随机过程全覆盖
-- 从问题分析到 20 页论文全流程
-
-### 🚀 挑战杯 / 三创赛
-
-- 内置 `challenge-cup` 和 `3chuang` 专项技能
-- 商业计划书、市场调研分析、数据可视化、路演 PPT 一站式输出
+- 覆盖**「挑战杯」全国大学生课外学术科技作品竞赛**与**大学生创业计划竞赛**
+- 内置专项技能，辅助选题论证、研究设计、数据分析与报告撰写
 - AI 辅助市场分析 + 财务预测 + 风险评估
+
+### 💡 三创赛
+
+- 覆盖**全国大学生电子商务"创新、创意及创业"挑战赛**
+- 内置三创赛全流程制胜技能，覆盖创新立项 → 商业策划 → 实践验证 → 路演答辩
+- 商业计划书、市场调研分析、数据可视化、路演 PPT 一站式输出
 
 ## 使用步骤
 
@@ -698,12 +755,19 @@ Upload your data (supporting Excel, CSV, PDF, Word, Stata, SAS, SQLite, and 80+ 
 
 | Category | Example Methods |
 |----------|----------------|
-| Traditional Econometrics | DID (Difference-in-Differences), IV (Instrumental Variables), RDD (Regression Discontinuity), Synthetic Control, Panel Fixed Effects |
+| Advanced Econometrics | DID (Difference-in-Differences), IV (Instrumental Variables), GMM, RDD (Regression Discontinuity), Synthetic Control, Panel Fixed/Random Effects |
 | Causal Machine Learning | DML (Double Machine Learning), Causal Forest, Meta-learner, Neural Causal |
+| Bayesian Statistics | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization |
+| Structural Equation & Psychometrics | SEM, Confirmatory Factor Analysis (CFA), scale reliability (Cronbach's α), IRT (Item Response Theory) |
+| Epidemiology & Public Health | Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), propensity score matching (PSM) |
 | Statistical Tests | Descriptive statistics, correlation analysis, t-test, ANOVA, chi-square test |
-| Machine Learning | Random Forest, XGBoost, Neural Networks, Clustering, PCA |
-| Survival Analysis | Kaplan-Meier curves, Cox Proportional Hazards, Competing Risks Models |
-| Spatial Econometrics | Spatial Weight Matrices, Moran's I, Geographically Weighted Regression (GWR) |
+| Machine Learning & AI | Random Forest, XGBoost, deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME) |
+| Survival Analysis | Kaplan-Meier curves, Cox Proportional Hazards, Competing Risks (Fine-Gray) |
+| Spatial Econometrics | Spatial Weight Matrices, Spatial Autocorrelation (Moran's I), SAR/SEM/SDM models, GWR |
+| Bioinformatics | Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data |
+| Civil/Mechanical/Automation | Structural mechanics & FEA, mechanical simulation, control systems (PID/state-space), electronic circuits & PCB design, signal processing |
+| Agriculture/Energy/Environment | Agricultural economics, energy econometrics & carbon emissions, carbon accounting, remote sensing & GIS, EKC analysis |
+| CAD Analysis | Computer-aided design, engineering drafting, 3D modeling data |
 | Text Analysis | BERT/LLM text classification, Sentiment Analysis, Topic Modeling |
 
 ## Step-by-Step Usage
@@ -743,12 +807,19 @@ Upload your data (supporting Excel, CSV, PDF, Word, Stata, SAS, SQLite, and 80+ 
 
 | 类别 | 方法示例 |
 |------|----------|
-| 传统计量 | DID（双重差分）、IV（工具变量）、RDD（断点回归）、合成控制法、面板固定效应 |
+| 高级计量 | DID（双重差分）、IV（工具变量）、GMM、RDD（断点回归）、合成控制法、面板固定/随机效应 |
 | 因果机器学习 | DML（Double Machine Learning）、因果森林、Meta-learner、Neural Causal |
+| 贝叶斯统计 | 贝叶斯推断、MCMC（Stan/PyMC）、分层贝叶斯模型、贝叶斯网络、贝叶斯优化 |
+| 结构方程与心理测量 | 结构方程模型 SEM、验证性因子分析 CFA、量表信效度（Cronbach's α）、IRT 项目反应理论 |
+| 流行病学与公共卫生 | 队列/病例对照研究、Meta 分析、生存分析与竞争风险（Cox/Fine-Gray）、倾向评分匹配 PSM |
 | 统计检验 | 描述统计、相关性分析、t 检验、方差分析、卡方检验 |
-| 机器学习 | 随机森林、XGBoost、神经网络、聚类分析、主成分分析 |
-| 生存分析 | Kaplan-Meier 曲线、Cox 比例风险、竞争风险模型 |
-| 空间计量 | 空间权重矩阵、莫兰指数、地理加权回归 (GWR) |
+| 机器学习与 AI | 随机森林、XGBoost、深度学习（CNN/RNN/Transformer）、NLP 文本挖掘、模型可解释性（SHAP/LIME） |
+| 生存分析 | Kaplan-Meier 曲线、Cox 比例风险、竞争风险模型（Fine-Gray） |
+| 空间计量 | 空间权重矩阵、空间自相关（莫兰指数）、SAR/SEM/SDM 空间计量模型、地理加权回归 (GWR) |
+| 生信分析 | 基因组/转录组/蛋白组差异分析、富集分析（GO/KEGG）、NGS 测序数据分析 |
+| 土木/机械/自动化 | 结构力学与有限元分析、机械仿真、控制系统（PID/状态空间）、电子电路与 PCB 设计、信号处理 |
+| 农业/能源/环境 | 农业经济学、能源计量与碳排放、碳核算与双碳研究、遥感与 GIS 空间分析、环境库兹涅茨曲线 |
+| CAD 分析 | 计算机辅助设计、工程制图分析、三维建模数据处理 |
 | 文本分析 | BERT/LLM 文本分类、情感分析、主题建模 |
 
 ## 使用步骤
@@ -1209,15 +1280,19 @@ DeepResValue includes **100+ professional skills** covering the full research wo
 
 | Category | Representative Skills | Use Cases |
 |----------|---------------------|-----------|
-| 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics, time series, mediation-moderation, multilevel HLM | Quantitative research |
-| 🤖 Causal Inference | Bayesian causal inference, ML-based causal, DID/RDD/IV/Synthetic Control | Frontier methodology |
+| 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics (SAR/SEM/SDM), time series, mediation-moderation, multilevel HLM, SEM | Quantitative research |
+| 🤖 Causal Inference | Bayesian causal inference, ML-based causal, DID/RDD/IV/Synthetic Control, GMM, propensity score matching (PSM) | Frontier methodology |
+| 📊 Bayesian Statistics | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization | Bayesian methods |
+| 🧠 ML & AI | Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications | AI × research |
+| 🏥 Epidemiology | Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM, public health big data | Medicine & public health |
 | 📚 Literature & Writing | Literature collection, literature review, scientific writing, academic polish, academic proofreading | Proposals, paper writing |
 | 🏆 Competition Guidance | Statistical Modeling, Math Modeling, Challenge Cup (continuously updated) | Competition preparation |
 | 📊 Data & Charts | Data cleaning, SciPlot scientific plotting, LaTeX academic typesetting | Everyday research |
-| 🧬 Discipline-Specific | Bioinformatics (BioPython/scanpy), Materials Science (pymatgen), Chemoinformatics (RDKit), Quantum Computing (Qiskit) | Specialized fields |
+| 🧬 Discipline-Specific | Bioinformatics (BioPython/scanpy — genomics/transcriptomics/proteomics, enrichment analysis), Materials Science (pymatgen), Chemoinformatics (RDKit), Quantum Computing (Qiskit), CAD/engineering drafting, finite element analysis | Specialized fields |
 | 📋 Academic Workflow | Topic design, application writing, peer review response, poster/slides creation | Full academic cycle |
 | 💻 Tool Ecosystem | Stata empirical methodology (generates do-files for local execution), Python ML (scikit-learn), network analysis (networkx), geospatial (geopandas), symbolic math (SymPy) | Toolchain support |
 | 🔎 Data Collection | Financial markets, Chinese economic data, health data (CDC), medical databases, biological data (EMBL-EBI/bioRxiv), literature search (NCPSSD/CNKI/arXiv/PubMed) | Data acquisition |
+| ⚙️ Engineering Computing | MATLAB script (.m) execution, SPICE circuit simulation, control systems (PID/state-space), signal processing | Automation/electronics/control |
 
 ## How Skills Work
 
@@ -1255,15 +1330,19 @@ Selecting a skill is equivalent to loading a **domain-specific knowledge base** 
 
 | 技能类别 | 代表技能（部分） | 适用场景 |
 |----------|------------------|----------|
-| 🔬 实证分析 | Python 全流程实证分析、R 全流程实证分析、面板分析、空间计量、时间序列、中介调节、多层HLM | 各类量化研究 |
-| 🤖 因果推断 | 贝叶斯因果推断、机器学习因果、DID/RDD/IV/合成控制 | 前沿方法论 |
+| 🔬 实证分析 | Python 全流程实证分析、R 全流程实证分析、面板分析、空间计量（SAR/SEM/SDM）、时间序列、中介调节、多层HLM、结构方程模型 SEM | 各类量化研究 |
+| 🤖 因果推断 | 贝叶斯因果推断、机器学习因果、DID/RDD/IV/合成控制、GMM、倾向评分匹配 PSM | 前沿方法论 |
+| 📊 贝叶斯统计 | 贝叶斯推断、MCMC（Stan/PyMC）、分层贝叶斯模型、贝叶斯网络、贝叶斯优化 | 贝叶斯方法 |
+| 🧠 机器学习与 AI | 深度学习（CNN/RNN/Transformer）、NLP 文本挖掘、计算机视觉、模型可解释性（SHAP/LIME）、大模型科研应用 | AI 交叉科研 |
+| 🏥 流行病学 | 队列/病例对照研究、Meta 分析、生存分析（Cox/Fine-Gray）、PSM、公共卫生大数据 | 医学与公共卫生 |
 | 📚 文献与写作 | 文献搜集、文献综述、科学写作、学术润色、学术校对 | 开题、论文写作 |
 | 🏆 竞赛指导 | 统计建模大赛、挑战杯、三创赛（持续更新） | 竞赛冲刺 |
 | 📊 数据与图表 | 数据清洗、专业科研绘图（SciPlot）、学术排版（LaTeX） | 日常科研 |
-| 🧬 学科专项 | 生物信息学（BioPython/scanpy）、材料科学（pymatgen）、化学信息学（RDKit）、量子计算（Qiskit） | 学科专用 |
+| 🧬 学科专项 | 生物信息学（BioPython/scanpy，基因组/转录组/蛋白组分析、富集分析）、材料科学（pymatgen）、化学信息学（RDKit）、量子计算（Qiskit）、CAD/工程制图分析、有限元分析 | 学科专用 |
 | 📋 学术流程 | 选题设计、申请书撰写、同行评审回复、海报/幻灯片制作 | 学术全周期 |
-| 💻 工具生态 | Stata实证方法论（do 文件供本地运行）、Python机器学习（scikit-learn）、网络分析（networkx）、地理空间（geopandas）、符号数学（SymPy） | 工具链支持 |
+| 💻 工具生态 | Stata 实证方法论（生成 do 文件供本地运行）、Python机器学习（scikit-learn）、网络分析（networkx）、地理空间（geopandas）、符号数学（SymPy） | 工具链支持 |
 | 🔎 数据搜集 | 金融行情（HSData/Wind）、中国经济数据、健康数据（CDC）、医学数据库、生物数据（EMBL-EBI/bioRxiv）、文献检索（NCPSSD/CNKI/arXiv/PubMed） | 数据获取与选题准备 |
+| ⚙️ 工科计算 | MATLAB 脚本（.m）执行、SPICE 电路仿真、控制系统（PID/状态空间）、信号处理 | 自动化/电子/控制类 |
 
 ## 使用步骤
 
@@ -1704,6 +1783,8 @@ Academic Mode provides one-stop paper writing services from proposal to graduati
 - Researchers preparing journal paper submissions
 - Students preparing proposals or defense materials
 - Researchers needing literature review and academic writing assistance
+- Participants in national competitions (Mathematical Modeling CUMCM/MCM-ICM, Challenge Cup, Innovation & Entrepreneurship, Statistical Modeling)
+- Researchers needing frontier analysis methods (spatial econometrics, bioinformatics, Bayesian statistics, SEM, epidemiology, machine learning/AI, etc.)
 
 ## Features
 
@@ -1762,6 +1843,8 @@ Academic Mode provides one-stop paper writing services from proposal to graduati
 - 需要发表期刊论文的研究者
 - 准备开题报告或答辩材料的同学
 - 需要文献综述和学术写作辅助的研究人员
+- 参加国家级竞赛（数学建模 CUMCM/MCM-ICM、挑战杯、三创赛、统计建模）的参赛者
+- 需要前沿分析方法支持（空间计量、生信分析、贝叶斯统计、结构方程模型、流行病学、机器学习/AI 等）的研究者
 
 ## 功能特点
 
@@ -2097,16 +2180,25 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | Discipline | Capability Examples |
 |------------|-------------------|
-| **Economics** | DID, IV, RDD, synthetic control, panel fixed effects |
-| **Management** | Mediation/moderation, multi-level HLM, SEM, corporate financial panel analysis |
+| **Economics** | DID, IV, GMM, RDD, synthetic control, panel fixed/random effects |
+| **Management & Marketing** | SEM, scale reliability (Cronbach's α / CFA), mediation/moderation, multilevel HLM, experimental design (RCT/quasi-experimental), marketing econometrics |
+| **Psychology & Education** | IRT (Item Response Theory), behavioral experiments & ANOVA, educational assessment & learning analytics, corpus linguistics, sentiment analysis |
 | **Biomedical** | Survival analysis (Kaplan-Meier, Cox), clinical trial data, PubMed literature search |
-| **Environmental Science** | Spatial econometrics (Moran's I, GWR), carbon emission panels, EKC analysis |
+| **Epidemiology & Public Health** | Cohort/case-control studies, meta-analysis, competing risks (Cox/Fine-Gray), propensity score matching (PSM), public health big data |
+| **Bioinformatics** | Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data |
+| **Bayesian Statistics** | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization |
+| **Machine Learning & AI** | Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications |
+| **Environment & Energy** | Spatial econometrics (SAR/SEM/SDM, Moran's I, GWR), carbon emission panels, carbon accounting, EKC analysis |
+| **Spatial & Geography** | Spatial weight matrices, spatial autocorrelation, GeoJSON boundaries, remote sensing & GIS, map visualization |
 | **Social Sciences** | Qualitative coding assistance, survey data analysis, social network graphs, sentiment analysis |
-| **Spatial & Geography** | GeoJSON administrative boundaries, spatial weight matrices, geographic weighted regression, map visualization |
 | **Health & Medicine** | NHANES/BRFSS CDC data, MeSH terminology, NCBI gene information |
 | **Humanities & Social Sciences** | Literature review generation, academic writing polish, AIGC detection reduction |
-| **Engineering Computing** | MATLAB script execution, SPICE circuit simulation, CAD/engineering file processing |
-| **Competition Support** | National Statistical Modeling, Mathematical Modeling, Challenge Cup / Innovation & Entrepreneurship |
+| **Civil/Mechanical/Automation** | Structural mechanics & FEA, mechanical simulation, control systems (PID/state-space), electronic circuits & PCB design, signal processing |
+| **Agriculture** | Agricultural economics, remote sensing & GIS spatial analysis, environmental & resource economics |
+| **Engineering & CAD** | MATLAB script execution, SPICE circuit simulation, CAD/engineering drafting, computer-aided design |
+| **Mathematical Modeling** | CUMCM (China), MCM/ICM (USA) — full workflow from problem analysis to paper |
+| **Challenge Cup** | National extracurricular academic science & technology works / entrepreneurship plan competition |
+| **Innovation & Entrepreneurship** | National e-commerce "Innovation, Creativity & Entrepreneurship" competition — full pitch workflow |
 
 > All capabilities listed above have been verified through real-world use. Continuously expanding.
 
@@ -2238,16 +2330,25 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | 领域 | 能力示例 |
 |------|----------|
-| **经济学** | DID 双重差分、IV 工具变量、RDD 断点回归、合成控制法、面板固定效应 |
-| **管理学** | 中介调节效应、多层 HLM、结构方程模型、企业财务面板分析 |
+| **经济学** | DID 双重差分、IV 工具变量、GMM、RDD 断点回归、合成控制法、面板固定/随机效应 |
+| **管理学与营销** | 结构方程模型 SEM、量表信效度（Cronbach's α / CFA）、中介调节效应、多层 HLM、实验设计（RCT/准实验）、营销计量 |
+| **心理学与教育学** | IRT 项目反应理论、行为实验与方差分析、教育评估与学习分析、语料库语言学、文本情感分析 |
 | **生物医学** | 生存分析（Kaplan-Meier、Cox）、临床试验数据、PubMed 文献检索 |
-| **环境科学** | 空间计量（莫兰指数、GWR）、碳排放面板、环境库兹涅茨曲线 |
+| **流行病学与公共卫生** | 队列/病例对照研究、Meta 分析、竞争风险模型（Cox/Fine-Gray）、倾向评分匹配 PSM、公共卫生大数据 |
+| **生信分析** | 基因组/转录组/蛋白组差异分析、富集分析（GO/KEGG）、NGS 测序数据分析 |
+| **贝叶斯统计** | 贝叶斯推断、MCMC（Stan/PyMC）、分层贝叶斯模型、贝叶斯网络、贝叶斯优化 |
+| **机器学习与 AI** | 深度学习（CNN/RNN/Transformer）、NLP 文本挖掘、计算机视觉、模型可解释性（SHAP/LIME）、大模型科研应用 |
+| **环境科学与能源** | 空间计量（SAR/SEM/SDM、莫兰指数、GWR）、碳排放面板、碳核算与双碳研究、环境库兹涅茨曲线 |
+| **空间地理** | 空间权重矩阵、空间自相关、GeoJSON 行政区划、遥感与 GIS 空间分析、地图可视化 |
 | **社会科学** | 质性编码辅助、问卷数据分析、社会网络图、文本情感分析 |
-| **空间地理** | GeoJSON 行政区划、空间权重矩阵、地理加权回归、地图可视化 |
 | **健康医学** | NHANES/BRFSS 等 CDC 公开数据、MeSH 术语、NCBI 基因信息 |
 | **人文社科** | 文献综述生成、学术写作润色、降 AIGC 检测率、论文全流程辅助 |
-| **工科计算** | MATLAB 脚本执行、SPICE 电路仿真、CAD/工程文件处理 |
-| **竞赛专项** | 全国统计建模、数学建模、挑战杯/三创赛全流程辅助 |
+| **土木/机械/自动化** | 结构力学与有限元分析、机械仿真、控制系统（PID/状态空间）、电子电路与 PCB 设计、信号处理 |
+| **农业科学** | 农业经济学、遥感与 GIS 空间分析、环境与资源经济分析 |
+| **工科计算** | MATLAB 脚本执行、SPICE 电路仿真、CAD/工程文件分析、计算机辅助设计 |
+| **数学建模** | 全国大学生数学建模竞赛（CUMCM）、美国大学生数学建模竞赛（MCM/ICM）全流程辅助 |
+| **挑战杯** | 「挑战杯」全国大学生课外学术科技作品竞赛 / 创业计划竞赛，选题论证到报告撰写 |
+| **三创赛** | 全国大学生电子商务"创新、创意及创业"挑战赛，创新立项→商业策划→路演答辩 |
 
 > 以上均为平台已验证的真实能力，持续扩展中。
 
@@ -2585,12 +2686,19 @@ Upload your data (CSV, Excel, Stata, SAS, PDF, Word, 80+ formats) and describe y
 
 | Category | Example Methods |
 |----------|----------------|
-| Traditional Econometrics | DID, IV, RDD, Synthetic Control, Panel FE |
+| Advanced Econometrics | DID, IV, GMM, RDD, Synthetic Control, Panel Fixed/Random Effects |
 | Causal ML | DML, Causal Forest, Meta-learner, Neural Causal |
+| Bayesian Statistics | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization |
+| Structural Equation & Psychometrics | SEM, CFA, scale reliability (Cronbach's α), IRT (Item Response Theory) |
+| Epidemiology & Public Health | Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM |
 | Statistical Tests | Descriptive stats, correlation, t-test, ANOVA, chi-square |
-| Machine Learning | Random Forest, XGBoost, Neural Networks, PCA, Clustering |
-| Survival Analysis | Kaplan-Meier, Cox Proportional Hazards, Competing Risks |
-| Spatial Econometrics | Spatial Weight Matrix, Moran's I, GWR |
+| Machine Learning & AI | Random Forest, XGBoost, deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME) |
+| Survival Analysis | Kaplan-Meier, Cox Proportional Hazards, Competing Risks (Fine-Gray) |
+| Spatial Econometrics | Spatial Weight Matrix, Spatial Autocorrelation (Moran's I), SAR/SEM/SDM, GWR |
+| Bioinformatics | Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data |
+| Civil/Mechanical/Automation | Structural mechanics & FEA, mechanical simulation, control systems (PID/state-space), electronic circuits & PCB design, signal processing |
+| Agriculture/Energy/Environment | Agricultural economics, energy econometrics & carbon emissions, carbon accounting, remote sensing & GIS, EKC analysis |
+| CAD Analysis | Computer-aided design, engineering drafting, 3D modeling data |
 | Text Analysis | BERT/LLM classification, Sentiment Analysis, Topic Modeling |
 
 ### 6.2 Data Collection & Sources
@@ -2616,9 +2724,10 @@ AI automatically searches Chinese and English literature, extracts key findings,
 
 Built-in 100+ professional skills with competition-specific modules:
 
-- **National Statistical Modeling Competition**: Full workflow from topic selection to report writing
-- **National Mathematical Modeling**: AI-assisted modeling and solving, LaTeX output
-- **Challenge Cup / Innovation Competition**: Business plan, market analysis, data visualization, pitch deck
+- **Mathematical Modeling (CUMCM / MCM-ICM)**: Covers China's CUMCM and USA's MCM/ICM — full workflow from problem analysis to 20-page paper, including differential equations, optimization, neural networks, spatial econometrics
+- **National Statistical Modeling Competition**: Full workflow from topic selection to report writing; DML/DID/RDD/Causal Forest/Synthetic Control all supported
+- **Challenge Cup**: Covers the national extracurricular academic science & technology works competition and entrepreneurship plan competition — topic selection to report writing
+- **Innovation & Entrepreneurship (三创赛)**: Full workflow skill: innovation project → business planning → practice verification → pitch defense
 
 ### 6.6 AIGC Detection Reduction
 
@@ -3188,12 +3297,19 @@ AI 当你的专属学术导师，一步步引导你完成研究设计、推荐�
 
 | 类别 | 方法示例 |
 |------|----------|
-| 传统计量 | DID（双重差分）、IV（工具变量）、RDD（断点回归）、合成控制法、面板固定效应 |
+| 高级计量 | DID（双重差分）、IV（工具变量）、GMM、RDD（断点回归）、合成控制法、面板固定/随机效应 |
 | 因果机器学习 | DML（Double Machine Learning）、因果森林、Meta-learner、Neural Causal |
+| 贝叶斯统计 | 贝叶斯推断、MCMC（Stan/PyMC）、分层贝叶斯模型、贝叶斯网络、贝叶斯优化 |
+| 结构方程与心理测量 | 结构方程模型 SEM、验证性因子分析 CFA、量表信效度（Cronbach's α）、IRT 项目反应理论 |
+| 流行病学与公共卫生 | 队列/病例对照研究、Meta 分析、生存分析与竞争风险（Cox/Fine-Gray）、倾向评分匹配 PSM |
 | 统计检验 | 描述统计、相关性分析、t 检验、方差分析、卡方检验 |
-| 机器学习 | 随机森林、XGBoost、神经网络、聚类分析、主成分分析 |
-| 生存分析 | Kaplan-Meier 曲线、Cox 比例风险、竞争风险模型 |
-| 空间计量 | 空间权重矩阵、莫兰指数、地理加权回归 (GWR) |
+| 机器学习与 AI | 随机森林、XGBoost、深度学习（CNN/RNN/Transformer）、NLP 文本挖掘、模型可解释性（SHAP/LIME） |
+| 生存分析 | Kaplan-Meier 曲线、Cox 比例风险、竞争风险模型（Fine-Gray） |
+| 空间计量 | 空间权重矩阵、空间自相关（莫兰指数）、SAR/SEM/SDM 空间计量模型、地理加权回归 (GWR) |
+| 生信分析 | 基因组/转录组/蛋白组差异分析、富集分析（GO/KEGG）、NGS 测序数据分析 |
+| 土木/机械/自动化 | 结构力学与有限元分析、机械仿真、控制系统（PID/状态空间）、电子电路与 PCB 设计、信号处理 |
+| 农业/能源/环境 | 农业经济学、能源计量与碳排放、碳核算与双碳研究、遥感与 GIS 空间分析、环境库兹涅茨曲线 |
+| CAD 分析 | 计算机辅助设计、工程制图分析、三维建模数据处理 |
 | 文本分析 | BERT/LLM 文本分类、情感分析、主题建模 |
 
 > ⏱️ 平均耗时：从上传数据到出完整分析结果，约 **2 分钟**。
@@ -3273,14 +3389,21 @@ AI 自动联网检索中英文文献，提炼核心观点，生成结构化综�
 - 内置统计建模大赛专项技能，覆盖选题论证 → 数据处理 → 模型构建 → 报告撰写全流程
 - DML / DID / RDD / 因果森林 / 合成控制——**前沿方法全面支持，帮助理解方法原理、独立完成**
 
-#### 🔢 全国大学生数学建模
+#### 🔢 数学建模（CUMCM / MCM-ICM）
 
+- 覆盖全国大学生数学建模竞赛（CUMCM）与美国大学生数学建模竞赛（MCM/ICM）
 - AI 辅助建模与求解，覆盖从问题分析到论文成稿全流程
-- 微分方程、优化模型、神经网络、随机过程全覆盖
+- 微分方程、优化模型、神经网络、随机过程、空间计量全覆盖
 - 团队可将更多精力用于模型理解与创新思考
 
-#### 🚀 挑战杯 / 三创赛
+#### 🚀 挑战杯
 
+- 覆盖「挑战杯」全国大学生课外学术科技作品竞赛与大学生创业计划竞赛
+- 内置专项技能，辅助选题论证、研究设计、数据分析与报告撰写
+
+#### 💡 三创赛
+
+- 覆盖全国大学生电子商务"创新、创意及创业"挑战赛
 - 内置三创赛全流程制胜技能，覆盖创新立项 → 商业策划 → 实践验证 → 路演答辩
 - 商业计划书、市场调研分析、数据可视化、路演 PPT 全流程辅助
 - AI 辅助市场分析、财务预测与风险评估
@@ -3405,16 +3528,19 @@ AI 回复过程中，你可以：
 
 | 技能类别 | 代表技能（部分） | 适用场景 |
 |----------|------------------|----------|
-| 🔬 实证分析 | Python 全流程实证分析、R 全流程实证分析、面板分析、空间计量、时间序列、中介调节、多层HLM | 各类量化研究 |
-| 🤖 因果推断 | 贝叶斯因果推断、机器学习因果、DID/RDD/IV/合成控制 | 前沿方法论 |
+| 🔬 实证分析 | Python 全流程实证分析、R 全流程实证分析、面板分析、空间计量（SAR/SEM/SDM）、时间序列、中介调节、多层HLM、结构方程模型 SEM | 各类量化研究 |
+| 🤖 因果推断 | 贝叶斯因果推断、机器学习因果、DID/RDD/IV/合成控制、GMM、倾向评分匹配 PSM | 前沿方法论 |
+| 📊 贝叶斯统计 | 贝叶斯推断、MCMC（Stan/PyMC）、分层贝叶斯模型、贝叶斯网络、贝叶斯优化 | 贝叶斯方法 |
+| 🧠 机器学习与 AI | 深度学习（CNN/RNN/Transformer）、NLP 文本挖掘、模型可解释性（SHAP/LIME）、特征工程 | AI 交叉科研 |
+| 🏥 流行病学 | 队列/病例对照研究、Meta 分析、生存分析（Cox/Fine-Gray）、PSM、公共卫生大数据 | 医学与公共卫生 |
 | 📚 文献与写作 | 文献搜集、文献综述、科学写作、学术润色、学术校对 | 开题、论文写作 |
 | 🏆 竞赛指导 | 统计建模大赛、挑战杯、三创赛（持续更新，覆盖国家级竞赛） | 竞赛冲刺 |
 | 📊 数据与图表 | 数据清洗、专业科研绘图（SciPlot）、学术排版（LaTeX） | 日常科研 |
-| 🧬 学科专项 | 生物信息学（BioPython/scanpy）、材料科学（pymatgen）、化学信息学（RDKit）、量子计算（Qiskit） | 学科专用 |
+| 🧬 学科专项 | 生物信息学（BioPython/scanpy，基因组/转录组/蛋白组分析）、材料科学（pymatgen）、化学信息学（RDKit）、量子计算（Qiskit）、CAD/工程制图分析、有限元分析 | 学科专用 |
 | 📋 学术流程 | 选题设计、申请书撰写、同行评审回复、海报/幻灯片制作 | 学术全周期 |
 | 💻 工具生态 | Stata 实证方法论（生成 do 文件供本地运行）、Python机器学习（scikit-learn）、网络分析（networkx）、地理空间（geopandas）、符号数学（SymPy） | 工具链支持 |
 | 🔎 数据搜集 | 金融行情、中国经济数据、健康数据（CDC）、医学数据库、生物数据（EMBL-EBI/bioRxiv）、文献检索（NCPSSD/CNKI/arXiv/PubMed） | 数据获取与选题准备 |
-| ⚙️ 工科计算 | MATLAB 脚本（.m）执行、SPICE 电路仿真 | 自动化/电子/控制类课程与竞赛 |
+| ⚙️ 工科计算 | MATLAB 脚本（.m）执行、SPICE 电路仿真、控制系统（PID/状态空间）、信号处理 | 自动化/电子/控制类 |
 
 > 💡 选择匹配的技能后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。
 
@@ -3988,10 +4114,21 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 ## Supported Disciplines & Scenarios
 
 - **Social Sciences & Humanities** — Survey analysis, qualitative coding, content analysis, bibliometrics
-- **STEM & Engineering** — Statistical inference, simulation, signal processing, circuit design
-- **Medical & Life Sciences** — Survival analysis, meta-analysis, clinical data processing
+- **Psychology & Education** — IRT, behavioral experiments, educational assessment, corpus linguistics
+- **Management & Marketing** — SEM, scale reliability (Cronbach's α / CFA), mediation/moderation, experimental design (RCT/quasi-experimental)
+- **Epidemiology & Public Health** — Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
+- **Bayesian Statistics** — Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian optimization
+- **Machine Learning & AI** — Deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME)
+- **STEM & Engineering** — Statistical inference, simulation, signal processing, circuit design, control systems (PID/state-space)
+- **Civil/Mechanical/Automation** — FEA, mechanical simulation, electronic circuits & PCB design, signal processing
+- **Medical & Life Sciences** — Survival analysis, meta-analysis, clinical data processing, bioinformatics (genomics/transcriptomics/proteomics)
 - **Finance & Economics** — Panel data, time-series forecasting, event studies, risk modeling
-- **Interdisciplinary** — Literature review, systematic review, reproducibility workflows, competition modeling
+- **Spatial & Geography** — Spatial econometrics (SAR/SEM/SDM), spatial autocorrelation, GWR, remote sensing & GIS
+- **Agriculture & Energy** — Agricultural economics, energy econometrics, carbon accounting, EKC analysis
+- **Engineering & CAD** — Computer-aided design analysis, engineering drafting, 3D modeling data
+- **Advanced Econometrics** — GMM, DID, IV, RDD, synthetic control, survival analysis
+- **National Competitions** — Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship (三创赛)
+- **Interdisciplinary** — Literature review, systematic review, reproducibility workflows, data analysis, paper writing
 
 ---
 

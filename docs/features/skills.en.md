@@ -6,15 +6,19 @@ DeepResValue includes **100+ professional skills** covering the full research wo
 
 | Category | Representative Skills | Use Cases |
 |----------|---------------------|-----------|
-| 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics, time series, mediation-moderation, multilevel HLM | Quantitative research |
-| 🤖 Causal Inference | Bayesian causal inference, ML-based causal, DID/RDD/IV/Synthetic Control | Frontier methodology |
+| 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics (SAR/SEM/SDM), time series, mediation-moderation, multilevel HLM, SEM | Quantitative research |
+| 🤖 Causal Inference | Bayesian causal inference, ML-based causal, DID/RDD/IV/Synthetic Control, GMM, propensity score matching (PSM) | Frontier methodology |
+| 📊 Bayesian Statistics | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization | Bayesian methods |
+| 🧠 ML & AI | Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications | AI × research |
+| 🏥 Epidemiology | Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM, public health big data | Medicine & public health |
 | 📚 Literature & Writing | Literature collection, literature review, scientific writing, academic polish, academic proofreading | Proposals, paper writing |
 | 🏆 Competition Guidance | Statistical Modeling, Math Modeling, Challenge Cup (continuously updated) | Competition preparation |
 | 📊 Data & Charts | Data cleaning, SciPlot scientific plotting, LaTeX academic typesetting | Everyday research |
-| 🧬 Discipline-Specific | Bioinformatics (BioPython/scanpy), Materials Science (pymatgen), Chemoinformatics (RDKit), Quantum Computing (Qiskit) | Specialized fields |
+| 🧬 Discipline-Specific | Bioinformatics (BioPython/scanpy — genomics/transcriptomics/proteomics, enrichment analysis), Materials Science (pymatgen), Chemoinformatics (RDKit), Quantum Computing (Qiskit), CAD/engineering drafting, finite element analysis | Specialized fields |
 | 📋 Academic Workflow | Topic design, application writing, peer review response, poster/slides creation | Full academic cycle |
 | 💻 Tool Ecosystem | Stata empirical methodology (generates do-files for local execution), Python ML (scikit-learn), network analysis (networkx), geospatial (geopandas), symbolic math (SymPy) | Toolchain support |
 | 🔎 Data Collection | Financial markets, Chinese economic data, health data (CDC), medical databases, biological data (EMBL-EBI/bioRxiv), literature search (NCPSSD/CNKI/arXiv/PubMed) | Data acquisition |
+| ⚙️ Engineering Computing | MATLAB script (.m) execution, SPICE circuit simulation, control systems (PID/state-space), signal processing | Automation/electronics/control |
 
 ## How Skills Work
 

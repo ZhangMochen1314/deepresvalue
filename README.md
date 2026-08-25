@@ -83,10 +83,21 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 ## Supported Disciplines & Scenarios
 
 - **Social Sciences & Humanities** — Survey analysis, qualitative coding, content analysis, bibliometrics
-- **STEM & Engineering** — Statistical inference, simulation, signal processing, circuit design
-- **Medical & Life Sciences** — Survival analysis, meta-analysis, clinical data processing
+- **Psychology & Education** — IRT, behavioral experiments, educational assessment, corpus linguistics
+- **Management & Marketing** — SEM, scale reliability (Cronbach's α / CFA), mediation/moderation, experimental design (RCT/quasi-experimental)
+- **Epidemiology & Public Health** — Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
+- **Bayesian Statistics** — Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian optimization
+- **Machine Learning & AI** — Deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME)
+- **STEM & Engineering** — Statistical inference, simulation, signal processing, circuit design, control systems (PID/state-space)
+- **Civil/Mechanical/Automation** — FEA, mechanical simulation, electronic circuits & PCB design, signal processing
+- **Medical & Life Sciences** — Survival analysis, meta-analysis, clinical data processing, bioinformatics (genomics/transcriptomics/proteomics)
 - **Finance & Economics** — Panel data, time-series forecasting, event studies, risk modeling
-- **Interdisciplinary** — Literature review, systematic review, reproducibility workflows, competition modeling
+- **Spatial & Geography** — Spatial econometrics (SAR/SEM/SDM), spatial autocorrelation, GWR, remote sensing & GIS
+- **Agriculture & Energy** — Agricultural economics, energy econometrics, carbon accounting, EKC analysis
+- **Engineering & CAD** — Computer-aided design analysis, engineering drafting, 3D modeling data
+- **Advanced Econometrics** — GMM, DID, IV, RDD, synthetic control, survival analysis
+- **National Competitions** — Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship (三创赛)
+- **Interdisciplinary** — Literature review, systematic review, reproducibility workflows, data analysis, paper writing
 
 ---
 

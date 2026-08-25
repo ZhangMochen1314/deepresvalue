@@ -8,6 +8,8 @@ Academic Mode provides one-stop paper writing services from proposal to graduati
 - Researchers preparing journal paper submissions
 - Students preparing proposals or defense materials
 - Researchers needing literature review and academic writing assistance
+- Participants in national competitions (Mathematical Modeling CUMCM/MCM-ICM, Challenge Cup, Innovation & Entrepreneurship, Statistical Modeling)
+- Researchers needing frontier analysis methods (spatial econometrics, bioinformatics, Bayesian statistics, SEM, epidemiology, machine learning/AI, etc.)
 
 ## Features
 

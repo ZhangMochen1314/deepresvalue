@@ -1,6 +1,6 @@
 # DeepResValue
 
-> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
+> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Covers frontier methods including spatial econometrics (SAR/SEM/SDM), advanced econometrics (GMM/DID/IV/RDD), bioinformatics (genomics/transcriptomics/proteomics), CAD/engineering analysis, Bayesian statistics (MCMC/Stan/PyMC), machine learning & AI (deep learning/NLP/SHAP), structural equation modeling (SEM/CFA/IRT), epidemiology (meta-analysis/PSM/competing risks). Supports national competition scenarios: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
 
 ## Notes
 
@@ -11,6 +11,8 @@
 - New users get a free usage quota on signup; pay-as-you-go credit top-ups available
 - Sharing your invite code earns credit rewards with no cap
 - Dozens of MCP connectors integrated and continuously expanding
+- Covers frontier methods: spatial econometrics, advanced econometrics, bioinformatics, CAD analysis, Bayesian statistics, machine learning/AI, structural equation modeling, epidemiology
+- Supports national competitions: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship
 - Official website: https://deepresvalue.top/
 
 ## Docs

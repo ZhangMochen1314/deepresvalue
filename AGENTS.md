@@ -44,7 +44,11 @@ For the live product, visit [deepresvalue.top](https://deepresvalue.top/).
 ```
 ai-research-assistant, research-agent, ai-agent-saas, llm-agent, academic-writing,
 literature-review, data-analysis, scientific-research, ai-assistant, saas,
-deepresvalue, 深度研值, 科研助手, 科研agent, 学术写作, 数据分析
+deepresvalue, 深度研值, 科研助手, 科研agent, 学术写作, 数据分析,
+spatial-econometrics, bioinformatics, cad-analysis, mathematical-modeling,
+challenge-cup, innovation-entrepreneurship, cumcm, mcm-icm,
+bayesian-statistics, machine-learning, deep-learning, sem, psychometrics,
+epidemiology, public-health, finite-element-analysis, structural-equation-model
 ```
 
 ## Product Positioning
@@ -58,6 +62,21 @@ deepresvalue, 深度研值, 科研助手, 科研agent, 学术写作, 数据分�
 - **Scale**: 3,000+ users from 985/211 universities; thousands of validated research projects
 - **Status**: PMF achieved; in formal launch and growth phase
 - **Pricing**: Free usage quota on signup; pay-as-you-go credit top-ups; sharing your invite code earns credit rewards with no cap
+
+## Research Scenarios
+
+- **Paper writing**: Literature review, proposal, body writing, formatting, defense preparation
+- **Data analysis**: 100+ methods — DID, IV, GMM, RDD, DML, survival analysis, spatial econometrics (SAR/SEM/SDM), machine learning, NLP
+- **Bayesian statistics**: Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian networks, Bayesian optimization
+- **Machine learning & AI**: Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications
+- **Structural equation & psychometrics**: SEM, CFA, Cronbach's α, IRT, mediation/moderation
+- **Epidemiology & public health**: Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
+- **Bioinformatics**: Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data
+- **Spatial econometrics**: Spatial weight matrices, spatial autocorrelation, SAR/SEM/SDM models, GWR
+- **Engineering & CAD**: Computer-aided design analysis, engineering drafting, FEA, control systems, signal processing
+- **Agriculture & energy**: Agricultural economics, energy econometrics, carbon accounting, remote sensing & GIS
+- **National competitions**: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship (三创赛), Statistical Modeling
+- **Literature & search**: Multi-source academic search (NCPSSD, CNKI, arXiv, PubMed, Crossref, Semantic Scholar), structured review generation
 
 ## Contact & Links
 

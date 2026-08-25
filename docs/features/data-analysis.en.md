@@ -15,12 +15,19 @@ Upload your data (supporting Excel, CSV, PDF, Word, Stata, SAS, SQLite, and 80+ 
 
 | Category | Example Methods |
 |----------|----------------|
-| Traditional Econometrics | DID (Difference-in-Differences), IV (Instrumental Variables), RDD (Regression Discontinuity), Synthetic Control, Panel Fixed Effects |
+| Advanced Econometrics | DID (Difference-in-Differences), IV (Instrumental Variables), GMM, RDD (Regression Discontinuity), Synthetic Control, Panel Fixed/Random Effects |
 | Causal Machine Learning | DML (Double Machine Learning), Causal Forest, Meta-learner, Neural Causal |
+| Bayesian Statistics | Bayesian inference, MCMC (Stan/PyMC), hierarchical Bayesian models, Bayesian networks, Bayesian optimization |
+| Structural Equation & Psychometrics | SEM, Confirmatory Factor Analysis (CFA), scale reliability (Cronbach's α), IRT (Item Response Theory) |
+| Epidemiology & Public Health | Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), propensity score matching (PSM) |
 | Statistical Tests | Descriptive statistics, correlation analysis, t-test, ANOVA, chi-square test |
-| Machine Learning | Random Forest, XGBoost, Neural Networks, Clustering, PCA |
-| Survival Analysis | Kaplan-Meier curves, Cox Proportional Hazards, Competing Risks Models |
-| Spatial Econometrics | Spatial Weight Matrices, Moran's I, Geographically Weighted Regression (GWR) |
+| Machine Learning & AI | Random Forest, XGBoost, deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME) |
+| Survival Analysis | Kaplan-Meier curves, Cox Proportional Hazards, Competing Risks (Fine-Gray) |
+| Spatial Econometrics | Spatial Weight Matrices, Spatial Autocorrelation (Moran's I), SAR/SEM/SDM models, GWR |
+| Bioinformatics | Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data |
+| Civil/Mechanical/Automation | Structural mechanics & FEA, mechanical simulation, control systems (PID/state-space), electronic circuits & PCB design, signal processing |
+| Agriculture/Energy/Environment | Agricultural economics, energy econometrics & carbon emissions, carbon accounting, remote sensing & GIS, EKC analysis |
+| CAD Analysis | Computer-aided design, engineering drafting, 3D modeling data |
 | Text Analysis | BERT/LLM text classification, Sentiment Analysis, Topic Modeling |
 
 ## Step-by-Step Usage
