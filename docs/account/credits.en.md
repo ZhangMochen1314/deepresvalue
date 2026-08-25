@@ -1,6 +1,6 @@
 # Credits System
 
-DeepResValue uses a credits system to manage AI resource consumption. Using credits wisely maximizes your research output.
+DeepResValue uses a credits system to manage AI resource consumption. **New users receive a free usage quota upon registration** for immediate full-feature access. When your quota runs out, you can **top up credits on demand**. Using credits wisely maximizes your research output.
 
 ## Credit Consumption Rules
 
@@ -15,8 +15,9 @@ DeepResValue uses a credits system to manage AI resource consumption. Using cred
 
 | Method | Credits | Description |
 |--------|---------|-------------|
-| New User Registration | Gift | Automatically receive starter credits upon first registration |
-| Invite Friends | +200 | Your invite code successfully used by someone else |
+| New User Registration | Free Quota | Receive a free usage quota upon registration |
+| Top Up Credits | Pay-as-you-go | Top up credits on demand when your quota runs out |
+| Invite Friends | +200 | Your invite code successfully used — **rewards have no cap** |
 | Be Invited | +100 | Successfully register using someone else's invite code |
 
 ## Saving Credits

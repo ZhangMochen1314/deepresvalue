@@ -58,11 +58,16 @@ The current version does not support real-time multi-user collaboration. To shar
 
 ## Credits
 
+### Is there a free quota for new users?
+
+Yes. New users receive a free usage quota upon registration for immediate full-feature access. When your quota runs out, you can top up credits on demand.
+
 ### Not enough credits?
 
-You can earn more credits through:
+You can get more credits through:
 
-- Invite friends: +200 credits per successful invite
+- **Top up on demand**: Recharge credits anytime when your quota runs out
+- **Invite friends**: +200 credits per successful invite — **rewards have no cap**
 - Register with an invite code: +100 new-user credits
 - Watch for official events that may offer bonus credits
 
@@ -76,4 +81,4 @@ You can earn more credits through:
 
 ### What are MCP connectors? Is there an extra charge?
 
-MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.
+MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal, financial, business intelligence, academic literature, geolocation, survey, meeting, and quantitative data — **and continuously expanding**. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.

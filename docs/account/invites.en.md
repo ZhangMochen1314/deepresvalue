@@ -1,6 +1,6 @@
 # Invite & Earn
 
-Invite friends to register on DeepResValue — both you and the invitee earn credit rewards for a win-win outcome.
+Invite friends to register on DeepResValue — both you and the invitee earn credit rewards for a win-win outcome. **Rewards have no cap** — the more you invite, the more you earn.
 
 ## Reward Rules
 

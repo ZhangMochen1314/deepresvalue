@@ -50,7 +50,7 @@ All four compute kernels + Word/LaTeX typesetting engine are **pre-configured in
 
 ### Dozens of MCP Connectors
 
-Connect external data sources and tools via Model Context Protocol — **dozens of connectors** already integrated:
+Connect external data sources and tools via Model Context Protocol — **dozens of connectors** already integrated **and continuously expanding**:
 
 | Connector | Domain |
 |-----------|--------|
@@ -112,13 +112,19 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 ---
 
-## Quick Start
+## Getting Started & Pricing
 
 1. Visit **[deepresvalue.top](https://deepresvalue.top/)** and sign up
 2. Select your research mode (Academic / Mentor / Professional)
 3. Describe your research task in one sentence — the AI Agent takes it from there
 
 **开始使用**：访问 [deepresvalue.top](https://deepresvalue.top/)，注册后选择科研模式，一句中文描述任务即可开始。
+
+| | |
+|---|---|
+| 🆓 **Free on signup** | New users receive a free usage quota upon registration |
+| 💳 **Pay as you go** | Top up credits on demand when your quota runs out |
+| 🎁 **Invite & earn** | Share your invite code to earn credit rewards — rewards have no cap |
 
 ---
 

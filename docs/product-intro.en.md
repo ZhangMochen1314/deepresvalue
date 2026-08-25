@@ -49,7 +49,7 @@ All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / L
 
 ### MCP External Connectors
 
-Call third-party professional data sources directly via Model Context Protocol — **dozens of connectors** already integrated:
+Call third-party professional data sources directly via Model Context Protocol — **dozens of connectors** already integrated **and continuously expanding**:
 
 | Connector | Type | Description |
 |-----------|------|-------------|
@@ -109,12 +109,22 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ---
 
+## Pricing & Business Model
+
+| | Description |
+|---|---|
+| 🆓 **Free on signup** | New users receive a free usage quota upon registration |
+| 💳 **Pay as you go** | Top up credits on demand when your quota runs out |
+| 🎁 **Invite & earn** | Share your invite code to earn credit rewards — **rewards have no cap**, the more you invite the more you earn |
+
+---
+
 ## Quick Start
 
 1. Visit [deepresvalue.top](https://deepresvalue.top)
 2. Click **"Get Access"** or **"Login"** in the top-right corner
 3. Register with your **phone number** — enter number and SMS verification code
-4. New users automatically receive initial credits for immediate full-feature access
+4. New users receive a free usage quota for immediate full-feature access
 
 ---
 

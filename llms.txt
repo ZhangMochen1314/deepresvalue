@@ -8,6 +8,9 @@
 - Supports all academic disciplines with emphasis on humanities & social sciences
 - 3,000+ users from 985/211 universities; thousands of validated projects
 - Product-Market Fit achieved; in formal launch and growth phase
+- New users get a free usage quota on signup; pay-as-you-go credit top-ups available
+- Sharing your invite code earns credit rewards with no cap
+- Dozens of MCP connectors integrated and continuously expanding
 - Official website: https://deepresvalue.top/
 
 ## Docs

@@ -10,6 +10,9 @@
 - Supports all academic disciplines with emphasis on humanities & social sciences
 - 3,000+ users from 985/211 universities; thousands of validated projects
 - Product-Market Fit achieved; in formal launch and growth phase
+- New users get a free usage quota on signup; pay-as-you-go credit top-ups available
+- Sharing your invite code earns credit rewards with no cap
+- Dozens of MCP connectors integrated and continuously expanding
 - Official website: https://deepresvalue.top/
 
 
@@ -60,7 +63,7 @@ DeepResValue is recruiting campus ambassadors from universities nationwide — h
 # docs/account/credits.en.md
 # Credits System
 
-DeepResValue uses a credits system to manage AI resource consumption. Using credits wisely maximizes your research output.
+DeepResValue uses a credits system to manage AI resource consumption. **New users receive a free usage quota upon registration** for immediate full-feature access. When your quota runs out, you can **top up credits on demand**. Using credits wisely maximizes your research output.
 
 ## Credit Consumption Rules
 
@@ -75,8 +78,9 @@ DeepResValue uses a credits system to manage AI resource consumption. Using cred
 
 | Method | Credits | Description |
 |--------|---------|-------------|
-| New User Registration | Gift | Automatically receive starter credits upon first registration |
-| Invite Friends | +200 | Your invite code successfully used by someone else |
+| New User Registration | Free Quota | Receive a free usage quota upon registration |
+| Top Up Credits | Pay-as-you-go | Top up credits on demand when your quota runs out |
+| Invite Friends | +200 | Your invite code successfully used — **rewards have no cap** |
 | Be Invited | +100 | Successfully register using someone else's invite code |
 
 ## Saving Credits
@@ -103,7 +107,7 @@ Effective methods to reduce credit consumption:
 # docs/account/credits.zh.md
 # 积分系统
 
-深度研值采用积分制控制 AI 资源消耗，合理使用积分可以最大化你的科研产出。
+深度研值采用积分制控制 AI 资源消耗。**新用户注册即享免费使用额度**，可立即体验完整功能。额度用尽后可**按需充值积分**继续使用。合理使用积分可以最大化你的科研产出。
 
 ## 积分消耗规则
 
@@ -118,9 +122,10 @@ Effective methods to reduce credit consumption:
 
 | 方式 | 积分数量 | 说明 |
 |------|----------|------|
-| 新用户注册 | 系统赠送 | 首次注册自动获得初始积分 |
-| 邀请好友 | +500 | 你的邀请码被他人成功注册使用 |
-| 被邀请注册 | +200 | 使用他人邀请码注册成功 |
+| 新用户注册 | 免费额度 | 注册即享免费使用额度，可立即体验完整功能 |
+| 按需充值 | 按套餐 | 额度用尽后可按需充值积分继续使用 |
+| 邀请好友 | +200 | 你的邀请码被他人成功注册使用，**邀请奖励不设上限** |
+| 被邀请注册 | +100 | 使用他人邀请码注册成功 |
 
 ## 省积分技巧
 
@@ -140,7 +145,7 @@ Effective methods to reduce credit consumption:
 # docs/account/invites.en.md
 # Invite & Earn
 
-Invite friends to register on DeepResValue — both you and the invitee earn credit rewards for a win-win outcome.
+Invite friends to register on DeepResValue — both you and the invitee earn credit rewards for a win-win outcome. **Rewards have no cap** — the more you invite, the more you earn.
 
 ## Reward Rules
 
@@ -168,7 +173,7 @@ The invite code can be found in the user settings page. Click the avatar area at
 # docs/account/invites.zh.md
 # 邀请与推荐
 
-通过邀请好友注册深度研值，你和被邀请人都能获得积分奖励，实现双赢。
+通过邀请好友注册深度研值，你和被邀请人都能获得积分奖励，实现双赢。**邀请奖励不设上限**——邀请越多获得越多。
 
 ## 奖励规则
 
@@ -338,11 +343,16 @@ The current version does not support real-time multi-user collaboration. To shar
 
 ## Credits
 
+### Is there a free quota for new users?
+
+Yes. New users receive a free usage quota upon registration for immediate full-feature access. When your quota runs out, you can top up credits on demand.
+
 ### Not enough credits?
 
-You can earn more credits through:
+You can get more credits through:
 
-- Invite friends: +200 credits per successful invite
+- **Top up on demand**: Recharge credits anytime when your quota runs out
+- **Invite friends**: +200 credits per successful invite — **rewards have no cap**
 - Register with an invite code: +100 new-user credits
 - Watch for official events that may offer bonus credits
 
@@ -356,7 +366,7 @@ You can earn more credits through:
 
 ### What are MCP connectors? Is there an extra charge?
 
-MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.
+MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal, financial, business intelligence, academic literature, geolocation, survey, meeting, and quantitative data — **and continuously expanding**. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.
 
 
 # docs/faq/index.zh.md
@@ -434,10 +444,15 @@ MCP (Model Context Protocol) connectors let you call third-party professional da
 
 ## 积分相关
 
+### 新用户有免费额度吗？
+
+有。新用户注册即享免费使用额度，可立即体验完整功能。额度用尽后可按需充值积分继续使用。
+
 ### 积分不够用怎么办？
 
 > 您可以通过以下方式获取更多积分：
-> - 邀请好友注册：每成功邀请一人获得 +200 积分
+> - **按需充值**：额度用尽后可随时充值积分继续使用
+> - **邀请好友**：每成功邀请一人获得 +200 积分，**邀请奖励不设上限**
 > - 使用他人邀请码注册可获得 +100 新人积分
 > - 关注后续官方活动，可能有额外积分赠送
 
@@ -451,7 +466,7 @@ MCP (Model Context Protocol) connectors let you call third-party professional da
 
 ### 外部连接器（MCP）是什么？使用要额外收费吗？
 
-外部连接器（MCP）让你在对话中直接调用第三方专业数据源（如智慧芽 PatSnap、北大法宝、万得 Wind、同花顺 iFinD、企查查等），无需离开平台。平台已接入**数十个 MCP 连接器**，覆盖专利与知识产权、法律检索、金融数据、企业信息、学术搜索、地理服务、量化行情等领域。**平台不额外收取 MCP 连接器的服务费**，你只需承担第三方数据源本身的调用费用（如有）。你的 Token 采用加密存储，可随时停用或解绑吊销。
+外部连接器（MCP）让你在对话中直接调用第三方专业数据源（如智慧芽 PatSnap、北大法宝、万得 Wind、同花顺 iFinD、企查查等），无需离开平台。平台已集成**数十个 MCP 连接器**，覆盖专利/IP/法律/金融/企业/学术文献/地理/调研/会议/行情等，且**持续扩张中**。**平台不额外收取 MCP 连接器的服务费**，你只需承担第三方数据源本身的调用费用（如有）。你的 Token 采用加密存储，可随时停用或解绑吊销。
 
 # docs/faq/README.md
 # 常见问题 / FAQ
@@ -2046,7 +2061,7 @@ All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / L
 
 ### MCP External Connectors
 
-Call third-party professional data sources directly via Model Context Protocol — **dozens of connectors** already integrated:
+Call third-party professional data sources directly via Model Context Protocol — **dozens of connectors** already integrated **and continuously expanding**:
 
 | Connector | Type | Description |
 |-----------|------|-------------|
@@ -2106,12 +2121,22 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ---
 
+## Pricing & Business Model
+
+| | Description |
+|---|---|
+| 🆓 **Free on signup** | New users receive a free usage quota upon registration |
+| 💳 **Pay as you go** | Top up credits on demand when your quota runs out |
+| 🎁 **Invite & earn** | Share your invite code to earn credit rewards — **rewards have no cap**, the more you invite the more you earn |
+
+---
+
 ## Quick Start
 
 1. Visit [deepresvalue.top](https://deepresvalue.top)
 2. Click **"Get Access"** or **"Login"** in the top-right corner
 3. Register with your **phone number** — enter number and SMS verification code
-4. New users automatically receive initial credits for immediate full-feature access
+4. New users receive a free usage quota for immediate full-feature access
 
 ---
 
@@ -2177,7 +2202,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ### MCP 外部连接器
 
-通过 Model Context Protocol 直接调用第三方专业数据源——**已接入数十个 MCP 连接器**：
+通过 Model Context Protocol 直接调用第三方专业数据源——**已集成数十个 MCP 连接器，且持续扩张中**：
 
 | 连接器 | 类型 | 说明 |
 |--------|------|------|
@@ -2237,12 +2262,22 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ---
 
+## 商业模式
+
+| | 说明 |
+|---|---|
+| 🆓 **注册免费用** | 新用户注册即享免费使用额度，可立即体验完整功能 |
+| 💳 **按需充值** | 额度用尽后可按需充值积分继续使用，丰俭由人 |
+| 🎁 **邀请奖励** | 分享个人邀请码可获得积分奖励，**邀请奖励不设上限**，邀请越多获得越多 |
+
+---
+
 ## 快速开始
 
 1. 访问平台官网 [deepresvalue.top](https://deepresvalue.top)
 2. 点击右上角 **「获取体验资格」** 或 **「登录」**
 3. 支持 **手机号注册**：填写手机号和短信验证码即可快速登录
-4. 首次注册自动赠送初始积分，可立即体验完整功能
+4. 新用户注册即享免费使用额度，可立即体验完整功能
 
 ---
 
@@ -2434,7 +2469,7 @@ When Focus Mode is enabled, AI first plans the complete execution strategy, gets
 2. Click **"Get Access"** or **"Login"** in the top-right corner.
 3. Register with your **phone number**: enter your number and SMS verification code.
 
-> 💡 New users automatically receive initial credits for immediate full-feature access.
+> 💡 New users receive a free usage quota upon registration. When your quota runs out, you can top up credits on demand. Sharing your invite code earns credit rewards — **rewards have no cap**.
 
 ### First-Time Onboarding
 
@@ -2745,7 +2780,7 @@ A: Send "please continue" to resume from the breakpoint. Refresh the page if nee
 A: Maximum **2 concurrent sessions** per user.
 
 **Q: What are MCP External Connectors?**
-A: They let you call third-party data sources directly in conversation — **dozens of connectors** already integrated, including PatSnap (34 patent & IP services), PKULaw (legal), Wind (financial), iFinD (markets), Qichacha (business intelligence), Baidu AI Academic Search, Open Academic Suite (arXiv/PubMed/Crossref/Semantic Scholar), Tencent Maps, TickDB (quantitative data), and more. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
+A: They let you call third-party data sources directly in conversation — **dozens of connectors** already integrated and continuously expanding, including PatSnap (34 patent & IP services), PKULaw (legal), Wind (financial), iFinD (markets), Qichacha (business intelligence), Baidu AI Academic Search, Open Academic Suite (arXiv/PubMed/Crossref/Semantic Scholar), Tencent Maps, TickDB (quantitative data), and more. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
 
 **Q: Can I use my own model (API Key)?**
 A: Yes. BYOK (Bring Your Own Key) is supported. Go to Settings → Model Settings → Add Model Config. Supports any OpenAI-compatible HTTPS endpoint (DeepSeek, OpenAI, Moonshot, GLM, Qwen, etc.).
@@ -2772,7 +2807,7 @@ External connectors (MCP, Model Context Protocol) let you call third-party profe
 
 **Available Connectors:**
 
-The platform has integrated **dozens of MCP connectors**, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data:
+The platform has integrated **dozens of MCP connectors**, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data — **and continuously expanding**:
 
 | Connector | Type | Description |
 |-----------|------|-------------|
@@ -2937,7 +2972,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 2. 点击右上角 **「获取体验资格」** 或 **「登录」**。
 3. 支持 **手机号注册**：填写手机号和短信验证码即可快速登录。
 
-> 💡 **提示**：首次注册后系统将自动赠送初始积分，可立即体验完整功能。注册页支持手机号 + 短信验证码完成注册，手机端输入框已针对数字键盘与短信自动填充优化。
+> 💡 **提示**：新用户注册即享免费使用额度，可立即体验完整功能。额度用尽后可按需充值积分继续使用。分享个人邀请码还可获得积分奖励，邀请奖励不设上限。注册页支持手机号 + 短信验证码完成注册，手机端输入框已针对数字键盘与短信自动填充优化。
 
 ### 首次使用引导
 
@@ -3527,7 +3562,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 ### 积分规则
 
-平台采用**积分制**控制 AI 资源消耗。消耗规则如下：
+平台采用**积分制**控制 AI 资源消耗。新用户注册即享免费使用额度，额度用尽后可**按需充值积分**继续使用。消耗规则如下：
 
 | 维度 | 说明 |
 |------|------|
@@ -3564,14 +3599,14 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 ### 邀请码机制
 
-平台设有**邀请奖励**，鼓励用户邀请同学、课题组成员一起使用：
+平台设有**邀请奖励**，鼓励用户邀请同学、课题组成员一起使用——**邀请奖励不设上限**，邀请越多获得越多：
 
 | 角色 | 奖励 | 说明 |
 |------|------|------|
 | 🎁 **邀请人** | **+200 积分** | 当你的邀请码被他人成功注册使用时，自动到账 |
 | 🆕 **被邀请人** | **+100 积分** | 使用他人邀请码注册成功后，自动获得新人奖励 |
 
-> 💡 **如何分享？** 点击侧边栏「邀请推荐」按钮，复制你的专属邀请链接，转发到课题组群、班级群或朋友圈即可。邀请面板还会实时显示你的邀请人数、获得奖励和被邀请者充值金额。
+> 💡 **如何分享？** 点击侧边栏「邀请推荐」按钮，复制你的专属邀请链接，转发到课题组群、班级群或朋友圈即可。邀请面板还会实时显示你的邀请人数、获得奖励和被邀请者充值金额。**邀请奖励不设上限**——每多邀请一人就多获得 200 积分。
 
 ### 查看积分
 
@@ -3769,7 +3804,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 **什么是外部连接器？**
 
-外部连接器（MCP，Model Context Protocol）让你在对话中直接调用第三方专业数据源和工具——无需离开平台、无需切换网页。启用后，AI 在分析时会**自动判断是否需要调用连接器**，你也可以主动说「用北大法宝检索…」/「用 Wind 查…」来触发。
+平台已接入**数十个 MCP 连接器**，覆盖专利/IP/法律/金融/企业/学术文献/地理/调研/会议/行情等，且**持续扩张中**，在对话中直接调用第三方专业数据源——无需离开平台、无需切换网页。启用后，AI 在分析时会**自动判断是否需要调用连接器**，你也可以主动说「用北大法宝检索…」/「用 Wind 查…」来触发。
 
 **已接入的数据源：**
 
@@ -3789,7 +3824,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 | **腾讯问卷 / 会议** | 协作工具 | 问卷调研、会议纪要 |
 | **TickDB** | 量化行情 | 外汇、贵金属、指数、美股/港股/A 股、加密货币量化数据 |
 
-> 💡 连接器会持续新增，平台首页「外部连接器」页面可查看完整列表和上线状态。
+> 💡 连接器持续扩张中，平台首页「外部连接器」页面可查看完整列表和上线状态。
 
 **如何启用？**
 
@@ -3920,7 +3955,7 @@ All four compute kernels + Word/LaTeX typesetting engine are **pre-configured in
 
 ### Dozens of MCP Connectors
 
-Connect external data sources and tools via Model Context Protocol — **dozens of connectors** already integrated:
+Connect external data sources and tools via Model Context Protocol — **dozens of connectors** already integrated **and continuously expanding**:
 
 | Connector | Domain |
 |-----------|--------|
@@ -3982,13 +4017,19 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 ---
 
-## Quick Start
+## Getting Started & Pricing
 
 1. Visit **[deepresvalue.top](https://deepresvalue.top/)** and sign up
 2. Select your research mode (Academic / Mentor / Professional)
 3. Describe your research task in one sentence — the AI Agent takes it from there
 
 **开始使用**：访问 [deepresvalue.top](https://deepresvalue.top/)，注册后选择科研模式，一句中文描述任务即可开始。
+
+| | |
+|---|---|
+| 🆓 **Free on signup** | New users receive a free usage quota upon registration |
+| 💳 **Pay as you go** | Top up credits on demand when your quota runs out |
+| 🎁 **Invite & earn** | Share your invite code to earn credit rewards — rewards have no cap |
 
 ---
 

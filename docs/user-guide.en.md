@@ -86,7 +86,7 @@ When Focus Mode is enabled, AI first plans the complete execution strategy, gets
 2. Click **"Get Access"** or **"Login"** in the top-right corner.
 3. Register with your **phone number**: enter your number and SMS verification code.
 
-> 💡 New users automatically receive initial credits for immediate full-feature access.
+> 💡 New users receive a free usage quota upon registration. When your quota runs out, you can top up credits on demand. Sharing your invite code earns credit rewards — **rewards have no cap**.
 
 ### First-Time Onboarding
 
@@ -397,7 +397,7 @@ A: Send "please continue" to resume from the breakpoint. Refresh the page if nee
 A: Maximum **2 concurrent sessions** per user.
 
 **Q: What are MCP External Connectors?**
-A: They let you call third-party data sources directly in conversation — **dozens of connectors** already integrated, including PatSnap (34 patent & IP services), PKULaw (legal), Wind (financial), iFinD (markets), Qichacha (business intelligence), Baidu AI Academic Search, Open Academic Suite (arXiv/PubMed/Crossref/Semantic Scholar), Tencent Maps, TickDB (quantitative data), and more. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
+A: They let you call third-party data sources directly in conversation — **dozens of connectors** already integrated and continuously expanding, including PatSnap (34 patent & IP services), PKULaw (legal), Wind (financial), iFinD (markets), Qichacha (business intelligence), Baidu AI Academic Search, Open Academic Suite (arXiv/PubMed/Crossref/Semantic Scholar), Tencent Maps, TickDB (quantitative data), and more. Platform doesn't charge extra service fees — you only pay for the third-party's own API costs (if any).
 
 **Q: Can I use my own model (API Key)?**
 A: Yes. BYOK (Bring Your Own Key) is supported. Go to Settings → Model Settings → Add Model Config. Supports any OpenAI-compatible HTTPS endpoint (DeepSeek, OpenAI, Moonshot, GLM, Qwen, etc.).
@@ -424,7 +424,7 @@ External connectors (MCP, Model Context Protocol) let you call third-party profe
 
 **Available Connectors:**
 
-The platform has integrated **dozens of MCP connectors**, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data:
+The platform has integrated **dozens of MCP connectors**, covering patent/IP, legal search, financial data, business intelligence, academic search, geolocation, and quantitative data — **and continuously expanding**:
 
 | Connector | Type | Description |
 |-----------|------|-------------|
