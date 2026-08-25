@@ -15,13 +15,25 @@
 
 
 # docs/account/ambassador.en.md
-# Campus Ambassador
+# Campus Ambassador Program
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue is recruiting campus ambassadors from universities nationwide — help more students overcome coding anxiety and ace their papers and competitions.
 
-Benefits: Full beta access to all 100+ skills, promotion materials, and honor certificate. Add WeChat MoChen11-20, note "Ambassador + University Name" to apply.
+## Ambassador Benefits
 
-→ [Back to Account](./README.md)
+| Benefit | Description |
+|---------|-------------|
+| **Full Beta Access** | All 100+ professional skills, conversation modes, multi-source data collection — early access, no queue |
+| **Promotion Support** | Exclusive promotion material package + poster templates + copy assets for easy sharing in class groups, WeChat Moments, and clubs |
+| **Honor Certification** | DeepResValue Campus Ambassador certificate issued; outstanding ambassadors receive recommendation letters for resume enhancement |
+
+## How to Join
+
+1. **Add WeChat** — Add WeChat **MoChen11-20**, note: "Ambassador + University Name".
+2. **Get qualified** — After review, receive beta access and ambassador benefits.
+3. **Start promoting** — Use exclusive materials to promote on campus, helping more students learn about DeepResValue.
+
+> The Campus Ambassador program is open to all currently enrolled university students regardless of major. Students from all disciplines are welcome to join.
 
 
 # docs/account/ambassador.zh.md
@@ -48,11 +60,44 @@ Benefits: Full beta access to all 100+ skills, promotion materials, and honor ce
 # docs/account/credits.en.md
 # Credits System
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue uses a credits system to manage AI resource consumption. Using credits wisely maximizes your research output.
 
-Credits control AI resource consumption. Cost depends on file size, file count, analysis complexity, and tool calls. New users receive initial credits. Earn more by inviting friends (+200 credits per invite).
+## Credit Consumption Rules
 
-→ [Back to Account](./README.md)
+| Factor | Description |
+|--------|-------------|
+| **File Size** | Larger uploaded files consume more credits |
+| **File Count** | Multiple files in one session stack consumption; max 10 files per conversation |
+| **Question Complexity** | More complex analysis (multi-step reasoning, multi-dimensional cross-analysis) consumes more |
+| **Tool Calls** | Web searches, database queries, and other additional tool calls increase consumption |
+
+## How to Earn Credits
+
+| Method | Credits | Description |
+|--------|---------|-------------|
+| New User Registration | Gift | Automatically receive starter credits upon first registration |
+| Invite Friends | +200 | Your invite code successfully used by someone else |
+| Be Invited | +100 | Successfully register using someone else's invite code |
+
+## Saving Credits
+
+Effective methods to reduce credit consumption:
+
+- Streamline files before upload — remove irrelevant columns, keep only observations needed for analysis
+- State your full requirements in one message to avoid repeated questions causing duplicate consumption
+- Max single file: 100MB; controlling data scope reasonably reduces consumption
+- Merge similar data before uploading to reduce file count
+
+## Checking Your Credits
+
+1. **View balance** — The top-right corner of the top bar displays your current credit balance in real time.
+2. **View consumption history** — Click the credit display area to view detailed consumption records.
+
+> When credit balance is insufficient, new conversations cannot be sent. Monitor your balance and earn credits through friend invitations.
+
+> **Auto-prompt on low credits**: When you attempt to send a message but have fewer than 1 credit, a purchase window appears automatically without interrupting or losing your current conversation.
+
+> **Top bar color indicator**: Green when sufficient; orange warning at 1–5 credits; red "Insufficient Credits" at 0 — click to recharge anytime.
 
 
 # docs/account/credits.zh.md
@@ -95,11 +140,29 @@ Credits control AI resource consumption. Cost depends on file size, file count, 
 # docs/account/invites.en.md
 # Invite & Earn
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+Invite friends to register on DeepResValue — both you and the invitee earn credit rewards for a win-win outcome.
 
-Invite friends to earn credits: Inviter gets +200 credits, Invitee gets +100 credits on registration. Share your invite code via the sidebar.
+## Reward Rules
 
-→ [Back to Account](./README.md)
+| Role | Reward | Description |
+|------|--------|-------------|
+| 🎁 **Inviter** | **+200 credits** | Credited automatically when your invite code is successfully used for registration |
+| 🆕 **Invitee** | **+100 credits** | Automatically received as a new-user bonus after registering with an invite code |
+
+## How to Invite
+
+1. **Get your invite code** — Enter the user settings page and locate your unique invite code.
+2. **Share the invite code** — Share it with lab members, classmates, or friends.
+3. **Friend registers** — The invitee enters your invite code during registration.
+4. **Credits arrive** — After successful registration, credits are automatically credited to both parties.
+
+> Share with lab members and classmates — not only helping them overcome the entry barrier, but also earning generous credit rewards for yourself. There is no limit on the number of invitees.
+
+## View Your Invite Code
+
+The invite code can be found in the user settings page. Click the avatar area at the bottom of the sidebar to access settings.
+
+> Each invite code can only be used when an invitee registers for the first time. Existing accounts cannot retroactively apply an invite code.
 
 
 # docs/account/invites.zh.md
@@ -145,11 +208,38 @@ Invite friends to earn credits: Inviter gets +200 credits, Invitee gets +100 cre
 # docs/account/settings.en.md
 # Account Settings
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+In account settings, you can manage personal information and view your invite code.
 
-Click the avatar at the bottom of the sidebar to access settings: nickname, avatar, phone number. Five interface themes available.
+## Accessing Settings
 
-→ [Back to Account](./README.md)
+Click the **avatar area** at the bottom of the sidebar to enter the user settings page.
+
+## Configurable Items
+
+| Setting | Description |
+|---------|-------------|
+| **Nickname** | Set your display name |
+| **Avatar** | Upload a custom profile picture |
+| **Phone Number** | Change your bound phone number |
+
+## Credit Balance
+
+- The top-right corner of the top bar displays your current credit balance in real time
+- Click the credit display area to view detailed consumption history
+
+## Theme Switching
+
+The platform offers five interface themes. Click the theme button on the left edge of the sidebar to switch:
+
+| Theme | Style | Best For |
+|-------|-------|----------|
+| Follow System | Auto-matches OS theme | General, automatic |
+| Light | Neutral blue-white, clear and bright | Everyday use |
+| Dark | Cool gray-blue dark background | Nighttime use |
+| Solarized | Classic muted color scheme | Extended reading |
+| Warm | Beige warm tone, soft contrast | Extended reading, eye comfort |
+
+> Theme switching takes effect immediately — no page refresh required.
 
 
 # docs/account/settings.zh.md
@@ -189,6 +279,79 @@ Click the avatar at the bottom of the sidebar to access settings: nickname, avat
 
 # docs/faq/index.en.md
 # Frequently Asked Questions
+
+Common questions about using DeepResValue, organized by category.
+
+## Registration & Login
+
+### How do I register?
+
+Visit [deepresvalue.top](https://deepresvalue.top), click "Get Access" or "Login" in the top-right corner. Register with your phone number and SMS verification code. New users automatically receive starter credits.
+
+### Are conversation records saved permanently?
+
+Yes. All conversations are stored in the cloud, linked to your account. Access them from any device after logging in. To delete, right-click a conversation in the sidebar and select "Delete" (irreversible).
+
+## Feature Usage
+
+### I can't code at all. Can I really use this?
+
+Absolutely. DeepResValue is designed for "zero code." Just describe your analysis needs in Chinese — the AI handles everything from method selection to code writing to result output. The platform's core users are undergraduate students with no programming background.
+
+### Are AI-generated results reliable? Can they be used in defense?
+
+Yes. DeepResValue uses frontier LLMs, validated through thousands of real research projects. Most importantly, every analysis step preserves complete code and execution logs — when committee members challenge your methods, display the evidence chain directly. 100% reproducible.
+
+### What if I don't have data?
+
+The platform includes built-in city/provincial/county macro panels and listed company financial panels. Data collection skills also access financial markets, health, medical, biological, and literature external data sources. Describe your needs in Chinese and the AI returns structured data — no middlemen, no cost.
+
+### What file formats are supported?
+
+80+ formats across 11 categories: statistics/data (.csv, .xlsx, .dta, .sav, .parquet, etc.), documents (.pdf, .docx, .txt), images (.png, .jpg), archives (.zip, .rar), scripts (.py, .R, .do, .m), spatial data (.shp, .geojson), bioinformatics (.fasta, .vcf), and more. Max single file: **100MB**, max **10 files** per conversation.
+
+### Is there a file size limit?
+
+Max 100MB per file, max 10 files per conversation. For oversized files, consider splitting or compressing first.
+
+### How many sessions can run simultaneously?
+
+Maximum **2 concurrent sessions** per user. When 2 tasks are running, new submissions prompt a wait message. Wait for any task to finish, or right-click a running conversation in the sidebar to stop it and free a slot.
+
+## AIGC Related
+
+### AI traces are too obvious — what about AIGC detection?
+
+DeepResValue includes a built-in AIGC detection reduction engine: 21 AI hot-word auto-replacement + Best-of-N rewriting + scene-aware humanization. Testing shows AIGC detection rates reduced from 85% to below the safe threshold.
+
+## Usage Issues
+
+### AI response was cut off — what do I do?
+
+1. Refresh the page and reopen the conversation — in most cases, history is preserved.
+2. If content was truly truncated, send "please continue" in the input box — the AI resumes from the breakpoint.
+3. If problems persist, contact support via the "Help" entry at the bottom of the sidebar.
+
+### Does the platform support team collaboration?
+
+The current version does not support real-time multi-user collaboration. To share analysis results, export AI-generated content as PDF or Markdown and share with teammates.
+
+## Credits
+
+### Not enough credits?
+
+You can earn more credits through:
+
+- Invite friends: +200 credits per successful invite
+- Register with an invite code: +100 new-user credits
+- Watch for official events that may offer bonus credits
+
+### How to save credits?
+
+- Streamline files before upload — remove irrelevant columns, keep only needed observations
+- State full requirements in one message to avoid repeated back-and-forth
+- Reasonably control data scope and file count
+
 
 # docs/faq/index.zh.md
 # 常见问题
@@ -291,11 +454,38 @@ Click the avatar at the bottom of the sidebar to access settings: nickname, avat
 # docs/features/academic-writing.en.md
 # Academic Writing
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue covers every stage of paper writing — from topic selection to defense, full-cycle support.
 
-Full-cycle paper writing support: topic selection → proposal → writing → analysis → formatting → defense preparation.
+## Covered Writing Stages
 
-→ [Back to Features](./README.md)
+| Stage | What AI Helps With |
+|-------|-------------------|
+| **Topic Selection** | Evaluate topic feasibility, recommend frontier directions |
+| **Proposal** | Auto-generate proposal framework, populate literature review |
+| **Body Writing** | Polish paragraphs, optimize expression, check academic standards |
+| **Data Analysis** | 100+ methods auto-matched, three-line tables + charts |
+| **Format Check** | Auto-check reference formatting and layout standards |
+| **Defense Prep** | Generate defense PPT outline, organize defense logic |
+
+## Step-by-Step Usage
+
+1. **Identify your writing stage** — Tell the AI which stage you are in (topic selection / proposal / body / format check / defense prep).
+2. **Provide background information** — Describe your research topic, discipline, existing materials, and other context.
+3. **Receive writing output** — The AI generates corresponding academic content based on your stage and needs.
+
+## Example Prompts
+
+> "Evaluate the feasibility of the topic 'The impact of digital inclusive finance on rural entrepreneurship' — analyze data availability and method choice."
+
+> "Generate a proposal framework for my research on 'The impact of carbon emission trading on corporate green innovation'."
+
+> "Academic-polish the following paragraph while maintaining scholarly style and improving logical coherence."
+
+> "Help me organize my defense logic. My thesis is titled 'Research on the employment polarization effect of AI on the labor market'."
+
+> In Academic Mode, AI output automatically conforms to academic standards including citation format, paragraph structure, and expression style.
+
+> AI-generated academic content should be personalized before use to ensure it reflects your research characteristics and advisor's requirements.
 
 
 # docs/features/academic-writing.zh.md
@@ -345,11 +535,33 @@ Full-cycle paper writing support: topic selection → proposal → writing → a
 # docs/features/aigc-detection.en.md
 # AIGC Detection Reduction
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue's exclusive Chinese AIGC detection reduction engine helps solve the most anxiety-inducing issue before paper submission — AI trace detection.
 
-Built-in Chinese and English academic AIGC detection reduction engine with a five-step closed-loop workflow: Locate → Diagnose → Rewrite → Self-assess → Review. Covers CNKI, Wanfang, VIP, Turnitin, and GPTZero.
+## Core Technology
 
-→ [Back to Features](./README.md)
+| Technique | Description |
+|-----------|-------------|
+| **21 AI Hot-Word Auto-Replacement** | Automatically identifies and replaces high-frequency AI phrases such as "in today's era," "notably," "furthermore," etc. |
+| **Best-of-N Rewriting** | Generates multiple rewritten versions per paragraph, automatically selects the optimal one |
+| **Scene-Aware Humanization** | Adjusts rewriting style based on context (academic paper / competition report / coursework) |
+
+## Step-by-Step Usage
+
+1. **Input content to rewrite** — Paste the AI-generated paragraph or full text into the chat, or upload a document.
+2. **Select the rewriting scene** — Tell the AI your use case (academic paper / competition report / coursework) for optimal style matching.
+3. **Receive rewritten output** — The AI automatically performs AIGC reduction processing and outputs the rewritten content.
+
+## Example Prompts
+
+> "Perform AIGC detection reduction on the following paragraph. This is for an academic paper — maintain scholarly rigor while reducing AI detection rate."
+
+> "Rewrite the third section of this literature review to remove obvious AI traces while preserving the original meaning."
+
+> "Optimize the entire uploaded paper for AIGC reduction. This is a graduation thesis — language should be natural and conform to Chinese academic writing conventions."
+
+> Measured results: AIGC detection rate reduced from **85%** to below the safe threshold. Academic Mode automatically enables AIGC reduction during writing.
+
+> AIGC reduction is an auxiliary technique. For best results, add your personal insights and modifications on top of the AI output.
 
 
 # docs/features/aigc-detection.zh.md
@@ -444,24 +656,46 @@ Built-in Chinese and English academic AIGC detection reduction engine with a fiv
 # docs/features/data-analysis.en.md
 # Data Analysis
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue's most core capability — upload your data, describe your analysis needs in Chinese, and the AI handles the entire workflow from method selection to result output.
 
-## Overview
+## How It Works
 
-Upload your data (CSV, Excel, Stata, SAS, PDF, Word, 80+ formats) and describe your analysis needs in Chinese. AI automatically selects optimal methods from 100+ statistical and ML techniques, writes Python/R code, executes it, and outputs journal-standard tables and charts.
+Upload your data (supporting Excel, CSV, PDF, Word, Stata, SAS, SQLite, and 80+ other formats), then describe your analysis needs in Chinese. The AI will:
 
-## Supported Methods
+1. Automatically understand your research intent
+2. Match the optimal method from **100+ statistical and machine learning techniques**
+3. Write Python or R code and execute it
+4. Output journal-standard three-line tables, regression tables, and visualizations
 
-| Category | Examples |
-|----------|----------|
-| Traditional Econometrics | DID, IV, RDD, Synthetic Control, Panel FE |
-| Causal ML | DML, Causal Forest, Meta-learner |
-| Statistical Tests | Descriptive stats, correlation, t-test, ANOVA |
-| Machine Learning | Random Forest, XGBoost, Neural Networks, PCA |
-| Survival Analysis | Kaplan-Meier, Cox Proportional Hazards |
-| Spatial Econometrics | Moran's I, GWR, Spatial Weight Matrix |
+## Supported Analysis Methods
 
-→ [Back to Features](./README.md)
+| Category | Example Methods |
+|----------|----------------|
+| Traditional Econometrics | DID (Difference-in-Differences), IV (Instrumental Variables), RDD (Regression Discontinuity), Synthetic Control, Panel Fixed Effects |
+| Causal Machine Learning | DML (Double Machine Learning), Causal Forest, Meta-learner, Neural Causal |
+| Statistical Tests | Descriptive statistics, correlation analysis, t-test, ANOVA, chi-square test |
+| Machine Learning | Random Forest, XGBoost, Neural Networks, Clustering, PCA |
+| Survival Analysis | Kaplan-Meier curves, Cox Proportional Hazards, Competing Risks Models |
+| Spatial Econometrics | Spatial Weight Matrices, Moran's I, Geographically Weighted Regression (GWR) |
+| Text Analysis | BERT/LLM text classification, Sentiment Analysis, Topic Modeling |
+
+## Step-by-Step Usage
+
+1. **Upload your data file** — Click the attachment button to the left of the input box, or drag and drop files directly into the input area. Supports CSV, Excel, Stata (.dta), and 80+ other formats.
+2. **Describe your analysis needs** — In the chat box, enter your specific analysis requirements in Chinese, including the method you want to use, variables to control, etc.
+3. **View analysis results** — The AI executes the analysis automatically and generates three-line tables, regression tables, and visualization charts. All results can be downloaded from the right-side file panel.
+
+## Example Prompts
+
+> "Perform descriptive statistical analysis on the uploaded data, including mean, standard deviation, quantiles, and generate box plots."
+
+> "Use DID to analyze the impact of digital transformation on corporate innovation, controlling for industry and year fixed effects, run parallel trend and placebo tests, output three-line tables."
+
+> "Use Random Forest and XGBoost for classification prediction, output feature importance ranking and ROC curve."
+
+> Average turnaround: from data upload to complete results, approximately **2 minutes**. All results are 100% reproducible with full code preservation.
+
+> Tip: Before uploading, streamline your file — remove irrelevant columns and keep only the observations needed for analysis. This effectively reduces credit consumption.
 
 
 # docs/features/data-analysis.zh.md
@@ -517,17 +751,53 @@ Upload your data (CSV, Excel, Stata, SAS, PDF, Word, 80+ formats) and describe y
 # docs/features/data-sources.en.md
 # Data Sources
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+No data? No problem. DeepResValue's data acquisition capability operates on two levels: **built-in panel datasets** and **skill-driven data collection** from external sources. Describe your needs in Chinese and the AI automatically matches the appropriate data source.
 
 ## Built-in Panel Data
 
-6 datasets covering city/provincial/county macro panels and listed company financial/governance data (2000-2023).
+The data engine directly reads authoritative Parquet files, covering six datasets:
+
+| Dataset | Coverage |
+|---------|----------|
+| 📊 **City Macro Panel** | 2000–2023, 325 indicators including GDP, population, employment, industry, finance, trade |
+| 🏙️ **Provincial Macro Panel** | 2000–2023, 2,468 indicators covering population, economy, education, employment |
+| 🏘️ **County Panel** | 2000–2023, 61 indicators covering population, economy, education, health |
+| 💼 **Listed Company Financials** | 2000–2023, 30 core financial indicators |
+| 🏢 **Listed Company Governance** | 2000–2023, 84 indicators covering financials, governance, market data |
+| 📍 **Industry & Geography** | 2000–2023, stock codes, industry classification, province location |
 
 ## Skill-Driven Data Collection
 
-AI auto-loads data collection skills for financial markets, Chinese economic data, health (CDC), medical databases, biological databases, and literature search (NCPSSD, CNKI, arXiv, PubMed).
+AI automatically loads the appropriate data collection skill to fetch structured data from external sources:
 
-→ [Back to Features](./README.md)
+| Domain | Available Data |
+|--------|---------------|
+| 📈 **Financial Markets** | A-share/index/industry real-time and historical quotes; A-share/HK/US stocks, funds, bonds, macro EDB |
+| 🏭 **Chinese Economic Data** | Province/city/county regional panels (1990–2024), listed company financials (5,822 companies / 857 indicators), firm geolocation, spatial boundaries |
+| 🗺️ **Chinese Spatial Data** | Province/city/county administrative boundary GeoJSON, GB/T 2260 codes |
+| 🏥 **US Health Data** | NHANES, BRFSS, NHIS, NVSS, WONDER (CDC public data) |
+| ⚕️ **Medical Databases** | ClinicalTrials.gov, WHO Global Health, PubChem, MeSH/RxNorm, NCBI gene data |
+| 🧬 **Biological Data** | EMBL-EBI databases, bioRxiv preprints |
+| 📚 **Literature Search** | NCPSSD Chinese journals, CNKI enhanced abstracts, arXiv preprints, PubMed biomedical, Crossref metadata |
+| 🌐 **Web Content** | Extract main text from specified URLs |
+
+## Usage
+
+1. **Describe your data needs** — In the chat, state in Chinese what data type, time range, and variables you need.
+2. **AI auto-matches the source** — The AI determines whether the data is available in built-in panels or needs external collection, then automatically loads the appropriate skill.
+3. **Use directly for analysis** — Retrieved data can be immediately used for statistical analysis in the current conversation.
+
+## Example Prompts
+
+> "Find 2015–2023 prefecture-level city GDP and fiscal revenue data."
+
+> "Get a listed company's financial indicators (revenue, net profit, debt-to-asset ratio) for the past 5 years."
+
+> "Search for NHANES survey BMI data for adults from 2017–2020."
+
+> "Find recent 3-year PubMed literature on digital economy and carbon emissions."
+
+> Describe your needs and the AI handles the rest — **free, no intermediary, no complex queries**.
 
 
 # docs/features/data-sources.zh.md
@@ -594,11 +864,51 @@ AI 自动加载对应数据搜集技能，从外部数据源获取结构化数�
 # docs/features/file-upload.en.md
 # File Upload
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue supports **11 categories and 90+ file formats**, covering data needs across all academic disciplines. The AI can perform cross-file comprehensive analysis and comparison.
 
-Supports 11 categories, 90+ file formats. Max single file: 100MB. Max files per conversation: 10. All formats except video files are supported.
+## Supported File Formats
 
-→ [Back to Features](./README.md)
+| Type | Formats |
+|------|---------|
+| 📊 Statistics/Data | `.csv` `.xlsx` `.xls` `.dta` `.sav` `.zsav` `.tsv` `.json` `.sas7bdat` `.xpt` `.por` `.parquet` `.feather` |
+| 🔬 Research Data | `.h5` `.hdf5` `.mat` `.RData` `.rds` `.nc` |
+| 📄 Documents | `.pdf` `.doc` `.docx` `.txt` `.md` |
+| 🖼️ Images | `.png` `.jpg` `.jpeg` `.gif` `.svg` `.webp` `.tif` `.tiff` |
+| 📦 Archives | `.zip` `.rar` `.7z` `.tar.gz` |
+| 💻 Scripts/Code | `.py` `.R` `.do` `.Rmd` `.sql` `.sas` `.ipynb` `.m` `.jl` `.nb` |
+| 🌍 Spatial/Remote Sensing | `.shp` `.shx` `.dbf` `.prj` `.qpj` `.geojson` `.kml` `.gpx` `.gpkg` `.hdr` `.img` `.asc` `.dem` |
+| 🧬 Bioinformatics | `.fasta` `.fastq` `.vcf` `.sam` `.bed` `.gff` `.pdb` `.cif` `.mol` `.sdf` |
+| 📚 Bibliography | `.bib` `.ris` `.enw` |
+| 📝 LaTeX Source | `.tex` `.cls` `.sty` `.bst` |
+| 🏗️ CAD/Engineering | `.dxf` `.stl` `.obj` `.ply` `.glb` `.gltf` `.3mf` `.off` `.idf` `.epw` `.tcl` |
+
+## Upload Steps
+
+1. **Add files** — Click the **📎 attachment button** to the left of the input box, or **drag and drop** files directly into the input area.
+2. **Confirm file tags** — After upload, file tags appear above the input box. Click **×** on a tag to remove that file.
+3. **Send analysis request** — Enter your analysis needs and press Enter. The AI automatically reads and analyzes the uploaded files.
+
+## Output Files
+
+Files generated during AI analysis (reports, charts, code, etc.) appear in the **file panel to the right of the main chat area**:
+
+- Click a filename to **preview** the content
+- Click the **download** button to save locally
+- Generated charts support zoom viewing and PNG download
+
+### Supported Preview Formats
+
+| File Type | Preview Method |
+|-----------|---------------|
+| PDF documents (.pdf) | Built-in PDF reader with zoom and page navigation |
+| Office documents (.docx .xlsx .pptx) | Online preview preserving original formatting |
+| Code & data (.csv .json .txt .py .R .md .do .sql .sas) | Syntax-highlighted code preview |
+| Images (.png .jpg .svg .webp .tif) | Direct display with zoom support |
+| Spatial data (.geojson) | Interactive map preview |
+
+> You can upload multiple files at once; the AI performs cross-file comprehensive analysis and comparison. Maximum single file size: **100MB**.
+
+> Maximum **10 files per conversation**. For oversized files, consider splitting or compressing before upload. Streamlining files before upload effectively reduces credit consumption.
 
 
 # docs/features/file-upload.zh.md
@@ -642,11 +952,34 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会显示�
 # docs/features/literature-review.en.md
 # Literature Review
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+AI automatically searches Chinese and English literature, extracts key findings, and generates structured review reports.
 
-AI automatically searches Chinese and English literature (NCPSSD, CNKI, arXiv, PubMed), extracts key findings, classifies by topic/method/conclusion, and generates structured review reports with cited sources.
+## Features
 
-→ [Back to Features](./README.md)
+- Automatically searches the latest research in relevant fields (NCPSSD Chinese journals, CNKI enhanced abstracts, arXiv English preprints, PubMed biomedical — four-source search)
+- Classifies and organizes by topic, method, and conclusion
+- Automatically cites source references
+- Generates reference lists conforming to academic standards
+
+## Step-by-Step Usage
+
+1. **Describe the review topic** — State your research field, focus areas, and time range in the chat.
+2. **AI conducts online search** — The AI automatically searches Chinese and English academic databases and screens relevant literature.
+3. **Receive structured review** — The AI classifies literature by topic, method, and conclusion, producing a structured review report with all sources cited.
+
+## Example Prompts
+
+> "Write a literature review on digital economy and carbon emissions, citing recent 3-year core journals."
+
+> "Search for the latest research on the relationship between corporate ESG performance and financial performance — 10 Chinese and 10 English papers, classified by conclusion."
+
+> "Help me outline research progress on machine learning in medical image diagnosis, focusing on breakthroughs after 2022."
+
+## Citation Traceability
+
+Literature cited in AI responses is marked with superscript markers (e.g., `[1]`, `[2]`). Click to view full source details, ensuring academic citation accuracy and traceability.
+
+> All citations are clickable for original source verification, making it easy to verify and cite.
 
 
 # docs/features/literature-review.zh.md
@@ -711,11 +1044,49 @@ AI 回复中引用的文献均标注上标标记（如 `[1]`、`[2]`），点击
 # docs/features/reproducibility.en.md
 # Analysis Traceability
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue is not a "black box AI" — every analysis step is **fully transparent and traceable**, 100% reproducible.
 
-Every analysis step preserves complete code and execution logs. Sub-task cards show step breakdown. Tool call visualization displays search panels, code execution panels, and file read indicators in real time. 100% reproducible.
+## Why It Matters
 
-→ [Back to Features](./README.md)
+When defense committee members ask "How did you get this result?" — you can display the complete analysis path and code on the spot, proving the reliability of your results.
+
+## What's Preserved
+
+### Complete Code & Logs
+
+After each analysis task, you can review:
+
+- **Complete Python/R code**: Every line of code the AI executed is preserved
+- **Execution logs**: Runtime status and intermediate results at each step
+- **Data lineage**: The complete chain from input → cleaning → analysis → output
+
+### Sub-Task Cards
+
+Complex tasks are automatically decomposed into sub-tasks displayed as collapsible cards:
+
+1. Each card shows the sub-task name (e.g., "Search related literature", "Execute data cleaning")
+2. Click **▶ Expand** to view detailed process and results for that sub-task
+3. After all sub-tasks complete, the AI aggregates and outputs the final conclusion
+
+### Tool Call Visualization
+
+During AI analysis, you can see in real time which tools it invokes:
+
+| Panel | Displayed Content |
+|-------|-------------------|
+| **Search Panel** | Number of sources found and summaries during web search |
+| **Code Execution Panel** | Code content, runtime status, and output during Python execution |
+| **File Read Indicator** | Filename and parsing progress when reading uploaded files |
+
+## Viewing the Analysis Process
+
+1. **Send an analysis request** — Enter your analysis needs normally; the AI begins execution.
+2. **Observe in real time** — During analysis, the interface shows tool calls, code execution, search results, and other intermediate steps in real time.
+3. **Expand detailed logs** — After analysis completes, click each sub-task card to expand and view the complete code and execution logs.
+
+> All analysis processes are permanently saved in conversation history, viewable at any time. During defense, you can directly display the complete evidence chain — 100% reproducible.
+
+> If you need to include the analysis process as a thesis appendix, consider screenshotting the key code panels and execution results.
 
 
 # docs/features/reproducibility.zh.md
@@ -765,11 +1136,47 @@ Every analysis step preserves complete code and execution logs. Sub-task cards s
 # docs/features/skills.en.md
 # Skills System
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue includes **100+ professional skills** covering the full research workflow. Selecting a matching skill causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality.
 
-100+ professional skills covering empirical analysis, causal inference, literature & writing, competition support, data & charts, discipline-specific tools, and data collection. Select a skill to load domain-specific knowledge for higher quality output.
+## Skill Categories
 
-→ [Back to Features](./README.md)
+| Category | Representative Skills | Use Cases |
+|----------|---------------------|-----------|
+| 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics, time series, mediation-moderation, multilevel HLM | Quantitative research |
+| 🤖 Causal Inference | Bayesian causal inference, ML-based causal, DID/RDD/IV/Synthetic Control | Frontier methodology |
+| 📚 Literature & Writing | Literature collection, literature review, scientific writing, academic polish, academic proofreading | Proposals, paper writing |
+| 🏆 Competition Guidance | Statistical Modeling, Math Modeling, Challenge Cup (continuously updated) | Competition preparation |
+| 📊 Data & Charts | Data cleaning, SciPlot scientific plotting, LaTeX academic typesetting | Everyday research |
+| 🧬 Discipline-Specific | Bioinformatics (BioPython/scanpy), Materials Science (pymatgen), Chemoinformatics (RDKit), Quantum Computing (Qiskit) | Specialized fields |
+| 📋 Academic Workflow | Topic design, application writing, peer review response, poster/slides creation | Full academic cycle |
+| 💻 Tool Ecosystem | Stata empirical methodology (generates do-files for local execution), Python ML (scikit-learn), network analysis (networkx), geospatial (geopandas), symbolic math (SymPy) | Toolchain support |
+| 🔎 Data Collection | Financial markets, Chinese economic data, health data (CDC), medical databases, biological data (EMBL-EBI/bioRxiv), literature search (NCPSSD/CNKI/arXiv/PubMed) | Data acquisition |
+
+## How Skills Work
+
+Selecting a skill is equivalent to loading a **domain-specific knowledge base** for the AI:
+
+- **Empirical Analysis skills**: The AI understands the applicable conditions of various econometric methods and hypothesis testing procedures
+- **Competition skills**: The AI is familiar with competition scoring criteria and award-winning paper writing patterns
+- **Discipline-specific skills**: The AI loads the corresponding discipline's professional tool library and terminology system
+
+## Usage Steps
+
+1. **Open the skill panel** — Find the skill selection entry in the conversation interface.
+2. **Select the appropriate skill** — Browse and choose the most matching skill based on your research needs.
+3. **Start the conversation** — After selecting a skill, enter your question normally. The AI provides more precise output based on the selected skill's knowledge base.
+
+## Example Scenarios
+
+> After selecting the "Full-Workflow Empirical Analysis" skill:
+> "Use DID to analyze a policy effect — run parallel trend tests, placebo tests, and robustness checks."
+
+> After selecting the "Professional Scientific Plotting" skill:
+> "Draw a forest plot from regression results, mark 95% confidence intervals, export as 300dpi high-resolution PNG."
+
+> Selecting a matching skill significantly improves output quality. Without selecting a skill, the AI still works but precision may be lower.
+
+> The skill list is continuously updated. If you cannot find a perfect match, choose the closest one — the AI will adapt automatically.
 
 
 # docs/features/skills.zh.md
@@ -824,11 +1231,41 @@ Every analysis step preserves complete code and execution logs. Sub-task cards s
 # docs/features/typesetting.en.md
 # Typesetting
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue includes a built-in LaTeX typesetting engine that generates journal-standard professional charts and documents, ready to paste directly into your paper.
 
-LaTeX typesetting engine generates journal-standard professional charts (three-line tables, regression tables, SEM diagrams). Export PDF/Word/LaTeX source. Built-in SciPlot plotting skill covering 20+ academic chart types.
+## Features
 
-→ [Back to Features](./README.md)
+- **LaTeX typesetting engine** generates journal-standard professional charts
+- **Multiple academic chart types**: three-line tables, regression tables, structural equation diagrams, event study plots — directly usable in papers
+- **Multi-format export**: PDF / Word / LaTeX source, submission-ready formatting in one click
+- **Professional scientific plotting**: Built-in DeepResValue-SciPlot skill covering 20+ academic chart types
+
+## Supported Chart Types
+
+| Category | Example Charts |
+|----------|---------------|
+| Statistical Charts | Scatter plots, heatmaps, box plots, violin plots |
+| Academic Charts | Forest plots, funnel plots, event study plots |
+| Structural Diagrams | Path analysis, structural equation models, social network graphs |
+| Specialized Charts | Brain activation maps, gene expression heatmaps, geospatial maps |
+
+## Step-by-Step Usage
+
+1. **Complete data analysis** — First use the data analysis feature to run your statistical analysis, or directly upload content for typesetting.
+2. **Specify typesetting needs** — Tell the AI the format you need (three-line table / regression table / specific journal format, etc.).
+3. **Receive typeset output** — The AI uses the LaTeX engine to produce professional typeset results. Download as PDF, Word, or LaTeX source.
+
+## Example Prompts
+
+> "Output regression results as a three-line table with coefficients, standard errors, t-values, and significance stars."
+
+> "Typeset this research report in LaTeX, following the submission format of Economic Research Journal."
+
+> "Generate event study plots and parallel trend test plots conforming to academic publication standards."
+
+> Built-in DeepResValue-SciPlot plotting skill covers scatter plots, heatmaps, forest plots, path analysis diagrams, social network graphs, and 20+ other academic chart types.
+
+> Typesetting output requires some processing time. Complex documents may take tens of seconds.
 
 
 # docs/features/typesetting.zh.md
@@ -919,15 +1356,85 @@ LaTeX typesetting engine generates journal-standard professional charts (three-l
 # docs/getting-started/interface-overview.en.md
 # Interface Overview
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+After logging in, the main interface is divided into three areas. Understanding each area helps you use the platform more efficiently.
 
-| Area | Location | Main Functions |
-|------|----------|---------------|
-| Left Sidebar | Left side | Conversation list, search, folder management, theme switching |
-| Main Chat Area | Center | Message input, AI responses, file panel |
-| Top Bar | Top | Conversation title, credit balance, account settings |
+## Main Areas
 
-→ [Back to Docs](../README.md)
+| Area | Location | Primary Functions |
+|------|----------|-------------------|
+| **Left Sidebar** | Left side of screen | Conversation list, global search, folder management |
+| **Main Chat Area** | Center of screen | Message input, AI response display, file panel |
+| **Top Bar** | Top of screen | Current conversation title, credit balance, account settings |
+
+## Left Sidebar
+
+The sidebar is your central hub for managing all conversations:
+
+- **New Conversation**: Click the "+ New Conversation" button at the top to start a fresh dialog
+- **Conversation List**: Displays all past conversations; click any to switch
+- **Search**: The search box at the top filters conversations by keyword in real time
+- **Folder Management**: Group related conversations into folders for organization
+- **Theme Switching**: The theme button on the left edge toggles between interface styles
+
+## Main Chat Area
+
+The main chat area is your core workspace:
+
+- **Message Stream**: AI responses display incrementally via streaming
+- **Input Box**: Located at the bottom, used for sending messages and uploading files
+- **File Panel**: The right-side panel displays AI-generated files (reports, charts, code)
+- **Tool Call Visualization**: Real-time display of AI-invoked tools — search, code execution, file reads
+
+## Interface Themes
+
+Five themes are available. Click the theme button on the left edge of the sidebar to switch:
+
+| Theme | Style | Best For |
+|-------|-------|----------|
+| Follow System | Auto-matches OS theme | General use, automatic adaptation |
+| Light | Neutral blue-white, clear and bright | Everyday use |
+| Dark | Cool gray-blue dark background | Nighttime use |
+| Solarized | Classic muted color scheme | Extended coding/reading |
+| Warm | Beige warm tone, soft contrast | Extended reading, eye comfort |
+
+## Conversation Management
+
+### Folder Management
+
+1. Click **"+"** at the top of the sidebar → **"New Folder"**
+2. Name the folder (e.g., "2026 Thesis", "Carbon Emission Research")
+3. Drag conversations into the corresponding folder
+
+### Conversation Actions
+
+Right-click any conversation in the sidebar:
+
+| Action | Description |
+|--------|-------------|
+| **Pin** | Fix the conversation at the top of the list |
+| **Rename** | Change the conversation title |
+| **Delete** | Permanently delete the conversation (irreversible) |
+| **Export** | Export conversation as Markdown or JSON |
+
+> Up to **5 conversations** can be pinned simultaneously.
+
+### Concurrent Session Limit
+
+- Maximum **2 sessions** running at the same time, operating independently
+- Exceeding the limit requires waiting for one task to finish, or stopping a running conversation to free a slot
+
+> To free a slot, right-click a running conversation in the sidebar and send a stop command.
+
+### Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| **Cmd/Ctrl + K** | Open command palette (globally available) |
+| **Cmd/Ctrl + Shift + N** | New conversation |
+| **Cmd/Ctrl + B** | Toggle left sidebar |
+| **Cmd/Ctrl + ,** | Open settings |
+| **Cmd/Ctrl + /** | View keyboard shortcuts |
+| **Enter** | Send message from input box |
 
 
 # docs/getting-started/interface-overview.zh.md
@@ -999,21 +1506,54 @@ LaTeX typesetting engine generates journal-standard professional charts (three-l
 # docs/getting-started/quick-start.en.md
 # Quick Start
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+Get started with DeepResValue in just a few minutes.
 
-## Registration & Login
+## Register & Login
 
-1. Visit [deepresvalue.top](https://deepresvalue.top)
-2. Click **"Get Access"** or **"Login"**
-3. Register with your phone number and SMS verification code
+1. **Visit the platform** — Open your browser and go to [deepresvalue.top](https://deepresvalue.top).
+2. **Create an account** — Click **"Get Access"** or **"Login"** in the top-right corner. Register with your phone number and SMS verification code.
+3. **Enter the main interface** — After registration you are automatically redirected to the main workspace.
+
+> New users receive complimentary starter credits upon registration, granting immediate access to all features.
 
 ## Create Your First Conversation
 
-1. Click **"+ New Conversation"** in the sidebar
-2. Type your question and press **Enter**
-3. AI begins analysis and returns results in streaming fashion
+1. **Start a new conversation** — Click the **"+ New Conversation"** button at the top of the sidebar.
+2. **Enter your question** — Type your question or task description in the input box at the bottom, then press **Enter**.
+3. **View results** — The AI begins analysis automatically and returns results in a streaming fashion.
 
-→ [Back to Docs](../README.md)
+## Writing Effective Prompts
+
+The more specific your prompt, the more precise the AI output.
+
+| Quality | Example |
+|---------|---------|
+| ❌ Vague | "Help me do an analysis" |
+| ✅ Specific | "Use DID to analyze the impact of digital transformation on corporate innovation, controlling for industry and year fixed effects, run parallel trend and placebo tests, output three-line tables" |
+
+> Tip: Stating your full requirements in one message saves credits by avoiding repeated back-and-forth.
+
+## Three Usage Modes
+
+DeepResValue provides three modes you can switch between at any time:
+
+### 🎓 Mentor Mode
+
+Your 24/7 academic advisor. Lost on topic selection? Unsure about methodology? The AI guides you step by step through research design, recommends optimal methods, and assesses feasibility.
+
+> Try asking: "Is this topic feasible?" / "Which is better for my data, DID or DML?"
+
+### 📝 Academic Mode
+
+Full-service paper workflow — from proposal to graduation thesis, from literature review to defense slides, all in one place. Built-in AIGC detection reduction engine ensures confident submission.
+
+> Try asking: "Write a literature review on digital economy and carbon emissions, citing recent 3-year core journals"
+
+### ⚡ Professional Mode
+
+Stata-grade analysis, no coding required. Describe your analysis needs in Chinese — the AI automatically writes Python/R code, runs regressions, and generates publication-ready tables and charts.
+
+> Try asking: "Use DID to analyze this panel data, run parallel trend tests, output three-line tables"
 
 
 # docs/getting-started/quick-start.zh.md
@@ -1089,11 +1629,59 @@ Stata 级分析，说中文就行。用中文说出分析需求，AI 自动写 P
 # docs/modes/academic.en.md
 # Academic Mode
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+Academic Mode provides one-stop paper writing services from proposal to graduation thesis, covering the full research writing cycle.
 
-Full-workflow academic assistant: literature review, proposal generation, paper writing, format checking, defense preparation, and built-in AIGC detection reduction.
+## Who It's For
 
-→ [Back to Modes](./README.md)
+- Undergraduate, master's, and doctoral students writing graduation theses
+- Researchers preparing journal paper submissions
+- Students preparing proposals or defense materials
+- Researchers needing literature review and academic writing assistance
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| Literature Review Generation | AI auto-searches Chinese/English literature, extracts key findings, generates structured reviews |
+| Proposal Writing | One-click proposal framework generation with populated literature review |
+| Format Checking | Automatic verification of reference formatting and layout standards |
+| Defense Slides | Generate defense PPT outline in 3 minutes, organize defense logic |
+| AIGC Reduction Engine | Built-in 21 AI hot-word replacement + Best-of-N rewriting for confident submission |
+
+## Core Capabilities
+
+### Full-Cycle Paper Writing
+
+| Stage | What AI Helps With |
+|-------|-------------------|
+| Topic Selection | Evaluate feasibility, recommend frontier directions |
+| Proposal | Auto-generate proposal framework, populate literature review |
+| Body Writing | Polish paragraphs, optimize expression, check academic standards |
+| Data Analysis | 100+ methods auto-matched, three-line tables + charts |
+| Format Check | Auto-check reference formatting and layout standards |
+| Defense Prep | Generate defense PPT outline, organize defense logic |
+
+### AIGC Reduction for Confident Submission
+
+- **21 AI hot-word auto-replacement**: Identifies and replaces phrases like "in today's era," "notably," etc.
+- **Best-of-N rewriting**: Multiple rewritten versions per paragraph, auto-selects optimal
+- **Scene-aware humanization**: Adjusts rewriting style based on context
+
+## Example Prompts
+
+> "Write a literature review on digital economy and carbon emissions, citing recent 3-year core journals."
+
+> "Generate a proposal framework for my research."
+
+> "Reduce AIGC detection on this content."
+
+## How to Switch
+
+1. **Enter the conversation interface** — Find the mode selection entry in the input box area.
+2. **Select Academic Mode** — Click the mode toggle button and choose "Academic Mode."
+3. **Start the conversation** — Takes effect immediately. Enter your paper writing or literature needs.
+
+> AIGC reduction testing shows detection rates reduced from 85% to below the safe threshold. Combining with manual polishing is recommended for optimal results.
 
 
 # docs/modes/academic.zh.md
@@ -1153,11 +1741,40 @@ Full-workflow academic assistant: literature review, proposal generation, paper 
 # docs/modes/mentor.en.md
 # Mentor Mode
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+Mentor Mode is your 24/7 academic advisor — no topic direction? Unsure about methodology? Not sure if your research idea is feasible? The AI can guide you step by step through research design.
 
-Your 24/7 academic advisor. AI guides you through research design, recommends optimal methods, and assesses feasibility. Available around the clock.
+## Who It's For
 
-→ [Back to Modes](./README.md)
+- Master's and doctoral students
+- Research beginners and undergraduate thesis writers
+- Researchers needing methodology guidance
+- Students at the topic selection stage who are uncertain about research feasibility
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| Guided Dialogue | AI proactively asks about your research direction and needs, progressively narrowing scope |
+| Methodology Recommendation | Recommends the most suitable research methods and analytical frameworks based on your data and questions |
+| Feasibility Assessment | Evaluates academic value, data availability, and methodological fit of your topic |
+| Step-by-Step Guidance | Breaks complex research tasks into executable steps |
+| Instant Response | Available for discussion even late at night — 100× faster than waiting for your advisor's WeChat reply |
+
+## Example Prompts
+
+> "Is this topic feasible?"
+
+> "Which is better for my data, DID or DML?"
+
+> "I want to study the impact of digital transformation on corporate innovation — help me design the research framework."
+
+## How to Switch
+
+1. **Enter the conversation interface** — Find the mode selection entry in the input box area at the bottom of the main interface.
+2. **Select Mentor Mode** — Click the mode toggle button and choose "Mentor Mode" from the options.
+3. **Start the conversation** — The switch takes effect immediately. Enter your research-related questions to begin.
+
+> Switching modes does not affect existing conversation history, but starting a new conversation with the new mode is recommended for the best experience.
 
 
 # docs/modes/mentor.zh.md
@@ -1200,11 +1817,61 @@ Your 24/7 academic advisor. AI guides you through research design, recommends op
 # docs/modes/professional.en.md
 # Professional Mode
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+Professional Mode lets you achieve Stata-grade data analysis in Chinese — no programming skills needed whatsoever. Just describe your needs and the full analysis workflow executes automatically.
 
-Professional-grade data analysis in Chinese. Describe your analysis needs — AI automatically writes Python/R code, runs regressions, and generates journal-standard tables and charts. No programming required.
+## Who It's For
 
-→ [Back to Modes](./README.md)
+- Researchers conducting quantitative empirical analysis
+- Students who don't know Stata/R/Python but need to run regressions
+- Paper authors who need three-line tables, regression tables, and other standard outputs
+- Research personnel with specific data analysis needs
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| Natural Language Driven | Describe analysis needs in Chinese; AI auto-writes and executes code |
+| 100+ Analysis Methods | Covers DID, IV, RDD, DML, Causal Forest, and other mainstream methods |
+| Standardized Output | Journal-standard three-line tables, regression tables, visualizations |
+| Full Code Preservation | Complete Python/R code and execution logs at every step |
+| 100% Reproducible | Full analysis path displayable during defense |
+
+## Supported Analysis Methods
+
+| Category | Example Methods |
+|----------|----------------|
+| Traditional Econometrics | DID, IV, RDD, Synthetic Control, Panel Fixed Effects |
+| Causal ML | DML, Causal Forest, Meta-learner |
+| Statistical Tests | Descriptive stats, correlation, t-test, ANOVA, chi-square |
+| Machine Learning | Random Forest, XGBoost, Neural Networks, Clustering, PCA |
+| Survival Analysis | Kaplan-Meier, Cox Proportional Hazards, Competing Risks |
+| Spatial Econometrics | Spatial Weight Matrix, Moran's I, GWR |
+| Text Analysis | BERT/LLM classification, Sentiment Analysis, Topic Modeling |
+
+## Example Prompts
+
+> "Use DID to analyze this panel data, run parallel trend and placebo tests, output three-line tables."
+
+> "Run descriptive statistics and correlation analysis on this data."
+
+> "Use instrumental variables to address endogeneity — report the first-stage F-statistic."
+
+## Analysis Workflow
+
+1. **Upload data** — Supports Excel, CSV, Stata (.dta), SAS, SPSS, and 80+ formats. Max single file: 100MB.
+2. **Describe needs** — State your analysis requirements in Chinese. The more specific, the better.
+3. **AI auto-executes** — The AI automatically understands intent, selects methods, writes code, and performs analysis.
+4. **Obtain results** — Outputs three-line tables, regression tables, and visualizations, ready for direct use in papers.
+
+> Average turnaround: from data upload to complete results, approximately 2 minutes.
+
+## How to Switch
+
+1. **Enter the conversation interface** — Find the mode selection entry in the input box area.
+2. **Select Professional Mode** — Click the mode toggle button and choose "Professional Mode."
+3. **Start the conversation** — Takes effect immediately. Upload data files and enter analysis needs.
+
+> Before uploading, streamline your data — remove irrelevant columns and keep only the observations needed for analysis. This effectively improves analysis speed and saves credits.
 
 
 # docs/modes/professional.zh.md

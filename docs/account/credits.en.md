@@ -1,7 +1,40 @@
 # Credits System
 
-> 🚧 This page is under construction. For the complete English guide, see [user-guide.en.md](../user-guide.en.md).
+DeepResValue uses a credits system to manage AI resource consumption. Using credits wisely maximizes your research output.
 
-Credits control AI resource consumption. Cost depends on file size, file count, analysis complexity, and tool calls. New users receive initial credits. Earn more by inviting friends (+200 credits per invite).
+## Credit Consumption Rules
 
-→ [Back to Account](./README.md)
+| Factor | Description |
+|--------|-------------|
+| **File Size** | Larger uploaded files consume more credits |
+| **File Count** | Multiple files in one session stack consumption; max 10 files per conversation |
+| **Question Complexity** | More complex analysis (multi-step reasoning, multi-dimensional cross-analysis) consumes more |
+| **Tool Calls** | Web searches, database queries, and other additional tool calls increase consumption |
+
+## How to Earn Credits
+
+| Method | Credits | Description |
+|--------|---------|-------------|
+| New User Registration | Gift | Automatically receive starter credits upon first registration |
+| Invite Friends | +200 | Your invite code successfully used by someone else |
+| Be Invited | +100 | Successfully register using someone else's invite code |
+
+## Saving Credits
+
+Effective methods to reduce credit consumption:
+
+- Streamline files before upload — remove irrelevant columns, keep only observations needed for analysis
+- State your full requirements in one message to avoid repeated questions causing duplicate consumption
+- Max single file: 100MB; controlling data scope reasonably reduces consumption
+- Merge similar data before uploading to reduce file count
+
+## Checking Your Credits
+
+1. **View balance** — The top-right corner of the top bar displays your current credit balance in real time.
+2. **View consumption history** — Click the credit display area to view detailed consumption records.
+
+> When credit balance is insufficient, new conversations cannot be sent. Monitor your balance and earn credits through friend invitations.
+
+> **Auto-prompt on low credits**: When you attempt to send a message but have fewer than 1 credit, a purchase window appears automatically without interrupting or losing your current conversation.
+
+> **Top bar color indicator**: Green when sufficient; orange warning at 1–5 credits; red "Insufficient Credits" at 0 — click to recharge anytime.
