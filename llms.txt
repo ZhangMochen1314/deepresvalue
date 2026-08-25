@@ -1,0 +1,61 @@
+# DeepResValue
+
+> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
+
+## Notes
+
+- AI research assistant platform for researchers, graduate students, and faculty
+- Supports all academic disciplines with emphasis on humanities & social sciences
+- 3,000+ users from 985/211 universities; thousands of validated projects
+- Product-Market Fit achieved; in formal launch and growth phase
+- Official website: https://deepresvalue.top/
+
+## Docs
+
+- docs/README.md: Documentation hub and index
+- docs/product-intro.zh.md: 产品介绍（中文）
+- docs/product-intro.en.md: Product introduction (English)
+- docs/user-guide.zh.md: 用户指南（中文）
+- docs/user-guide.en.md: User guide (English)
+- docs/getting-started/README.md: Getting started overview
+- docs/getting-started/interface-overview.zh.md: 界面概览（中文）
+- docs/getting-started/interface-overview.en.md: Interface overview (English)
+- docs/getting-started/quick-start.zh.md: 快速上手（中文）
+- docs/getting-started/quick-start.en.md: Quick start (English)
+- docs/features/academic-writing.zh.md: 学术写作（中文）
+- docs/features/academic-writing.en.md: Academic writing (English)
+- docs/features/aigc-detection.zh.md: AIGC 检测（中文）
+- docs/features/aigc-detection.en.md: AIGC detection (English)
+- docs/features/competition-modeling.zh.md: 竞赛建模（中文）
+- docs/features/competition-modeling.en.md: Competition modeling (English)
+- docs/features/data-analysis.zh.md: 数据分析（中文）
+- docs/features/data-analysis.en.md: Data analysis (English)
+- docs/features/data-sources.zh.md: 数据源（中文）
+- docs/features/data-sources.en.md: Data sources (English)
+- docs/features/file-upload.zh.md: 文件上传（中文）
+- docs/features/file-upload.en.md: File upload (English)
+- docs/features/literature-review.zh.md: 文献综述（中文）
+- docs/features/literature-review.en.md: Literature review (English)
+- docs/features/reproducibility.zh.md: 可复现性（中文）
+- docs/features/reproducibility.en.md: Reproducibility (English)
+- docs/features/skills.zh.md: 技能系统（中文）
+- docs/features/skills.en.md: Skills system (English)
+- docs/features/typesetting.zh.md: 专业排版（中文）
+- docs/features/typesetting.en.md: Typesetting (English)
+- docs/account/credits.zh.md: 积分（中文）
+- docs/account/credits.en.md: Credits (English)
+- docs/account/ambassador.zh.md: 推广大使（中文）
+- docs/account/ambassador.en.md: Ambassador (English)
+- docs/account/invites.zh.md: 邀请（中文）
+- docs/account/invites.en.md: Invites (English)
+- docs/account/settings.zh.md: 设置（中文）
+- docs/account/settings.en.md: Settings (English)
+- docs/modes/academic.zh.md: 学术模式（中文）
+- docs/modes/academic.en.md: Academic mode (English)
+- docs/modes/mentor.zh.md: 导师模式（中文）
+- docs/modes/mentor.en.md: Mentor mode (English)
+- docs/modes/professional.zh.md: 专业模式（中文）
+- docs/modes/professional.en.md: Professional mode (English)
+- docs/faq/index.zh.md: 常见问题（中文）
+- docs/faq/index.en.md: FAQ (English)
+- https://deepresvalue.top/ : 官方网站 / Official website
