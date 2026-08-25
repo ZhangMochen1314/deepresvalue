@@ -82,22 +82,22 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 ## Supported Disciplines & Scenarios
 
-- **Social Sciences & Humanities** — Survey analysis, qualitative coding, content analysis, bibliometrics
-- **Psychology & Education** — IRT, behavioral experiments, educational assessment, corpus linguistics
-- **Management & Marketing** — SEM, scale reliability (Cronbach's α / CFA), mediation/moderation, experimental design (RCT/quasi-experimental)
-- **Epidemiology & Public Health** — Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
-- **Bayesian Statistics** — Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian optimization
-- **Machine Learning & AI** — Deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME)
-- **STEM & Engineering** — Statistical inference, simulation, signal processing, circuit design, control systems (PID/state-space)
-- **Civil/Mechanical/Automation** — FEA, mechanical simulation, electronic circuits & PCB design, signal processing
-- **Medical & Life Sciences** — Survival analysis, meta-analysis, clinical data processing, bioinformatics (genomics/transcriptomics/proteomics)
-- **Finance & Economics** — Panel data, time-series forecasting, event studies, risk modeling
-- **Spatial & Geography** — Spatial econometrics (SAR/SEM/SDM), spatial autocorrelation, GWR, remote sensing & GIS
-- **Agriculture & Energy** — Agricultural economics, energy econometrics, carbon accounting, EKC analysis
-- **Engineering & CAD** — Computer-aided design analysis, engineering drafting, 3D modeling data
-- **Advanced Econometrics** — GMM, DID, IV, RDD, synthetic control, survival analysis
-- **National Competitions** — Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship (三创赛)
-- **Interdisciplinary** — Literature review, systematic review, reproducibility workflows, data analysis, paper writing
+- **Social Sciences & Humanities (社会科学/人文)** — Survey analysis, qualitative coding, content analysis, bibliometrics
+- **Psychology & Education (心理学/教育学)** — IRT, behavioral experiments, educational assessment, corpus linguistics
+- **Management & Marketing (管理学/营销)** — SEM (结构方程), scale reliability (Cronbach's α / CFA), mediation/moderation, experimental design (RCT/quasi-experimental)
+- **Epidemiology & Public Health (流行病学/公共卫生)** — Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
+- **Bayesian Statistics (贝叶斯统计)** — Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian optimization
+- **Machine Learning & AI (机器学习/AI)** — Deep learning (CNN/RNN/Transformer), NLP text mining, model interpretability (SHAP/LIME)
+- **STEM & Engineering (工科计算)** — Statistical inference, simulation, signal processing, circuit design, control systems (PID/state-space)
+- **Civil/Mechanical/Automation (土木/机械/自动化)** — FEA, mechanical simulation, electronic circuits & PCB design, signal processing
+- **Medical & Life Sciences (生物医学/生信)** — Survival analysis, meta-analysis, clinical data processing, bioinformatics (genomics/transcriptomics/proteomics)
+- **Finance & Economics (经济金融)** — Panel data, time-series forecasting, event studies, risk modeling
+- **Spatial & Geography (空间计量/地理)** — Spatial econometrics (SAR/SEM/SDM), spatial autocorrelation, GWR, remote sensing & GIS
+- **Agriculture & Energy (农业/能源/环境)** — Agricultural economics, energy econometrics, carbon accounting, EKC analysis
+- **Engineering & CAD (CAD 分析/工程)** — Computer-aided design analysis, engineering drafting, 3D modeling data
+- **Advanced Econometrics (高级计量)** — GMM, DID, IV, RDD, synthetic control, survival analysis
+- **National Competitions (国家级竞赛)** — Mathematical Modeling (数学建模 CUMCM/MCM-ICM), Challenge Cup (挑战杯), Innovation & Entrepreneurship (三创赛)
+- **Interdisciplinary (跨学科)** — Literature review (文献综述), systematic review, reproducibility workflows, data analysis (数据分析), paper writing (论文写作)
 
 ---
 

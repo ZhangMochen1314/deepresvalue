@@ -48,7 +48,9 @@ deepresvalue, 深度研值, 科研助手, 科研agent, 学术写作, 数据分�
 spatial-econometrics, bioinformatics, cad-analysis, mathematical-modeling,
 challenge-cup, innovation-entrepreneurship, cumcm, mcm-icm,
 bayesian-statistics, machine-learning, deep-learning, sem, psychometrics,
-epidemiology, public-health, finite-element-analysis, structural-equation-model
+epidemiology, public-health, finite-element-analysis, structural-equation-model,
+空间计量, 高级计量, 生信分析, CAD分析, 机器学习, 贝叶斯统计, 结构方程, 流行病学,
+数学建模, 三创赛, 挑战杯, 论文写作, 文献综述, 科学计算
 ```
 
 ## Product Positioning
@@ -65,18 +67,18 @@ epidemiology, public-health, finite-element-analysis, structural-equation-model
 
 ## Research Scenarios
 
-- **Paper writing**: Literature review, proposal, body writing, formatting, defense preparation
-- **Data analysis**: 100+ methods — DID, IV, GMM, RDD, DML, survival analysis, spatial econometrics (SAR/SEM/SDM), machine learning, NLP
-- **Bayesian statistics**: Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian networks, Bayesian optimization
-- **Machine learning & AI**: Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications
-- **Structural equation & psychometrics**: SEM, CFA, Cronbach's α, IRT, mediation/moderation
-- **Epidemiology & public health**: Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
-- **Bioinformatics**: Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data
-- **Spatial econometrics**: Spatial weight matrices, spatial autocorrelation, SAR/SEM/SDM models, GWR
-- **Engineering & CAD**: Computer-aided design analysis, engineering drafting, FEA, control systems, signal processing
-- **Agriculture & energy**: Agricultural economics, energy econometrics, carbon accounting, remote sensing & GIS
-- **National competitions**: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship (三创赛), Statistical Modeling
-- **Literature & search**: Multi-source academic search (NCPSSD, CNKI, arXiv, PubMed, Crossref, Semantic Scholar), structured review generation
+- **Paper writing (论文写作)**: Literature review, proposal, body writing, formatting, defense preparation
+- **Data analysis (数据分析)**: 100+ methods — DID, IV, GMM, RDD, DML, survival analysis, spatial econometrics (SAR/SEM/SDM), machine learning, NLP
+- **Bayesian statistics (贝叶斯统计)**: Bayesian inference, MCMC (Stan/PyMC), hierarchical models, Bayesian networks, Bayesian optimization
+- **Machine learning & AI (机器学习/AI)**: Deep learning (CNN/RNN/Transformer), NLP text mining, computer vision, model interpretability (SHAP/LIME), LLM research applications
+- **Structural equation & psychometrics (结构方程/心理测量)**: SEM, CFA, Cronbach's α, IRT, mediation/moderation
+- **Epidemiology & public health (流行病学/公共卫生)**: Cohort/case-control studies, meta-analysis, survival & competing risks (Cox/Fine-Gray), PSM
+- **Bioinformatics (生信分析)**: Genomics/transcriptomics/proteomics differential analysis, enrichment analysis (GO/KEGG), NGS sequencing data
+- **Spatial econometrics (空间计量)**: Spatial weight matrices, spatial autocorrelation, SAR/SEM/SDM models, GWR
+- **Engineering & CAD (工科/CAD 分析)**: Computer-aided design analysis, engineering drafting, FEA, control systems, signal processing
+- **Agriculture & energy (农业/能源/环境)**: Agricultural economics, energy econometrics, carbon accounting, remote sensing & GIS
+- **National competitions (国家级竞赛：数学建模/三创赛/挑战杯)**: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship (三创赛), Statistical Modeling
+- **Literature & search (文献检索/文献综述)**: Multi-source academic search (NCPSSD, CNKI, arXiv, PubMed, Crossref, Semantic Scholar), structured review generation
 
 ## Contact & Links
 
