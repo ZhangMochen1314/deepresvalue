@@ -123,21 +123,26 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 使用本机环境变量），权限分成「只读 / 工作区读写 / 完全访问」三档，可随时取消。
 
 <p align="center">
-  <a href="RELEASES.md"><strong>⬇ Download for Windows（版本与 SHA256）</strong></a>
+  <a href="docs/desktop/README.md"><strong>桌面端文档</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/ZhangMochen1314/deepresvalue/releases">GitHub Releases</a>
+  <a href="docs/architecture/platform.zh.md">平台架构</a>
+  &nbsp;·&nbsp;
+  <a href="RELEASES.md">版本状态</a>
 </p>
+
+> **发布状态**：桌面端安装包尚未在本仓库公开发布，因此这里不提供下载按钮。
+> 公开发布后会在 [RELEASES.md](RELEASES.md) 登记版本、大小与 SHA256。
 
 | 你需要什么 | 用哪个端 |
 |------------|----------|
-| 分析、写作、排版、文献检索 | 网页端（零安装） |
-| 原生窗口、系统通知、长时间任务 | 桌面端 |
+| 分析、写作、排版、文献检索 | 网页端（零安装，现在就能用） |
+| 原生窗口、系统通知、长时间任务 | 桌面端（待公开发布） |
 | 处理本机文件、调用本机软件、内网资源 | 桌面端 + 显式选择「本机执行」 |
 | 手机上随手用 | 小程序端 / 手机浏览器 |
 
-- 安装包**未做代码签名**，首次运行会弹 SmartScreen 提示（更多信息 → 仍要运行）；请用 SHA256 校验真伪。
 - 默认**不在你的电脑上执行**任何任务；本机执行需要你在界面上主动选择。
 - 本机文件留在你的电脑上，**不是持久化数据**；正式交付物需回传云端才能跨设备查看。
+- 桌面端安装包未做代码签名，首次运行会有 SmartScreen 提示（说明见安装文档）。
 
 详细文档：[安装与升级](docs/desktop/install.zh.md) · [本地执行与隐私](docs/desktop/local-execution.zh.md) · [常见问题](docs/desktop/faq.zh.md)
 

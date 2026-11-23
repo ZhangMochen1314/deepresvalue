@@ -2,13 +2,13 @@
 
 ## 1. Download
 
-| Channel | Address |
-|---------|---------|
-| **Version & checksum (authoritative)** | [RELEASES.md](../../RELEASES.md) — lists versions whose Release is published, with size and SHA256 |
-| GitHub Releases | <https://github.com/ZhangMochen1314/deepresvalue/releases> |
-| Official website | <https://deepresvalue.com/> |
+| Channel | Status |
+|---------|--------|
+| **Release status & versions** | [RELEASES.md](../../RELEASES.md) — no public version has been released yet |
+| GitHub Releases | Downloads will be provided here once published: <https://github.com/ZhangMochen1314/deepresvalue/releases> |
+| Official website | <https://deepresvalue.com/> — desktop availability follows official announcements |
 
-> If the Releases page does not show a version listed in `RELEASES.md` (or shows one it does not list), **treat `RELEASES.md` as authoritative**; for immediate needs, use the official website.
+> Until the public release, this document describes the install and upgrade flow only; availability is governed by `RELEASES.md` and the official website.
 
 The file is named like `DeepResValue-<version>-setup.exe`. The current public version, size, and SHA256 are listed in [RELEASES.md](../../RELEASES.md).
 

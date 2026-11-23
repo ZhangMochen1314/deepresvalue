@@ -2,13 +2,13 @@
 
 ## 1. 下载
 
-| 渠道 | 地址 |
+| 渠道 | 状态 |
 |------|------|
-| **版本与校验值（以此为准）** | [RELEASES.md](../../RELEASES.md) — 列出已挂载 Release 的版本、大小与 SHA256 |
-| GitHub Releases | <https://github.com/ZhangMochen1314/deepresvalue/releases> |
-| 官方网站 | <https://deepresvalue.com/> |
+| **发布状态与版本** | [RELEASES.md](../../RELEASES.md) —— 目前尚未公开发布任何版本 |
+| GitHub Releases | 公开发布后在此提供下载：<https://github.com/ZhangMochen1314/deepresvalue/releases> |
+| 官方网站 | <https://deepresvalue.com/> —— 桌面端获取方式以官网通知为准 |
 
-> 如果 Releases 页面暂时看不到 `RELEASES.md` 里列出的版本，或反过来看到表里没有的版本，**以 `RELEASES.md` 为准**；急用可走官网下载。
+> 公开发布前，本文档用于说明安装与升级流程；是否可下载以 `RELEASES.md` 与官网为准。
 
 下载文件名形如 `DeepResValue-<版本号>-setup.exe`。当前公开版本、文件大小与 SHA256 见仓库根目录的 [RELEASES.md](../../RELEASES.md)。
 
