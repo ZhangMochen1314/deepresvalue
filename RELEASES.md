@@ -3,6 +3,9 @@
 桌面端的公开版本记录。安装包托管在 [GitHub Releases](https://github.com/ZhangMochen1314/deepresvalue/releases)，
 **应用内升级仍走产品自身的更新通道**——GitHub 只是手动下载镜像，不影响已安装用户的自动更新。
 
+> 下载入口以本文件为准：表中列出的版本即已挂载 Release 的版本。
+> 若 Releases 页面暂时看不到对应版本，说明该版本的安装包尚未挂载，请改用[官方网站](https://deepresvalue.com/)下载。
+
 | 版本 | 日期 | 安装包 | 大小 | SHA256 |
 |------|------|--------|------|--------|
 | [0.1.38](./docs/desktop/release-notes/v0.1.38.md) | 2026-11-23 | `DeepResValue-0.1.38-setup.exe` | 541,747,616 B（约 517 MB） | `34cf4d209c30a3d8d8112fce8de4962f364cfca1bb218c68ea28c5d39c65387e` |

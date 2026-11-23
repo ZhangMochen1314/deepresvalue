@@ -4,8 +4,11 @@
 
 | Channel | Address |
 |---------|---------|
-| GitHub Releases (recommended, verifiable) | <https://github.com/ZhangMochen1314/deepresvalue/releases/latest> |
+| **Version & checksum (authoritative)** | [RELEASES.md](../../RELEASES.md) — lists versions whose Release is published, with size and SHA256 |
+| GitHub Releases | <https://github.com/ZhangMochen1314/deepresvalue/releases> |
 | Official website | <https://deepresvalue.com/> |
+
+> If the Releases page does not show a version listed in `RELEASES.md` (or shows one it does not list), **treat `RELEASES.md` as authoritative**; for immediate needs, use the official website.
 
 The file is named like `DeepResValue-<version>-setup.exe`. The current public version, size, and SHA256 are listed in [RELEASES.md](../../RELEASES.md).
 

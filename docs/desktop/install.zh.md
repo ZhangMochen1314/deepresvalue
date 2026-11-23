@@ -4,8 +4,11 @@
 
 | 渠道 | 地址 |
 |------|------|
-| GitHub Releases（推荐，可校验） | <https://github.com/ZhangMochen1314/deepresvalue/releases/latest> |
+| **版本与校验值（以此为准）** | [RELEASES.md](../../RELEASES.md) — 列出已挂载 Release 的版本、大小与 SHA256 |
+| GitHub Releases | <https://github.com/ZhangMochen1314/deepresvalue/releases> |
 | 官方网站 | <https://deepresvalue.com/> |
+
+> 如果 Releases 页面暂时看不到 `RELEASES.md` 里列出的版本，或反过来看到表里没有的版本，**以 `RELEASES.md` 为准**；急用可走官网下载。
 
 下载文件名形如 `DeepResValue-<版本号>-setup.exe`。当前公开版本、文件大小与 SHA256 见仓库根目录的 [RELEASES.md](../../RELEASES.md)。
 
