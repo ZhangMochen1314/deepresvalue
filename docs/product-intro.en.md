@@ -6,7 +6,7 @@
 
 ## One-Line Summary
 
-**DeepResValue** is an AI research assistant for researchers across all disciplines — **zero-install, zero-configuration: open your browser for a full-stack research environment**. Drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. Works on **phone, tablet, and desktop** with one unified account. All frontier research analysis methods are supported — no method is out of reach. The Agent writes code in real time guided by specialized skills and executes in the cloud.
+**DeepResValue** is an AI research assistant for researchers across all disciplines — **zero-install, zero-configuration: open your browser for a full-stack research environment**. Drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. Works on **phone, tablet, and desktop** with one unified account. All frontier research analysis methods are supported — no method is out of reach. The Agent writes code in real time guided by specialized experts and executes in the cloud.
 
 ---
 
@@ -16,7 +16,7 @@
 |------------|------------------------|
 | 🔴 **Code & statistics barrier** | Natural-language-driven (Chinese) — AI auto-writes and executes code for DID, DML, RDD, and other frontier methods |
 | 🔴 **Fragmented toolchain** | One-stop pipeline: Search → Analyze → Write → Typeset — no more switching between Stata, SPSS, Word, and LaTeX |
-| 🔴 **Data acquisition difficulty** | 6 built-in panel datasets (city/provincial/county/listed-company) + 100+ skills for multi-source data collection |
+| 🔴 **Data acquisition difficulty** | 6 built-in panel datasets (city/provincial/county/listed-company) + Research Experts for multi-source data collection |
 | 🔴 **Non-reproducible analysis** | Full code and execution logs preserved at every step — 100% traceable and reproducible for defense presentations |
 | 🔴 **Time-consuming typesetting** | Word + LaTeX professional typesetting engine **pre-configured in the cloud, ready to use** — export PDF/Word/LaTeX source with one click |
 | 🔴 **Language & expression barrier** | Fully Chinese interface with built-in AIGC detection reduction engine for confident paper submission |
@@ -44,7 +44,7 @@ All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / L
 
 - LaTeX engine generates journal-standard professional charts (three-line tables, regression tables, SEM diagrams, etc.)
 - Export **PDF / Word / LaTeX source** — meet submission format requirements instantly
-- Built-in DeepResValue-SciPlot plotting skill covering 20+ academic chart types
+- Built-in DeepResValue-SciPlot plotting expert covering 20+ academic chart types
 - **Cloud-pre-configured, ready to use** — no local TeX distribution or Office installation needed
 
 ### MCP External Connectors
@@ -74,8 +74,8 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 ### Chinese-Driven + Rigorous & Traceable
 
 - Fully Chinese interaction — just describe your analysis needs
-- 100+ professional research skills auto-matched, **validated through thousands of real research projects**
-- **All frontier research analysis methods supported** — no method is out of reach; Agent writes code in real time guided by specialized skills and executes in the cloud
+- 129 Research Experts auto-matched; each expert is a packaged combination of domain-specific professional workflows and tools
+- **All frontier research analysis methods supported** — no method is out of reach; the Agent writes code in real time guided by specialized experts and executes in the cloud
 - All research data built-in — just state your needs and the Agent calls autonomously
 - Complete code and execution logs at every step, meeting academic standards
 
@@ -109,15 +109,6 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ---
 
-## Verification & Milestones
-
-- 🏆 **3,000+ professors, graduate students, and undergrads from China's top 985/211 universities** have tested the platform
-- 📊 Validated through **thousands of real research scenario projects** across all disciplines
-- 🎓 Founder is a **graduate of a 985 university**, with deep understanding of research pain points
-- ✅ **Product-Market Fit (PMF) achieved** — now in official launch and expansion phase
-
----
-
 ## Pricing & Business Model
 
 | | Description |
@@ -130,7 +121,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ## Quick Start
 
-1. Visit [deepresvalue.top](https://deepresvalue.top)
+1. Visit [deepresvalue.com](https://deepresvalue.com)
 2. Click **"Get Access"** or **"Login"** in the top-right corner
 3. Register with your **phone number** — enter number and SMS verification code
 4. New users receive a free usage quota for immediate full-feature access
@@ -141,7 +132,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | Link | Description |
 |------|-------------|
-| 🌐 [deepresvalue.top](https://deepresvalue.top) | Official website & registration |
+| 🌐 [deepresvalue.com](https://deepresvalue.com) | Official website & registration |
 | 📖 [User Guide](./user-guide.en.md) | Complete usage guide |
 | 📋 [Help Center](./features/) | Section-by-section feature docs |
 | 📚 [Documentation Index](./README.md) | Back to docs home |

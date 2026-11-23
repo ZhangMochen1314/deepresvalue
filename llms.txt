@@ -1,19 +1,17 @@
 # DeepResValue
 
-> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Covers frontier methods including spatial econometrics (SAR/SEM/SDM), advanced econometrics (GMM/DID/IV/RDD), bioinformatics (genomics/transcriptomics/proteomics), CAD/engineering analysis, Bayesian statistics (MCMC/Stan/PyMC), machine learning & AI (deep learning/NLP/SHAP), structural equation modeling (SEM/CFA/IRT), epidemiology (meta-analysis/PSM/competing risks). Supports national competition scenarios: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
+> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 129 Research Experts, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Covers frontier methods including spatial econometrics (SAR/SEM/SDM), advanced econometrics (GMM/DID/IV/RDD), bioinformatics (genomics/transcriptomics/proteomics), CAD/engineering analysis, Bayesian statistics (MCMC/Stan/PyMC), machine learning & AI (deep learning/NLP/SHAP), structural equation modeling (SEM/CFA/IRT), epidemiology (meta-analysis/PSM/competing risks). Supports national competition scenarios: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
 
 ## Notes
 
 - AI research assistant platform for researchers, graduate students, and faculty
 - Supports all academic disciplines with emphasis on humanities & social sciences
-- 3,000+ users from 985/211 universities; thousands of validated projects
-- Product-Market Fit achieved; in formal launch and growth phase
 - New users get a free usage quota on signup; pay-as-you-go credit top-ups available
 - Sharing your invite code earns credit rewards with no cap
 - Dozens of MCP connectors integrated and continuously expanding
 - Covers frontier methods: spatial econometrics, advanced econometrics, bioinformatics, CAD analysis, Bayesian statistics, machine learning/AI, structural equation modeling, epidemiology
 - Supports national competitions: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship
-- Official website: https://deepresvalue.top/
+- Official website: https://deepresvalue.com/
 
 ## Keywords
 
@@ -48,8 +46,8 @@
 - docs/features/literature-review.en.md: Literature review (English)
 - docs/features/reproducibility.zh.md: 可复现性（中文）
 - docs/features/reproducibility.en.md: Reproducibility (English)
-- docs/features/skills.zh.md: 技能系统（中文）
-- docs/features/skills.en.md: Skills system (English)
+- docs/features/skills.zh.md: 科研领域专家（中文）
+- docs/features/skills.en.md: Research Experts (English)
 - docs/features/typesetting.zh.md: 专业排版（中文）
 - docs/features/typesetting.en.md: Typesetting (English)
 - docs/account/credits.zh.md: 积分（中文）
@@ -68,4 +66,4 @@
 - docs/modes/professional.en.md: Professional mode (English)
 - docs/faq/index.zh.md: 常见问题（中文）
 - docs/faq/index.en.md: FAQ (English)
-- https://deepresvalue.top/ : 官方网站 / Official website
+- https://deepresvalue.com/ : 官方网站 / Official website
