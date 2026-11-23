@@ -13,7 +13,7 @@
 5. [Input Panel Features](#5-input-panel-features)
 6. [Core Features](#6-core-features)
 7. [Message Interaction](#7-message-interaction)
-8. [File Upload & Skills System](#8-file-upload--skills-system)
+8. [File Upload & Experts System](#8-file-upload--experts-system)
 9. [Analysis Traceability — 100% Reproducible](#9-analysis-traceability--100-reproducible)
 10. [Conversation Management](#10-conversation-management)
 11. [Credits & Account](#11-credits--account)
@@ -34,8 +34,6 @@
 
 **DeepResValue provides professional-grade support, making AI an equalizer for education.**
 
-> 🏆 **Proven Track Record**: The platform has served **3,000+ professors, graduate students, and undergrads from 985/211 universities** in completing research tasks, validated through **thousands of real research scenario projects** across economics, management, biomedical science, environmental science, social sciences, and more.
-
 **Core philosophy in eight words: Authoritative · Reliable · Authentic · Easy to Use.**
 
 ---
@@ -54,11 +52,11 @@ Every analysis step preserves **complete Python/R code and execution logs**. Ful
 
 ### 📊 Real Data
 
-Built-in city/provincial/county macro panels and listed company financial/governance panel data. Data collection skills can also access financial market data, health, medical, biological, and literature external data sources. Describe your needs in Chinese, and AI returns structured data — **more convenient and reliable**.
+Built-in city/provincial/county macro panels and listed company financial/governance panel data. Data-collection experts can also access financial market data, health, medical, biological, and literature external data sources. Describe your needs in Chinese, and AI returns structured data — **more convenient and reliable**.
 
 ### ⚡ Chinese Interaction — Just Speak Chinese
 
-No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
+No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized experts and executes in the cloud.
 
 ### 🌐 Zero-Config Full-Stack — Open Browser & Go
 
@@ -82,7 +80,7 @@ When Focus Mode is enabled, AI first plans the complete execution strategy, gets
 
 ### Registration & Login
 
-1. Visit [deepresvalue.top](https://deepresvalue.top).
+1. Visit [deepresvalue.com](https://deepresvalue.com).
 2. Click **"Get Access"** or **"Login"** in the top-right corner.
 3. Register with your **phone number**: enter your number and SMS verification code.
 
@@ -92,8 +90,8 @@ When Focus Mode is enabled, AI first plans the complete execution strategy, gets
 
 After registration, guided cards walk you through core features (shown only once, skippable):
 
-- **Desktop**: 4 steps covering input box, mode switching, skill panel, and conversation sidebar
-- **Mobile**: 3 steps covering input box, credit rules, and skill selection
+- **Desktop**: 4 steps covering input box, mode switching, expert panel, and conversation sidebar
+- **Mobile**: 3 steps covering input box, credit rules, and expert selection
 
 ### Interface Overview
 
@@ -219,7 +217,7 @@ Upload your data (CSV, Excel, Stata, SAS, PDF, Word, 80+ formats) and describe y
 
 ### 6.2 Data Collection & Sources
 
-**No data? No problem.** Built-in panel datasets + skill-driven data collection from external sources including financial markets, economic data, health databases, medical databases, biological databases, and literature databases.
+**No data? No problem.** Built-in panel datasets + expert-driven data collection from external sources including financial markets, economic data, health databases, medical databases, biological databases, and literature databases.
 
 ### 6.3 Literature Review & Search
 
@@ -238,12 +236,12 @@ AI automatically searches Chinese and English literature, extracts key findings,
 
 ### 6.5 Competition Support
 
-Built-in 100+ professional skills with competition-specific modules:
+Built-in 129 Research Experts with competition-specific modules:
 
 - **Mathematical Modeling (CUMCM / MCM-ICM)**: Covers China's CUMCM and USA's MCM/ICM — full workflow from problem analysis to 20-page paper, including differential equations, optimization, neural networks, spatial econometrics
 - **National Statistical Modeling Competition**: Full workflow from topic selection to report writing; DML/DID/RDD/Causal Forest/Synthetic Control all supported
 - **Challenge Cup**: Covers the national extracurricular academic science & technology works competition and entrepreneurship plan competition — topic selection to report writing
-- **Innovation & Entrepreneurship (三创赛)**: Full workflow skill: innovation project → business planning → practice verification → pitch defense
+- **Innovation & Entrepreneurship (三创赛)**: Full workflow expert: innovation project → business planning → practice verification → pitch defense
 
 ### 6.6 AIGC Detection Reduction
 
@@ -253,7 +251,7 @@ Built-in Chinese and English academic AIGC detection reduction engine with a fiv
 
 - LaTeX typesetting engine generates journal-standard professional charts
 - Export **PDF / Word / LaTeX source** for instant submission readiness
-- Built-in DeepResValue-SciPlot plotting skill covering 20+ academic chart types
+- Built-in DeepResValue-SciPlot plotting expert covering 20+ academic chart types
 
 ---
 
@@ -268,7 +266,7 @@ Built-in Chinese and English academic AIGC detection reduction engine with a fiv
 
 ---
 
-## 8. File Upload & Skills System
+## 8. File Upload & Experts System
 
 ### Supported File Formats
 
@@ -290,11 +288,11 @@ DeepResValue supports **11 categories, 90+ file formats** across all disciplines
 
 > Max single file: **100MB**. Max files per conversation: **10**. All formats except video files (`.mp4` `.mov` `.avi`) are supported.
 
-### Skills System
+### Experts System
 
-100+ professional skills covering the full research workflow:
+129 Research Experts covering the full research workflow. Each expert is a packaged combination of domain-specific professional workflows and tools:
 
-| Category | Representative Skills | Use Cases |
+| Category | Representative Experts | Use Cases |
 |----------|---------------------|-----------|
 | 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics, time series | Quantitative research |
 | 🤖 Causal Inference | Bayesian causal, ML causal, DID/RDD/IV/Synthetic Control | Frontier methodology |
@@ -387,16 +385,16 @@ A: Yes. They work independently. Combining them increases response time but maxi
 A: Absolutely. DeepResValue's design philosophy is "zero code." Just describe your analysis needs in Chinese — AI handles everything from method selection to code writing to result output.
 
 **Q: Are the AI results reliable and academically compliant?**
-A: Yes. DeepResValue uses frontier LLMs, validated through thousands of real research projects. Every step preserves complete code and execution logs for full traceability.
+A: Yes. DeepResValue uses frontier LLMs. Every step preserves complete code and execution logs for full traceability.
 
 **Q: What if I don't have data?**
-A: The platform has built-in city/provincial/county and listed company panel data. Data collection skills access financial, health, medical, biological, and literature external sources.
+A: The platform has built-in city/provincial/county and listed company panel data. Data-collection experts access financial, health, medical, biological, and literature external sources.
 
 **Q: What's the file size limit?**
 A: Max 100MB per file, max 10 files per conversation. All formats except video are supported.
 
 **Q: The AI expression is too obvious — what do I do?**
-A: Use the built-in AIGC detection reduction engine. Say "help me reduce AIGC detection rate" in the chat.
+A: Use the built-in AIGC detection reduction expert. Say "help me reduce AIGC detection rate" in the chat.
 
 **Q: The AI response was cut off.**
 A: Send "please continue" to resume from the breakpoint. Refresh the page if needed — history is preserved.
@@ -416,11 +414,11 @@ A: Yes. BYOK (Bring Your Own Key) is supported. Go to Settings → Model Setting
 
 | Benefit | Description |
 |---------|-------------|
-| 🔑 **Full Beta Access** | All 100+ skills, 3 conversation modes, multi-source data collection — early access |
+| 🔑 **Full Beta Access** | All 129 Research Experts, 3 conversation modes, multi-source data collection — early access |
 | 📢 **Promotion Support** | Exclusive material package + poster templates + copy assets |
 | 🏅 **Honor Certificate** | DeepResValue Campus Ambassador certificate; top ambassadors get recommendation letters |
 
-📱 Add WeChat **MoChen11-20**, note "Ambassador + University Name" to apply.
+Apply via the official website — fill in your school and identity information in the Ambassador entry.
 
 ---
 
@@ -475,7 +473,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 ---
 
-*The platform is continuously improving. For questions or feedback, add WeChat **MoChen11-20**.*
+*The platform is continuously improving. For questions or feedback, please use the feedback channel on the official website.*
 
 ---
 
@@ -483,7 +481,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 | Link | Description |
 |------|-------------|
-| 🌐 [deepresvalue.top](https://deepresvalue.top) | Official website |
+| 🌐 [deepresvalue.com](https://deepresvalue.com) | Official website |
 | 📖 [Product Introduction](./product-intro.en.md) | Product overview |
 | 📋 [Help Center](./features/) | Section-by-section docs |
 | 📚 [Documentation Index](./README.md) | Back to docs home |
