@@ -24,4 +24,4 @@ DeepResValue 的**对外**架构说明。只描述用户可观测的链路、能
 
 ---
 
-相关文档：[桌面端](../../desktop/README.md) · [文档中心](../README.md) · [返回首页](../../README.md)
+相关文档：[桌面端](../desktop/README.md) · [文档中心](../README.md) · [返回首页](../../README.md)
