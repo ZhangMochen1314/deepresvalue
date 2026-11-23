@@ -7,7 +7,7 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 - **LaTeX typesetting engine** generates journal-standard professional charts
 - **Multiple academic chart types**: three-line tables, regression tables, structural equation diagrams, event study plots — directly usable in papers
 - **Multi-format export**: PDF / Word / LaTeX source, submission-ready formatting in one click
-- **Professional scientific plotting**: Built-in DeepResValue-SciPlot skill covering 20+ academic chart types
+- **Professional scientific plotting**: Built-in DeepResValue-SciPlot plotting expert covering 20+ academic chart types
 
 ## Supported Chart Types
 
@@ -32,6 +32,6 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 
 > "Generate event study plots and parallel trend test plots conforming to academic publication standards."
 
-> Built-in DeepResValue-SciPlot plotting skill covers scatter plots, heatmaps, forest plots, path analysis diagrams, social network graphs, and 20+ other academic chart types.
+> Built-in DeepResValue-SciPlot plotting expert covers scatter plots, heatmaps, forest plots, path analysis diagrams, social network graphs, and 20+ other academic chart types.
 
 > Typesetting output requires some processing time. Complex documents may take tens of seconds.
