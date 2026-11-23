@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://deepresvalue.com/">Website</a> · <a href="#quick-start">Quick Start</a> · <a href="#documentation">Docs</a> · <a href="LICENSE">License</a>
+  <a href="https://deepresvalue.com/">Website</a> · <a href="#desktop-client">Desktop</a> · <a href="#quick-start">Quick Start</a> · <a href="#documentation">Docs</a> · <a href="LICENSE">License</a>
 </p>
 
 ---
@@ -33,6 +33,8 @@
 ### Zero-Config Full-Stack Environment
 
 All four compute kernels + Word/LaTeX typesetting engine are **pre-configured in the cloud**. No installation, no setup — open your browser and you have a full research environment ready. Works identically on **phone, tablet, and desktop** — one account, synced data, seamless switching.
+
+> **网页端零安装**：打开浏览器即用。桌面端是**可选**的原生客户端，只在需要原生窗口体验或**在本机执行任务**时才需要安装。
 
 ### Four Compute Kernels
 
@@ -114,7 +116,34 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 ---
 
-## Getting Started & Pricing
+## Desktop Client
+
+**可选的原生桌面客户端（Windows x64）**：基于 Chromium 的原生窗口，复用网页端同一套实现，
+并额外提供一项网页端做不到的能力——**用户显式选择后，在本机原生执行任务**（处理本机文件、调用本机软件、
+使用本机环境变量），权限分成「只读 / 工作区读写 / 完全访问」三档，可随时取消。
+
+<p align="center">
+  <a href="RELEASES.md"><strong>⬇ Download for Windows（版本与 SHA256）</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ZhangMochen1314/deepresvalue/releases">GitHub Releases</a>
+</p>
+
+| 你需要什么 | 用哪个端 |
+|------------|----------|
+| 分析、写作、排版、文献检索 | 网页端（零安装） |
+| 原生窗口、系统通知、长时间任务 | 桌面端 |
+| 处理本机文件、调用本机软件、内网资源 | 桌面端 + 显式选择「本机执行」 |
+| 手机上随手用 | 小程序端 / 手机浏览器 |
+
+- 安装包**未做代码签名**，首次运行会弹 SmartScreen 提示（更多信息 → 仍要运行）；请用 SHA256 校验真伪。
+- 默认**不在你的电脑上执行**任何任务；本机执行需要你在界面上主动选择。
+- 本机文件留在你的电脑上，**不是持久化数据**；正式交付物需回传云端才能跨设备查看。
+
+详细文档：[安装与升级](docs/desktop/install.zh.md) · [本地执行与隐私](docs/desktop/local-execution.zh.md) · [常见问题](docs/desktop/faq.zh.md)
+
+---
+
+## Quick Start & Pricing
 
 1. Visit **[deepresvalue.com](https://deepresvalue.com/)** and sign up
 2. Select your research mode (Academic / Mentor / Professional)
@@ -142,6 +171,9 @@ This repository contains the public documentation and product introduction for D
 | User Guide (中文) | [`docs/user-guide.zh.md`](docs/user-guide.zh.md) | 用户指南 |
 | User Guide (English) | [`docs/user-guide.en.md`](docs/user-guide.en.md) | User guide |
 | Getting Started | [`docs/getting-started/`](docs/getting-started/) | Setup, interface overview, quick start |
+| **Desktop Client** | [`docs/desktop/`](docs/desktop/) | 安装升级、本地执行与隐私、FAQ（中英双语） |
+| **Platform Architecture** | [`docs/architecture/`](docs/architecture/) | 对外平台架构：端形态、能力层、执行模型、数据与边界（中英双语） |
+| **Releases** | [`RELEASES.md`](RELEASES.md) | 版本索引、安装包大小与 SHA256 |
 | Features | [`docs/features/`](docs/features/) | Academic writing, data analysis, AIGC detection, etc. |
 | Account | [`docs/account/`](docs/account/) | Credits, ambassador, invites, settings |
 | Research Modes | [`docs/modes/`](docs/modes/) | Academic, Mentor, Professional modes |

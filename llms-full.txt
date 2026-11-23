@@ -2277,7 +2277,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ### BYOK 自接 LLM
 
-支持 Bring Your Own Key，接入 DeepSeek、OpenAI 或任何 OpenAI 兼容 API。平台仅收取沙箱执行基础积分，模型费用由用户自行承担。
+支持 Bring Your Own Key，接入 DeepSeek、OpenAI 或任何 OpenAI 兼容 API。平台仅收取隔离环境执行基础积分，模型费用由用户自行承担。
 
 ### 中文驱动 + 严谨可溯源
 
@@ -3825,7 +3825,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 | 维度 | 平台模型 | BYOK 自有模型 |
 |------|----------|---------------|
 | 模型选择 | 管理员统一管理 | 你自己的 API Key 和模型 |
-| 计费方式 | 消耗平台积分 | 仅扣基础积分（云端隔离沙箱执行+时长），模型费用由你的 API 提供商计费 |
+| 计费方式 | 消耗平台积分 | 仅扣基础积分（云端隔离执行+时长），模型费用由你的 API 提供商计费 |
 | 额度限制 | 受平台配额约束 | 不受平台模型配额限制 |
 
 **支持的协议：** 仅 OpenAI 兼容协议（HTTPS），覆盖 DeepSeek、OpenAI、Moonshot、智谱 GLM、通义千问等主流服务。
@@ -3919,7 +3919,7 @@ AI 会自动调用对应连接器完成检索，结果以结构化方式呈现�
 
 **什么是 BYOK？**
 
-BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能。接入后，对话将使用你的模型与额度，**平台仅收取云端隔离沙箱执行与时间积分**，不收取额外的模型调用费用。
+BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能。接入后，对话将使用你的模型与额度，**平台仅收取云端隔离执行与时间积分**，不收取额外的模型调用费用。
 
 > 💡 **为什么用 BYOK？** 如果你有自己的 DeepSeek / OpenAI / 其他兼容 API Key，可以直接接入使用，不受平台模型配额限制。
 
@@ -3957,7 +3957,1184 @@ BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能
 - 你可以随时删除配置，密钥立即从平台移除
 - 平台**不会**使用你的 API Key 做任何对话之外的用途
 
-> 💡 BYOK 是**平台免费功能**，不额外收取服务费。使用自有模型时，仅按对话消耗的云端隔离沙箱执行时间和工具调用收取基础积分，模型调用费用由你自行承担（由你的 API 提供商计费）。
+> 💡 BYOK 是**平台免费功能**，不额外收取服务费。使用自有模型时，仅按对话消耗的云端隔离执行时间和工具调用收取基础积分，模型调用费用由你自行承担（由你的 API 提供商计费）。
+
+---
+
+
+---
+
+# docs/desktop/README.md
+
+# 桌面端 / Desktop
+
+DeepResValue 桌面端是**可选的**原生客户端：基于 Chromium 的原生窗口，复用网页端的同一套实现，
+并额外提供一项网页端做不到的能力——**用户显式选择后，在本机原生执行任务**。
+
+> 不装桌面端也能用。网页端（手机 / 平板 / 电脑浏览器）是全功能主入口；桌面端解决的是
+> "需要原生窗口体验"和"需要在本机跑东西"两类需求。
+
+| 语言 / Language | 安装与升级 | 本地执行与隐私 | 常见问题 |
+|-----------------|-----------|----------------|----------|
+| 中文 | [install.zh.md](./install.zh.md) | [local-execution.zh.md](./local-execution.zh.md) | [faq.zh.md](./faq.zh.md) |
+| English | [install.en.md](./install.en.md) | [local-execution.en.md](./local-execution.en.md) | [faq.en.md](./faq.en.md) |
+
+## 一句话定位
+
+| 场景 | 建议用哪个端 |
+|------|--------------|
+| 分析、写作、排版、文献检索 | 网页端即可（零安装） |
+| 长时间任务、需要原生通知、多窗口 | 桌面端 |
+| 要处理本机文件、调用本机软件或内网资源 | 桌面端 + 显式选择"本机执行" |
+| 手机上随手用 | 小程序端 / 手机浏览器 |
+
+## 版本与校验
+
+当前公开版本、安装包大小与 SHA256 见 [RELEASES.md](../../RELEASES.md)。
+安装包**未做代码签名**，Windows 首次运行会弹 SmartScreen 提示——这是预期行为，处理方式见安装文档。
+
+## 数据放在哪
+
+- 会话、上传件、正式产物：**云端**（换设备可见）。
+- 桌面端的本机文件：留在你的电脑上，**不构成持久化**；要跨设备查看必须回传云端。
+- 默认不在你的电脑上执行任何东西；本机执行需要你在界面上主动选择。
+
+---
+
+相关文档：[平台架构](../architecture/README.md) · [文档中心](../README.md) · [返回首页](../../README.md)
+
+
+---
+
+# docs/desktop/install.zh.md
+
+# 桌面端安装与升级（Windows）
+
+## 1. 下载
+
+| 渠道 | 地址 |
+|------|------|
+| GitHub Releases（推荐，可校验） | <https://github.com/ZhangMochen1314/deepresvalue/releases/latest> |
+| 官方网站 | <https://deepresvalue.com/> |
+
+下载文件名形如 `DeepResValue-<版本号>-setup.exe`。当前公开版本、文件大小与 SHA256 见仓库根目录的 [RELEASES.md](../../RELEASES.md)。
+
+> 只从上述两个渠道下载。第三方站点转发的安装包无法保证未被篡改。
+
+## 2. 校验（建议做，30 秒）
+
+在下载目录打开 PowerShell：
+
+```powershell
+Get-FileHash .\DeepResValue-0.1.38-setup.exe -Algorithm SHA256
+```
+
+把输出的哈希与 [RELEASES.md](../../RELEASES.md) 中该版本的值逐字比对。**不一致就不要安装**，重新下载或换渠道。
+
+## 3. 系统要求
+
+| 项 | 要求 |
+|----|------|
+| 操作系统 | Windows 10（1809 及以上）/ Windows 11 |
+| 架构 | x64 |
+| 内存 | 建议 8 GB（最低 4 GB） |
+| 磁盘 | 约 2 GB 可用空间（安装包约 517 MB，安装后更大） |
+| 网络 | 必须联网；需能访问 `deepresvalue.com` |
+| 权限 | 普通用户即可安装（按用户安装，不需要管理员） |
+
+## 4. 安装
+
+1. 双击安装包。
+2. **SmartScreen 提示**：因为安装包**未做代码签名**，Windows 会显示"Windows 已保护你的电脑"。
+   点 **更多信息** → **仍要运行**。这是预期行为，不是安装包损坏。
+3. 选择安装目录（默认按用户安装，可改路径）。
+4. 等待完成。安装程序**不会**自动启动应用（避免安装脚本替你做事），请从开始菜单或桌面快捷方式启动。
+
+> 若企业环境有应用白名单/杀软策略，可能需要在策略侧放行该安装包；平台不提供绕过系统安全策略的方法。
+
+## 5. 首次启动
+
+1. 启动 DeepResValue。
+2. 用**与网页端相同的账号**登录。
+3. 选择**工作区目录**——这是本机执行时的默认工作目录，也是你放本机文件的地方。
+   之后可在设置里更换；换目录不会移动已有文件。
+4. 进入主界面。左侧是会话，中间是对话，右侧是文件与产物。
+
+## 6. 升级
+
+- 应用内升级：**设置 → 账号页底部「软件更新」**。
+- 也可以直接下载新版本安装包覆盖安装；安装目录会被复用，工作区文件不受影响。
+- 升级不需要重新登录。
+
+## 7. 卸载
+
+- 方式一：Windows **设置 → 应用 → 已安装的应用 → DeepResValue → 卸载**。
+- 方式二：安装目录下的 `Uninstall DeepResValue.exe`。
+
+**卸载会删掉什么、不会删掉什么**：
+
+| 对象 | 卸载后 |
+|------|--------|
+| 程序文件、内置运行时 | 删除 |
+| 应用配置与会话缓存（用户数据目录） | 可能保留，可手动清理 |
+| **你的工作区目录（本机文件）** | **不会删除** |
+| 云端会话与产物 | 不受影响，重新登录即可见 |
+
+## 8. 常见安装问题
+
+| 现象 | 处理 |
+|------|------|
+| SmartScreen 拦截 | 更多信息 → 仍要运行（见第 4 节） |
+| 杀软报毒/隔离 | 加入信任后重装；如仍被隔离，用官方渠道重新下载并核对 SHA256 |
+| 安装到一半失败 | 检查磁盘空间与安装目录权限；关闭占用该目录的程序后重试 |
+| 启动后白屏/卡在加载 | 检查网络能否访问 `deepresvalue.com`；重启应用；仍不行看 [FAQ](./faq.zh.md) |
+| 安装包哈希不一致 | 不要安装，重新下载 |
+
+---
+
+相关文档：[本地执行与隐私](./local-execution.zh.md) · [常见问题](./faq.zh.md) · [桌面端总览](./README.md)
+
+
+---
+
+# docs/desktop/install.en.md
+
+# Desktop Install & Upgrade (Windows)
+
+## 1. Download
+
+| Channel | Address |
+|---------|---------|
+| GitHub Releases (recommended, verifiable) | <https://github.com/ZhangMochen1314/deepresvalue/releases/latest> |
+| Official website | <https://deepresvalue.com/> |
+
+The file is named like `DeepResValue-<version>-setup.exe`. The current public version, size, and SHA256 are listed in [RELEASES.md](../../RELEASES.md).
+
+> Download only from the two channels above. Mirrors operated by third parties cannot guarantee the installer was not tampered with.
+
+## 2. Verify (recommended, 30 seconds)
+
+In the download folder, open PowerShell:
+
+```powershell
+Get-FileHash .\DeepResValue-0.1.38-setup.exe -Algorithm SHA256
+```
+
+Compare the output character by character with the value for that version in [RELEASES.md](../../RELEASES.md). **If it does not match, do not install** — download again or switch channels.
+
+## 3. System Requirements
+
+| Item | Requirement |
+|------|-------------|
+| OS | Windows 10 (1809 or later) / Windows 11 |
+| Architecture | x64 |
+| Memory | 8 GB recommended (4 GB minimum) |
+| Disk | ~2 GB free (installer ~517 MB; installed size is larger) |
+| Network | Required; `deepresvalue.com` must be reachable |
+| Privileges | Standard user (per-user install, no administrator needed) |
+
+## 4. Install
+
+1. Double-click the installer.
+2. **SmartScreen prompt**: the installer is **not code-signed**, so Windows shows "Windows protected your PC".
+   Click **More info** → **Run anyway**. This is expected, not a corrupted installer.
+3. Choose the install directory (per-user by default; the path can be changed).
+4. Wait for completion. The installer does **not** auto-launch the app — start it from the Start menu or the desktop shortcut.
+
+> In environments with application allowlists or endpoint protection, the installer may need to be allowed by policy. The platform does not provide a way to bypass system security policies.
+
+## 5. First Launch
+
+1. Start DeepResValue.
+2. Sign in with the **same account you use on the web**.
+3. Choose a **workspace directory** — the default working directory for local execution and where your local files live.
+   You can change it later in settings; changing it does not move existing files.
+4. You land in the main UI: sessions on the left, conversation in the middle, files and artifacts on the right.
+
+## 6. Upgrade
+
+- In-app: **Settings → bottom of the Account page → Software Update**.
+- Or download the new installer and install over the old one; the install directory is reused and workspace files are untouched.
+- Upgrading does not require signing in again.
+
+## 7. Uninstall
+
+- Option 1: Windows **Settings → Apps → Installed apps → DeepResValue → Uninstall**.
+- Option 2: `Uninstall DeepResValue.exe` in the install directory.
+
+**What is removed and what is not**:
+
+| Item | After uninstall |
+|------|-----------------|
+| Program files and bundled runtime | Removed |
+| App configuration and session cache (user data) | May remain; can be cleaned manually |
+| **Your workspace directory (local files)** | **Not removed** |
+| Cloud sessions and artifacts | Unaffected; sign in again to see them |
+
+## 8. Common Installation Issues
+
+| Symptom | What to do |
+|---------|------------|
+| SmartScreen blocks the installer | More info → Run anyway (see section 4) |
+| Antivirus flags/quarantines it | Add an exception and reinstall; if it persists, re-download from the official channel and verify SHA256 |
+| Install fails halfway | Check free disk space and directory permissions; close programs using that directory and retry |
+| Blank window / stuck loading after launch | Check that `deepresvalue.com` is reachable; restart the app; otherwise see [FAQ](./faq.en.md) |
+| Hash mismatch | Do not install; download again |
+
+---
+
+Related: [Local Execution & Privacy](./local-execution.en.md) · [FAQ](./faq.en.md) · [Desktop Overview](./README.md)
+
+
+---
+
+# docs/desktop/local-execution.zh.md
+
+# 本地执行与隐私（桌面端）
+
+> 一句话：**默认什么都不在你的电脑上跑**。只有当你在界面上主动选择"在本机执行"，桌面端才会触碰本机环境、
+> 文件或进程；选择之后，边界是三档权限 + 工作区目录 + 可随时取消。
+
+---
+
+## 1. 为什么需要"本机执行"
+
+云端隔离执行覆盖绝大多数任务，但它看不到你的电脑。下面几类任务只能在本机做：
+
+- 处理**本机文件**（不经过云端上传）；
+- 调用**本机已装软件**（专业软件、本机工具链、内网客户端）；
+- 使用**本机环境变量与凭证**（例如企业内网、已登录的本地服务）；
+- 需要**长时间驻留**的本地任务（批量转码、长跑脚本）。
+
+这就是桌面端存在的理由，也是它唯一的"多出来的能力"。
+
+---
+
+## 2. 如何开启
+
+1. 在对话里选择执行位置：**本机**（默认是云端）。
+2. 首次使用会要求你确认工作区目录——本机执行只能在你选定的目录范围内活动。
+3. 发送任务。任务卡片会显示执行位置、权限档位与耗时。
+
+**没有"自动在本机执行"的路径**。执行位置是每次任务显式选择的；换会话不会沿用上一次的授权。
+
+---
+
+## 3. 三档权限
+
+| 档位 | 能做什么 | 不能做什么 | 何时用 |
+|------|----------|------------|--------|
+| **只读**（read-only） | 读取工作区内容、查看环境信息 | 写文件、改配置、装依赖 | 只想让 Agent 看，不想让它动 |
+| **工作区读写**（workspace-write，默认） | 在工作区目录内读写、跑脚本、装依赖 | 工作区之外的路径 | 绝大多数本机任务 |
+| **完全访问**（full） | 读写工作区之外的路径 | —— | 明确需要跨目录操作时 |
+
+权限档位**按任务生效**，不会"一次授权永久生效"。
+
+---
+
+## 4. 边界：工作区
+
+- 工作区是你选定的一个目录。默认档位下，读写都被限制在这个目录里。
+- 工作区之外的路径需要**完全访问**档位，且由你显式选择。
+- 换工作区只改"以后在哪儿干活"，不会移动或删除已有文件。
+
+---
+
+## 5. 进程卫生
+
+本机执行不是"把命令丢进你的终端就不管了"：
+
+| 机制 | 行为 |
+|------|------|
+| 超时 | 每个任务有执行上限；到点终止，返回可读原因 |
+| 取消 | 你随时可以取消；取消会终止该任务派生的**整棵进程树**，不留孤儿进程 |
+| 后台任务 | 长任务以作业形式运行，可查看进度、查看输出、随时停止 |
+| 输出落盘 | 命令的标准输出与错误分别落日志，可回溯，不吞错 |
+| 审计 | 每次本机执行在任务日志卡里留下记录（命令、目录、退出码、耗时） |
+
+---
+
+## 6. 需要额外确认的动作
+
+以下动作**不会静默发生**，必须经过确认，否则直接拒绝（fail-closed）：
+
+- 在**工作区之外**创建或修改内容；
+- 创建/删除本机环境（例如新建 Python、R 环境）；
+- 安装系统级依赖；
+- 需要管理员权限的操作（会走 Windows 的 UAC 提示）。
+
+如果你在某些环境下没有确认通道（例如策略禁用了确认对话框），这些动作会被**直接拒绝**，而不是降级放行。
+
+---
+
+## 7. 数据去了哪里
+
+| 数据 | 落点 | 是否跨设备可见 |
+|------|------|----------------|
+| 你在工作区里的本机文件 | 你的电脑 | 否（除非你上传） |
+| 本机执行的命令输出 | 本机会话日志 + 会话记录 | 会话记录随账号同步 |
+| 你上传到会话的文件 | 云端存储 | 是 |
+| 正式交付物（回传后） | 云端存储 | 是 |
+
+**要点**：本机文件不是平台的持久化数据。你换了电脑、或卸载了桌面端，工作区里的文件仍然在你自己机器上，
+但平台侧不会替你保留副本。
+
+---
+
+## 8. 隐私边界（不夸大）
+
+- **传输全程加密**（HTTPS / WSS）。
+- **不做端到端加密承诺**：云端任务需要读取文件内容才能分析；本机任务不上传文件内容，但任务描述与执行记录会同步到会话。
+- **不做"仅本人可访问"的绝对承诺**：分享是链接级，拿到链接即可访问。
+- **不上传你的工作区文件**：除非你在任务里主动上传，或 Agent 把产物回传为交付物。
+
+---
+
+## 9. 建议的安全用法
+
+1. 给 Agent 单独建一个工作区目录，不要把整个磁盘或家目录设成工作区。
+2. 默认用"工作区读写"，只在确实需要跨目录时临时切"完全访问"。
+3. 涉及敏感凭证时，用本机环境变量，不要把密钥写进对话。
+4. 长时间任务用作业形式跑，方便随时查看与停止。
+5. 不用了就取消，别把任务挂在后台过夜。
+
+---
+
+相关文档：[安装与升级](./install.zh.md) · [常见问题](./faq.zh.md) · [平台架构](../architecture/platform.zh.md)
+
+
+---
+
+# docs/desktop/local-execution.en.md
+
+# Local Execution & Privacy (Desktop)
+
+> In one sentence: **nothing runs on your computer by default.** Only when you explicitly choose
+> "run on this machine" does the desktop client touch your environment, files, or processes — and even then
+> it is bounded by three permission tiers, a workspace directory, and a cancel button.
+
+---
+
+## 1. Why Local Execution Exists
+
+Cloud isolated execution covers the vast majority of tasks, but it cannot see your computer. These cases need local execution:
+
+- Working with **local files** (without uploading them);
+- Calling **software already installed** on your machine (specialized tools, internal clients);
+- Using **local environment variables and credentials** (corporate intranet, already-signed-in local services);
+- **Long-running local jobs** (bulk conversion, long scripts).
+
+That is the reason the desktop client exists — and the only extra capability it adds.
+
+---
+
+## 2. How to Enable
+
+1. In the conversation, choose the execution location: **this machine** (cloud is the default).
+2. On first use you confirm a workspace directory — local execution can only act inside it.
+3. Send the task. The task card shows location, permission tier, and elapsed time.
+
+**There is no "silently run locally" path.** Execution location is chosen per task; a new conversation does not inherit a previous authorization.
+
+---
+
+## 3. Three Permission Tiers
+
+| Tier | Can do | Cannot do | When to use |
+|------|--------|-----------|-------------|
+| **Read-only** | Read workspace content, inspect environment | Write files, change config, install dependencies | You want the Agent to look, not touch |
+| **Workspace write** (default) | Read/write inside the workspace, run scripts, install dependencies | Paths outside the workspace | Most local tasks |
+| **Full access** | Read/write outside the workspace | — | When cross-directory work is genuinely required |
+
+Tiers apply **per task**; there is no "authorize once, forever".
+
+---
+
+## 4. Boundary: The Workspace
+
+- The workspace is a directory you choose. Under the default tier, reads and writes are confined to it.
+- Paths outside the workspace require the **full access** tier, explicitly selected by you.
+- Changing the workspace only changes where future work happens; it does not move or delete existing files.
+
+---
+
+## 5. Process Hygiene
+
+Local execution is not "fire a command into your terminal and forget it":
+
+| Mechanism | Behavior |
+|-----------|----------|
+| Timeout | Each task has a deadline; it is terminated on expiry with a readable reason |
+| Cancel | Cancellable at any time; cancelling terminates the **whole process tree** spawned by the task, leaving no orphans |
+| Background jobs | Long tasks run as jobs with progress, output, and stop controls |
+| Output capture | stdout and stderr are logged separately and remain reviewable; errors are never swallowed |
+| Audit | Each local run leaves a record in the task log card (command, directory, exit code, duration) |
+
+---
+
+## 6. Actions That Require Explicit Confirmation
+
+The following **never happen silently**; they require confirmation and are otherwise rejected (fail-closed):
+
+- Creating or modifying content **outside the workspace**;
+- Creating or deleting local environments (e.g. a new Python or R environment);
+- Installing system-level dependencies;
+- Operations needing administrator privileges (Windows UAC prompt applies).
+
+If a confirmation channel is unavailable in your environment (for example, dialogs disabled by policy), these actions are **rejected outright** rather than allowed by default.
+
+---
+
+## 7. Where Data Goes
+
+| Data | Location | Visible across devices |
+|------|----------|------------------------|
+| Local files in your workspace | Your computer | No (unless you upload) |
+| Local execution output | Local session log + conversation record | Conversation record syncs with the account |
+| Files you upload to a conversation | Cloud storage | Yes |
+| Deliverables (after return) | Cloud storage | Yes |
+
+**Key point**: local files are not platform persistence. If you switch computers or uninstall the desktop client, your workspace files stay on your machine — but the platform does not keep a copy for you.
+
+---
+
+## 8. Privacy Boundaries (No Overclaiming)
+
+- **Transport is fully encrypted** (HTTPS / WSS).
+- **No end-to-end encryption claim**: cloud tasks must read file contents to analyze them; local tasks do not upload file contents, but task descriptions and execution records sync to the conversation.
+- **No absolute "owner-only" claim**: sharing is link-level — anyone with the link can open it.
+- **Your workspace files are not uploaded**: unless you explicitly upload them, or the Agent returns an artifact as a deliverable.
+
+---
+
+## 9. Recommended Safe Usage
+
+1. Create a dedicated workspace directory for the Agent; do not point it at an entire disk or your home directory.
+2. Keep the default "workspace write" tier and switch to "full access" only temporarily.
+3. Keep sensitive credentials in local environment variables; never paste keys into the conversation.
+4. Run long tasks as background jobs so you can inspect and stop them.
+5. Cancel when done — do not leave tasks running overnight.
+
+---
+
+Related: [Install & Upgrade](./install.en.md) · [FAQ](./faq.en.md) · [Platform Architecture](../architecture/platform.en.md)
+
+
+---
+
+# docs/desktop/faq.zh.md
+
+# 桌面端常见问题（FAQ）
+
+## 安装
+
+**Q：安装时 Windows 提示"Windows 已保护你的电脑"，是不是安装包有问题？**
+A：不是。安装包**未做代码签名**，SmartScreen 对未签名程序一律拦截。点 **更多信息 → 仍要运行** 即可。
+如果你不放心，先按 [安装文档](./install.zh.md#2-校验建议做30-秒) 核对 SHA256。
+
+**Q：杀毒软件把安装包隔离了怎么办？**
+A：先把该文件加入信任后重新安装。若反复被隔离，请重新下载并核对 SHA256；哈希一致仍被拦，说明是本机安全策略所致，平台不会提供绕过手段。
+
+**Q：需要管理员权限吗？**
+A：不需要。默认按用户安装。只有少数"安装系统级依赖"的本机任务会触发 UAC。
+
+**Q：安装包有多大？装完占多少空间？**
+A：当前版本安装包约 517 MB（含内置运行时）；安装后建议预留 2 GB 左右。
+
+**Q：支持 macOS / Linux 吗？**
+A：当前公开版本只提供 Windows x64 安装包。其他平台请先用网页端或小程序端。
+
+---
+
+## 启动与登录
+
+**Q：启动后白屏 / 一直转圈？**
+A：按顺序排查：① 网络能否打开 `deepresvalue.com`；② 关闭代理软件后重试；③ 退出应用重新启动；④ 重启电脑。
+仍不行请把应用目录下的日志文件反馈给支持。
+
+**Q：登录失败？**
+A：桌面端与网页端共用账号。先在浏览器确认能登录；浏览器能登录而桌面端不能，多半是本机网络或代理策略。
+
+**Q：能同时开多个窗口 / 多个实例吗？**
+A：同一份用户数据只允许一个实例运行；再次启动会聚焦已有窗口。这是为了避免两个实例争抢同一工作区。
+
+---
+
+## 使用
+
+**Q：桌面端和网页端有什么区别？**
+A：界面与功能同源。差别只有两点：① 原生窗口体验（通知、多任务）；② **可选的"本机执行"**能力。
+不需要本机执行的话，网页端就够了。
+
+**Q：默认会在我的电脑上跑东西吗？**
+A：不会。执行位置每次任务显式选择；默认是云端。详见 [本地执行与隐私](./local-execution.zh.md)。
+
+**Q：Agent 会读我的整个硬盘吗？**
+A：不会。默认档位只能在你选定的工作区目录内读写；工作区之外需要"完全访问"档位并由你显式选择。
+
+**Q：工作区选错了 / 想换目录？**
+A：设置里可以更换。换目录只是改"以后在哪儿干活"，不会移动或删除已有文件。
+
+**Q：本机执行的文件会上传到云端吗？**
+A：不会自动上传。只有你主动上传，或 Agent 把产物作为交付物回传时才会上云。
+
+**Q：离线能用吗？**
+A：不能。平台能力依赖云端服务；断网时只能查看本地已缓存内容。
+
+**Q：长任务能挂着吗？**
+A：可以。长任务以作业形式运行，可看进度、看输出、随时停止；关闭窗口不会自动杀掉后台作业。
+
+---
+
+## 升级与卸载
+
+**Q：怎么升级？**
+A：设置 → 账号页底部「软件更新」；或下载新安装包覆盖安装。升级不需要重新登录，工作区文件不受影响。
+
+**Q：升级失败怎么办？**
+A：先完全退出应用再重试；仍失败就手动下载最新安装包覆盖安装。你的会话与工作区文件不受影响。
+
+**Q：卸载会删掉我的文件吗？**
+A：不会删工作区里的文件。卸载会删除程序文件与内置运行时；用户数据目录可能保留，可手动清理。
+云端会话与产物不受影响，重新登录即可见。
+
+**Q：卸载后还有残留吗？**
+A：可能有：用户数据目录（配置与会话缓存）以及你自己的工作区文件。前者可手动删除，后者是你自己的数据，平台不会替你删。
+
+---
+
+## 数据与隐私
+
+**Q：平台能看到我的本机文件吗？**
+A：读不到你工作区之外的东西；工作区内的读写由你的授权档位决定。本机执行的命令与输出会记录在会话日志中。
+
+**Q：分享链接安全吗？**
+A：分享是**链接级**：拿到链接的人就能访问。不要分享含敏感信息的链接。
+
+**Q：会话和产物保存在哪？**
+A：云端存储，随账号同步；工作区里的本机文件不构成持久化数据。
+
+---
+
+**没找到答案？** 先在 [文档中心](../README.md) 搜索；仍未解决请通过官网的反馈渠道联系我们，并附上：版本号、Windows 版本、复现步骤、日志文件。
+
+
+---
+
+# docs/desktop/faq.en.md
+
+# Desktop FAQ
+
+## Installation
+
+**Q: Windows shows "Windows protected your PC" when I run the installer. Is it broken?**
+A: No. The installer is **not code-signed**, so SmartScreen blocks it by default. Click **More info → Run anyway**.
+If you would rather verify first, compare the SHA256 as described in the [install guide](./install.en.md#2-verify-recommended-30-seconds).
+
+**Q: My antivirus quarantined the installer.**
+A: Add an exception and reinstall. If it keeps getting quarantined, re-download from the official channel and verify the SHA256; if the hash matches and it is still blocked, the cause is your local security policy — the platform does not provide ways to bypass it.
+
+**Q: Do I need administrator rights?**
+A: No. The default install is per-user. Only a few local tasks (installing system-level dependencies) trigger UAC.
+
+**Q: How large is the installer?**
+A: About 517 MB for the current version (bundled runtime included); allow roughly 2 GB of free disk after installation.
+
+**Q: Is macOS / Linux supported?**
+A: The current public release is Windows x64 only. On other platforms, use the web or mini-program surface.
+
+---
+
+## Launch and Sign-in
+
+**Q: Blank window or endless spinner after launch.**
+A: Check in order: (1) can you open `deepresvalue.com` in a browser; (2) disable proxy software and retry; (3) quit and relaunch the app; (4) reboot.
+If it persists, send the log files from the app directory to support.
+
+**Q: Sign-in fails.**
+A: Desktop shares the same account as the web. Confirm you can sign in through a browser first; if the browser works and desktop does not, the cause is usually local network or proxy policy.
+
+**Q: Can I open multiple windows or instances?**
+A: Only one instance runs per user-data directory; launching again focuses the existing window. This prevents two instances from fighting over the same workspace.
+
+---
+
+## Usage
+
+**Q: What is the difference between desktop and web?**
+A: UI and features share one source. Only two differences: (1) native window experience (notifications, multitasking); (2) the optional **local execution** capability.
+If you do not need local execution, the web is enough.
+
+**Q: Does it run anything on my computer by default?**
+A: No. Execution location is chosen per task, and the default is cloud. See [Local Execution & Privacy](./local-execution.en.md).
+
+**Q: Will the Agent read my whole disk?**
+A: No. The default tier confines reads and writes to the workspace you chose; paths outside it require the full-access tier that you select explicitly.
+
+**Q: I picked the wrong workspace / want to change it.**
+A: Change it in settings. It only changes where future work happens; existing files are not moved or deleted.
+
+**Q: Are locally processed files uploaded?**
+A: Not automatically. Only when you upload them, or when the Agent returns an artifact as a deliverable.
+
+**Q: Does it work offline?**
+A: No. Platform capability depends on cloud services; offline you can only view already-cached local content.
+
+**Q: Can I leave long tasks running?**
+A: Yes. Long tasks run as jobs with progress, output, and stop controls; closing the window does not automatically kill background jobs.
+
+---
+
+## Upgrade and Uninstall
+
+**Q: How do I upgrade?**
+A: Settings → bottom of the Account page → Software Update; or download the new installer and install over the old one. Upgrading requires no re-login and does not affect workspace files.
+
+**Q: The upgrade failed.**
+A: Fully quit the app and retry; if it still fails, download the latest installer manually and install over. Sessions and workspace files are unaffected.
+
+**Q: Will uninstalling delete my files?**
+A: Not your workspace files. Uninstall removes program files and the bundled runtime; the user-data directory may remain and can be cleaned manually.
+Cloud sessions and artifacts are unaffected — sign in again to see them.
+
+**Q: Any leftovers after uninstall?**
+A: Possibly: the user-data directory (config and session cache) and your own workspace files. The former can be deleted manually; the latter is your data and the platform will not delete it for you.
+
+---
+
+## Data and Privacy
+
+**Q: Can the platform see my local files?**
+A: It cannot reach anything outside your workspace, and reads/writes inside it depend on the tier you grant. Commands and output of local runs are recorded in the conversation log.
+
+**Q: Are share links safe?**
+A: Sharing is **link-level**: anyone with the link can access it. Do not share links to sensitive material.
+
+**Q: Where are sessions and artifacts stored?**
+A: Cloud storage, synced with your account. Local files in your workspace are not persistence.
+
+---
+
+**Still stuck?** Search the [documentation hub](../README.md) first; if that does not help, contact us through the official website with: version, Windows version, reproduction steps, and log files.
+
+
+---
+
+# docs/desktop/release-notes/v0.1.38.md
+
+# DeepResValue Desktop 0.1.38
+
+**发布日期**：2026-11-23
+**平台**：Windows x64
+**安装包**：`DeepResValue-0.1.38-setup.exe`
+**大小**：541,747,616 B（约 517 MB）
+**SHA256**：`34cf4d209c30a3d8d8112fce8de4962f364cfca1bb218c68ea28c5d39c65387e`
+**签名状态**：未签名（SmartScreen 提示 → 更多信息 → 仍要运行）
+
+---
+
+## 本次更新
+
+### 设置页精简
+
+- 移除只读的「本机环境」页——该页只做展示、没有可操作项，对用户没有实际价值。
+- 「软件更新」并入账号页，不再单独占用导航项。
+- 设置导航由 6 项减为 5 项。
+
+### 不变的部分
+
+- Agent 能力、工具与专家体系不变。
+- 本地执行的权限模型、工作区边界、进程卫生机制不变。
+- 安装/升级方式不变，工作区文件不受影响。
+
+---
+
+## 安装
+
+1. 下载 `DeepResValue-0.1.38-setup.exe`。
+2. 校验 SHA256（见上）。
+3. 双击安装；SmartScreen 提示点「更多信息 → 仍要运行」。
+4. 首次启动用网页端同一账号登录，选择工作区目录。
+
+详见 [安装与升级](../../docs/desktop/install.zh.md)。
+
+## 升级
+
+- 应用内：**设置 → 账号页底部「软件更新」**。
+- 或下载本版本安装包覆盖安装；不需要重新登录。
+
+## 已知问题
+
+- 安装包未做代码签名，首次运行必然触发 SmartScreen 提示（这是当前发布策略，不是缺陷）。
+- 卸载不删除工作区文件，也不会清理全部用户数据目录（见 [FAQ](../../docs/desktop/faq.zh.md)）。
+
+## English
+
+- Settings simplified: the read-only "local environment" page was removed; "Software Update" moved into the Account page (6 → 5 nav items).
+- Agent capabilities, local-execution permission model, and install/upgrade flow are unchanged.
+- Unsigned build: SmartScreen shows a warning on first run; click **More info → Run anyway**, and verify the SHA256 above.
+
+
+---
+
+# docs/architecture/README.md
+
+# 平台架构 / Platform Architecture
+
+DeepResValue 的**对外**架构说明。只描述用户可观测的链路、能力与边界，不含服务端实现。
+
+> The **public** architecture of DeepResValue: observable flows, capabilities, and boundaries only — no server-side implementation.
+
+| 语言 / Language | 文档 |
+|-----------------|------|
+| 中文 | [platform.zh.md](./platform.zh.md) |
+| English | [platform.en.md](./platform.en.md) |
+
+## 你会读到什么
+
+- 五条设计取舍（为什么是云端零配置 + 可选本机执行）
+- 端到端链路：端形态 → 平台服务 → 执行面 → 云端存储
+- 能力层：科研领域专家、技能与工具、四大计算内核、排版引擎、数据连接器、BYOK
+- 执行模型：默认云端隔离执行；桌面端本机执行为显式可选
+- 数据与留存：云端存储是唯一持久化层
+- **边界与不变量**：哪些事平台明确不承诺
+
+## 你不会读到什么
+
+服务端实现、内部模块划分、部署拓扑、第三方基础设施专名、任何密钥与凭据。这些不在公开范围，也不在本仓库讨论。
+
+---
+
+相关文档：[桌面端](../../desktop/README.md) · [文档中心](../README.md) · [返回首页](../../README.md)
+
+
+---
+
+# docs/architecture/platform.zh.md
+
+# 平台架构（对外）
+
+> 本节只描述 DeepResValue **对外可观测**的架构与边界：用户能看到什么、数据流向哪里、能力如何被调度。
+> 服务端实现细节不在公开范围，本文也不构成对内部设计的披露。
+
+---
+
+## 1. 一页速览：五条设计取舍
+
+| # | 取舍 | 对用户意味着什么 |
+|---|------|------------------|
+| 1 | **云端零配置优先** —— 计算环境不装在用户机器上 | 打开浏览器即可用；手机、平板、电脑同一套能力 |
+| 2 | **一个账号、一套数据** —— 端只是入口，不是数据孤岛 | 换设备不迁移，会话与产物跟着账号走 |
+| 3 | **能力按领域打包** —— 科研领域专家把方法与工具组合成包 | 说清任务即可，不必自己拼工具链 |
+| 4 | **过程可溯源** —— 推理、代码、执行、产物逐段落账 | 结论能回到"哪一行代码跑出了这张表" |
+| 5 | **本机能力是可选增强** —— 只有用户显式选择才在个人电脑上执行 | 默认不碰你的本机环境；需要时再授权 |
+
+---
+
+## 2. 端到端链路
+
+```
+ 用户
+  │  一句话任务（中文/英文）
+  ▼
+┌──────────────────────────────────────────────────────┐
+│ 端形态层   网页端 ／ 桌面端 ／ 小程序端                 │
+│            （同账号、同数据、同一套交互）               │
+└──────────────────────────────────────────────────────┘
+  │
+  ▼
+┌──────────────────────────────────────────────────────┐
+│ 平台服务层  会话编排 · 专家与技能调度 · 积分计量         │
+│             文件与产物管理 · 账号与配额                 │
+└──────────────────────────────────────────────────────┘
+  │                                   │
+  ▼                                   ▼
+┌───────────────────────────┐   ┌──────────────────────┐
+│ 隔离执行环境（默认路径）   │   │ 用户个人电脑（可选）  │
+│ 临时分配 · 任务结束即回收  │   │ 用户显式选择后启用    │
+│ 四大计算内核 · 排版引擎    │   │ 原生执行本机任务      │
+└───────────────────────────┘   └──────────────────────┘
+  │                                   │
+  └───────────────┬───────────────────┘
+                  ▼
+        ┌───────────────────────┐
+        │ 云端存储（唯一持久化） │
+        │ 上传件 · 中间件 · 产物 │
+        └───────────────────────┘
+```
+
+三条不变的纪律：
+
+1. **执行面是临时的**：隔离执行环境按任务分配、任务结束即回收，不长期驻留。
+2. **持久化只有一处**：正式交付物必须回到云端存储，才能被其他端看到。
+3. **本机执行不默认发生**：桌面端只有在用户显式选择"在本机执行"时才触碰本机文件与环境。
+
+---
+
+## 3. 端形态层
+
+| 端 | 形态 | 主要职责 | 与其它端的关系 |
+|----|------|----------|----------------|
+| 网页端 | 浏览器应用 | 全功能主入口 | 基线 |
+| 桌面端 | 基于 Chromium 的原生客户端 | 原生窗口体验 + 可选的**本机执行**能力 | 复用同一套网页实现，附加本机能力 |
+| 小程序端 | 轻量入口 | 移动端快捷使用 | 复用网页实现，只保留平台强制差异 |
+
+**一致性原则**：三端是同一个产品，不是三个实现。界面、流程、数据模型同源；差异只来自"这个端能做什么"，而不是"这个端怎么做"。
+
+---
+
+## 4. 能力层
+
+### 4.1 科研领域专家
+
+129 个科研领域专家，每个专家 = **领域方法 + 专业工作流 + 工具组合**。用户提出任务后，平台按领域匹配专家，由专家指导执行过程。
+
+### 4.2 技能与工具
+
+- **系统技能**：由平台自动注入，覆盖通用科研流程（检索、分析、写作、排版、复现）。
+- **自定义技能 / 第三方技能**：用户可安装、可组合。
+- **工具**：云端任务的可执行动作集合；桌面端另有独立的**本机工具集**。
+
+### 4.3 计算内核
+
+| 内核 | 用途 |
+|------|------|
+| Python 3 | 数据分析、机器学习、NLP、可视化 |
+| R | 统计建模、计量经济、生物信息 |
+| MATLAB 兼容（Octave） | 信号处理、控制系统、数值计算 |
+| SPICE（ngspice） | 电路仿真、模拟/数字设计验证 |
+
+### 4.4 排版引擎
+
+- **Word**：按机构模板生成报告
+- **LaTeX**：论文、公式、参考文献管理
+
+### 4.5 数据连接器（MCP）
+
+通过 MCP 协议接入外部数据源与工具，数量持续扩张。用户按需启用，凭证由用户自行提供。
+
+### 4.6 BYOK（自带模型密钥）
+
+用户可接入自己的模型服务（OpenAI 兼容协议），平台不介入用户与模型服务商之间的计费。
+
+---
+
+## 5. 执行模型
+
+### 5.1 两条执行路径
+
+| 路径 | 触发条件 | 运行位置 | 适合场景 |
+|------|----------|----------|----------|
+| **云端隔离执行**（默认） | 默认，无需配置 | 临时分配的隔离执行环境 | 绝大多数分析、计算、排版任务 |
+| **本机执行**（可选） | 用户在桌面端显式选择 | 用户个人电脑 | 需要本机文件、本机软件、本机环境变量或内网资源的任务 |
+
+### 5.2 任务生命周期
+
+```
+接收任务 → 匹配专家 → 规划步骤 → 逐步执行
+        → 每步产出落账（可溯源）→ 产物回传云端 → 环境回收
+```
+
+### 5.3 失败与降级
+
+- **超时**：单步执行有超时上限，超时后返回可读的失败原因，而不是无限等待。
+- **取消**：用户可随时取消；取消会终止该任务派生的整棵进程树。
+- **失败可见**：失败步骤携带原始输出，不做"静默成功"。
+- **降级**：某个连接器不可用时，任务带明确提示继续或停止，由用户决定。
+
+---
+
+## 6. 数据与留存
+
+| 数据 | 存放位置 | 说明 |
+|------|----------|------|
+| 上传文件 | 云端存储 | 随会话管理，跨端可见 |
+| 执行中间产物 | 云端存储 | 任务结束后仍可回溯 |
+| 正式交付物 | 云端存储 | 唯一持久化层；导出为下载 |
+| 桌面端本机文件 | 用户电脑 | **不是持久化数据**；不回传则在其他端不可见 |
+| 账号与会话元数据 | 平台数据库 | 账号级隔离 |
+
+**访问模型**：数据按账号隔离；分享走链接级授权，链接外泄即可访问——因此不要分享含敏感信息的链接。
+
+**留存**：文件与产物按产品策略保留，用户可随时导出或删除。
+
+---
+
+## 7. 计费与配额
+
+- 计量单位是**积分**，按任务消耗（复杂度、执行时长、模型用量）。
+- 新用户注册即获免费额度；额度用完后按需充值。
+- 邀请码奖励无上限。
+- BYOK 模式下，模型侧费用由用户与模型服务商直接结算。
+
+---
+
+## 8. 边界与不变量
+
+明确写下"不做什么"，比写"能做什么"更重要：
+
+1. **不承诺端到端加密**：传输全程加密；但平台需要读取文件内容才能完成分析。
+2. **不承诺离线全功能**：平台能力依赖云端服务，断网时不可用。
+3. **不公开服务端实现**：本文与公开仓库只描述对外架构，不含服务端代码与内部设计。
+4. **本机执行必须显式授权**：不存在"默认静默在用户电脑上执行"的路径。
+5. **产物以云端为准**：只存在于用户本机的文件，不视为平台已保存的交付物。
+6. **分享是链接级**：拿到链接即可访问，平台不提供"仅本人可访问"的强承诺。
+
+---
+
+## 9. 术语表（对外表述 → 含义）
+
+| 对外表述 | 含义 |
+|----------|------|
+| 隔离执行环境 | 按任务临时分配、用完回收的计算环境 |
+| 云端存储 | 平台的持久化存储层 |
+| 端形态 | 网页端 / 桌面端 / 小程序端 |
+| 本机执行 | 在用户个人电脑上原生执行任务 |
+| 设备通道 | 桌面端与平台之间的长连接，用于下发任务与回传结果 |
+| 科研领域专家 | 领域方法 + 工作流 + 工具的组合包 |
+| 技能 | 可复用的任务知识与操作规范 |
+| 连接器 | 通过 MCP 协议接入的外部数据源或工具 |
+
+
+---
+
+# docs/architecture/platform.en.md
+
+# Platform Architecture (Public View)
+
+> This section describes only the **externally observable** architecture and boundaries of DeepResValue:
+> what a user sees, where data flows, and how capabilities are scheduled.
+> Server-side implementation is out of scope, and nothing here discloses internal design.
+
+---
+
+## 1. At a Glance: Five Design Trade-offs
+
+| # | Trade-off | What it means for you |
+|---|-----------|-----------------------|
+| 1 | **Cloud-first, zero configuration** — the compute environment is not installed on your machine | Open a browser and start; phone, tablet, and desktop share the same capability |
+| 2 | **One account, one dataset** — devices are entrances, not data silos | Switch devices without migration; sessions and artifacts follow the account |
+| 3 | **Capability packaged by domain** — research experts bundle methods and tools | Describe the task; you do not assemble the toolchain yourself |
+| 4 | **Traceable by design** — reasoning, code, execution, and artifacts are recorded step by step | A conclusion can be traced back to the exact code that produced a table |
+| 5 | **Local execution is optional enhancement** — only after you explicitly opt in | Your machine is untouched by default; you grant access when needed |
+
+---
+
+## 2. End-to-End Path
+
+```
+ User
+  │  one-sentence task (Chinese / English)
+  ▼
+┌──────────────────────────────────────────────────────┐
+│ Surface layer   Web ／ Desktop ／ Mini-program         │
+│                 (same account, same data, same UX)    │
+└──────────────────────────────────────────────────────┘
+  │
+  ▼
+┌──────────────────────────────────────────────────────┐
+│ Platform service layer                                │
+│   session orchestration · expert & skill scheduling   │
+│   credit metering · file & artifact management        │
+└──────────────────────────────────────────────────────┘
+  │                                   │
+  ▼                                   ▼
+┌───────────────────────────┐   ┌──────────────────────┐
+│ Isolated execution (default)│  │ Your own computer    │
+│ allocated per task,         │  │ (optional)           │
+│ reclaimed on completion     │  │ enabled only when    │
+│ four kernels · typesetting  │  │ you explicitly opt in│
+└───────────────────────────┘   └──────────────────────┘
+  │                                   │
+  └───────────────┬───────────────────┘
+                  ▼
+        ┌───────────────────────┐
+        │ Cloud storage          │
+        │ (the only persistence) │
+        │ uploads · intermediates│
+        │ · deliverables         │
+        └───────────────────────┘
+```
+
+Three invariants:
+
+1. **The execution surface is ephemeral** — environments are allocated per task and reclaimed when it ends.
+2. **Persistence lives in exactly one place** — deliverables must return to cloud storage before other devices can see them.
+3. **Local execution never happens by default** — the desktop client touches local files and environments only after the user explicitly chooses to run locally.
+
+---
+
+## 3. Surface Layer
+
+| Surface | Form | Main role | Relationship to others |
+|---------|------|-----------|------------------------|
+| Web | Browser application | Full-featured primary entrance | Baseline |
+| Desktop | Native client built on Chromium | Native window experience + optional **local execution** | Reuses the same web implementation, adds local capability |
+| Mini-program | Lightweight entrance | Quick use on mobile | Reuses the web implementation, keeping only platform-mandated differences |
+
+**Consistency principle**: the three surfaces are one product, not three implementations. UI, flows, and data model share a single source; differences come from *what a surface can do*, not from *how it is built*.
+
+---
+
+## 4. Capability Layer
+
+### 4.1 Research Experts
+
+129 domain experts. Each expert = **domain method + professional workflow + tool bundle**. After a task arrives, the platform matches a domain expert who guides execution.
+
+### 4.2 Skills and Tools
+
+- **System skills**: injected automatically by the platform, covering general research flows (search, analysis, writing, typesetting, reproducibility).
+- **Custom / third-party skills**: installable and composable by users.
+- **Tools**: the executable actions available to cloud tasks; the desktop client has a separate **local toolset**.
+
+### 4.3 Compute Kernels
+
+| Kernel | Use cases |
+|--------|-----------|
+| Python 3 | Data analysis, machine learning, NLP, visualization |
+| R | Statistical modeling, econometrics, bioinformatics |
+| MATLAB-compatible (Octave) | Signal processing, control systems, numerical computing |
+| SPICE (ngspice) | Circuit simulation, analog/digital design verification |
+
+### 4.4 Typesetting
+
+- **Word**: institution-template report generation
+- **LaTeX**: papers, equations, bibliography management
+
+### 4.5 Data Connectors (MCP)
+
+External data sources and tools are integrated over the MCP protocol, and the list keeps growing. Users enable connectors on demand and supply their own credentials.
+
+### 4.6 BYOK (Bring Your Own Key)
+
+Users may connect their own model service (OpenAI-compatible protocol). Billing between the user and the model provider stays between them.
+
+---
+
+## 5. Execution Model
+
+### 5.1 Two Execution Paths
+
+| Path | Trigger | Runs on | Typical scenarios |
+|------|---------|---------|-------------------|
+| **Cloud isolated execution** (default) | Default, no setup | A per-task isolated environment | Most analysis, computation, typesetting |
+| **Local execution** (optional) | User explicitly opts in on the desktop client | The user's own computer | Tasks needing local files, local software, local environment variables, or intranet resources |
+
+### 5.2 Task Lifecycle
+
+```
+accept task → match expert → plan steps → execute step by step
+           → record every step (traceable) → return artifacts to cloud → reclaim environment
+```
+
+### 5.3 Failure and Degradation
+
+- **Timeout**: each step has a deadline; on expiry the user gets a readable reason instead of an endless wait.
+- **Cancel**: available at any time; cancelling terminates the whole process tree spawned by that task.
+- **Visible failure**: failed steps carry raw output; there is no "silent success".
+- **Degradation**: when a connector is unavailable, the task either continues or stops with an explicit message — the user decides.
+
+---
+
+## 6. Data and Retention
+
+| Data | Location | Notes |
+|------|----------|-------|
+| Uploaded files | Cloud storage | Managed per session, visible across devices |
+| Execution intermediates | Cloud storage | Still traceable after the task ends |
+| Deliverables | Cloud storage | The only persistence layer; export to download |
+| Desktop local files | Your computer | **Not persistence**; invisible to other devices unless returned |
+| Account and session metadata | Platform database | Isolated per account |
+
+**Access model**: data is isolated per account; sharing is link-level, so anyone holding the link can open it — do not share links to sensitive material.
+
+**Retention**: files and artifacts are retained per product policy; users can export or delete them at any time.
+
+---
+
+## 7. Billing and Quota
+
+- The unit is **credits**, consumed per task (complexity, execution time, model usage).
+- New users receive a free quota on signup; top up when it runs out.
+- Invite rewards have no cap.
+- Under BYOK, model-side costs are settled directly between the user and the model provider.
+
+---
+
+## 8. Boundaries and Invariants
+
+Stating what we do **not** do matters more than listing features:
+
+1. **No end-to-end encryption claim**: transport is encrypted end to end; the platform must read file contents to analyze them.
+2. **No offline full-function claim**: platform capability depends on cloud services; it is unavailable offline.
+3. **Server-side implementation is not published**: this document and this repository describe the external architecture only.
+4. **Local execution requires explicit authorization**: there is no path that silently runs on a user's computer.
+5. **Cloud is the source of truth for artifacts**: a file that exists only on your machine is not a saved deliverable.
+6. **Sharing is link-level**: anyone with the link can open it; the platform does not promise "owner-only" access.
+
+---
+
+## 9. Glossary (External Term → Meaning)
+
+| Term | Meaning |
+|------|---------|
+| Isolated execution environment | A compute environment allocated per task and reclaimed afterward |
+| Cloud storage | The platform's persistence layer |
+| Surface | Web / desktop / mini-program entrance |
+| Local execution | Running tasks natively on the user's own computer |
+| Device channel | Long-lived connection between desktop and platform for dispatching tasks and returning results |
+| Research expert | A bundle of domain method + workflow + tools |
+| Skill | Reusable task knowledge and operating conventions |
+| Connector | An external data source or tool integrated over MCP |
+
+
+---
+
+# RELEASES.md
+
+# 版本发布 / Releases
+
+桌面端的公开版本记录。安装包托管在 [GitHub Releases](https://github.com/ZhangMochen1314/deepresvalue/releases)，
+**应用内升级仍走产品自身的更新通道**——GitHub 只是手动下载镜像，不影响已安装用户的自动更新。
+
+| 版本 | 日期 | 安装包 | 大小 | SHA256 |
+|------|------|--------|------|--------|
+| [0.1.38](./docs/desktop/release-notes/v0.1.38.md) | 2026-11-23 | `DeepResValue-0.1.38-setup.exe` | 541,747,616 B（约 517 MB） | `34cf4d209c30a3d8d8112fce8de4962f364cfca1bb218c68ea28c5d39c65387e` |
+
+> 校验方式：`Get-FileHash .\DeepResValue-0.1.38-setup.exe -Algorithm SHA256`，与上表逐字比对。
+
+---
+
+## 0.1.38（2026-11-23）
+
+**这次更新做了什么**：精简设置页——移除只读的「本机环境」页（对用户没有可操作价值），
+把「软件更新」并入账号页；导航项由 6 项减为 5 项。其余能力不变。
+
+- 安装/升级方式不变，工作区文件不受影响
+- 已安装用户可通过 **设置 → 账号页底部「软件更新」** 升级
+
+完整说明：[release-notes/v0.1.38.md](./docs/desktop/release-notes/v0.1.38.md)
+
+---
+
+## 关于签名
+
+安装包**未做代码签名**。Windows 首次运行会显示 SmartScreen 提示（"Windows 已保护你的电脑"），
+处理方式：**更多信息 → 仍要运行**。这是预期行为，不是文件损坏。
+
+由于未签名，**SHA256 校验是判断安装包真伪的唯一手段**，请务必比对。
+
+## 关于自动更新
+
+- 应用内检查更新与下载走产品自身的更新通道，与 GitHub 无关。
+- 从 GitHub 下载安装的用户，安装后同样走产品更新通道，无需回来手动下载。
+- 本仓库不保存任何安装包二进制（只在 Releases 中挂载），因此仓库可以安全地 `git clone`。
+
+---
+
+返回：[首页](./README.md) · [桌面端](./docs/desktop/README.md) · [平台架构](./docs/architecture/README.md) · [文档中心](./docs/README.md)
+
 
 ---
 

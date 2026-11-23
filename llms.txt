@@ -11,6 +11,8 @@
 - Dozens of MCP connectors integrated and continuously expanding
 - Covers frontier methods: spatial econometrics, advanced econometrics, bioinformatics, CAD analysis, Bayesian statistics, machine learning/AI, structural equation modeling, epidemiology
 - Supports national competitions: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship
+- Optional desktop client (Windows x64): native window + opt-in local execution on the user's own machine; installers are attached to GitHub Releases, never stored in this repository
+- Architecture docs describe externally observable behavior only (surfaces, capabilities, execution model, data boundaries); no server-side implementation is published
 - Official website: https://deepresvalue.com/
 
 ## Keywords
@@ -66,4 +68,16 @@
 - docs/modes/professional.en.md: Professional mode (English)
 - docs/faq/index.zh.md: 常见问题（中文）
 - docs/faq/index.en.md: FAQ (English)
+- docs/desktop/README.md: 桌面端总览 / Desktop overview
+- docs/desktop/install.zh.md: 桌面端安装与升级（中文）
+- docs/desktop/install.en.md: Desktop install & upgrade (English)
+- docs/desktop/local-execution.zh.md: 本地执行与隐私（中文）
+- docs/desktop/local-execution.en.md: Local execution & privacy (English)
+- docs/desktop/faq.zh.md: 桌面端常见问题（中文）
+- docs/desktop/faq.en.md: Desktop FAQ (English)
+- docs/desktop/release-notes/v0.1.38.md: 0.1.38 发布说明
+- docs/architecture/README.md: 对外平台架构索引 / Public architecture index
+- docs/architecture/platform.zh.md: 平台架构（对外，中文）
+- docs/architecture/platform.en.md: Platform architecture (public, English)
+- RELEASES.md: 版本索引与 SHA256 / version index with SHA256
 - https://deepresvalue.com/ : 官方网站 / Official website

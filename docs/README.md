@@ -2,7 +2,7 @@
 
 > **让科研回归本质，让工具服务于思想，让创造不被重复所困。**
 
-欢迎查阅 DeepResValue（深度研值）的开源用户文档。本仓库包含产品介绍、完整用户指南和分册帮助中心文档，涵盖平台所有核心功能的使用说明。
+欢迎查阅 DeepResValue（深度研值）的开源用户文档。本仓库包含产品介绍、完整用户指南、分册帮助中心文档，以及**桌面端使用文档**与**对外平台架构说明**，涵盖平台所有核心功能的使用说明与可观测架构边界。
 
 ---
 
@@ -21,6 +21,16 @@
 |------|------|------|
 | 🇨🇳 中文 | [user-guide.zh.md](./user-guide.zh.md) | 完整使用指南（快速开始/界面/核心功能/文件专家/溯源/对话管理/积分/FAQ/扩展能力） |
 | 🇬🇧 English | [user-guide.en.md](./user-guide.en.md) | Complete user guide (Quick Start / Interface / Core Features / Files & Experts / Traceability / Conversation / Credits / FAQ / Extensions) |
+
+### 🖥️ 桌面端与架构
+
+| 分类 | 中文 | English |
+|------|------|---------|
+| **桌面端** | [总览](./desktop/README.md) · [安装与升级](./desktop/install.zh.md) · [本地执行与隐私](./desktop/local-execution.zh.md) · [常见问题](./desktop/faq.zh.md) | [Overview](./desktop/README.md) · [Install](./desktop/install.en.md) · [Local execution & privacy](./desktop/local-execution.en.md) · [FAQ](./desktop/faq.en.md) |
+| **平台架构** | [架构总览](./architecture/README.md) · [平台架构（对外）](./architecture/platform.zh.md) | [Architecture](./architecture/README.md) · [Platform architecture (public)](./architecture/platform.en.md) |
+| **版本发布** | [RELEASES.md](../RELEASES.md)（版本 / 大小 / SHA256） | [RELEASES.md](../RELEASES.md) (version / size / SHA256) |
+
+> 架构文档只描述**对外可观测**的链路与边界；服务端实现、部署拓扑与基础设施标识不在公开范围。
 
 ### 📋 帮助中心（分册）
 
@@ -43,6 +53,15 @@ docs/
 ├── README.md                              ← 本文件（文档索引）
 ├── product-intro.{zh,en}.md               ← 产品介绍
 ├── user-guide.{zh,en}.md                  ← 用户指南（完整版）
+├── desktop/                               ← 桌面端
+│   ├── README.md                          ← 桌面端总览
+│   ├── install.{zh,en}.md                 ← 安装与升级
+│   ├── local-execution.{zh,en}.md         ← 本地执行与隐私
+│   ├── faq.{zh,en}.md                     ← 常见问题
+│   └── release-notes/                     ← 版本发布说明
+├── architecture/                          ← 对外平台架构
+│   ├── README.md
+│   └── platform.{zh,en}.md
 ├── getting-started/                       ← 快速开始
 │   ├── README.md                          ← 分册索引
 │   ├── index.{zh,en}.md
@@ -75,6 +94,8 @@ docs/
     ├── README.md
     └── index.{zh,en}.md
 ```
+
+> 仓库根目录另有 `RELEASES.md`：版本索引、安装包大小与 SHA256。
 
 ---
 

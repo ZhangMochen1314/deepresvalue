@@ -69,7 +69,7 @@
 
 ### BYOK 自接 LLM
 
-支持 Bring Your Own Key，接入 DeepSeek、OpenAI 或任何 OpenAI 兼容 API。平台仅收取沙箱执行基础积分，模型费用由用户自行承担。
+支持 Bring Your Own Key，接入 DeepSeek、OpenAI 或任何 OpenAI 兼容 API。平台仅收取隔离环境执行基础积分，模型费用由用户自行承担。
 
 ### 中文驱动 + 严谨可溯源
 
