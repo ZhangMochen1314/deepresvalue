@@ -4,7 +4,7 @@
 
 | Channel | Address |
 |---------|---------|
-| **Version & checksum (authoritative)** | [RELEASES.md](../../RELEASES.md) 鈥?lists versions whose Release is published, with size and SHA256 |
+| **Version & checksum (authoritative)** | [RELEASES.md](../../RELEASES.md) — lists versions whose Release is published, with size and SHA256 |
 | GitHub Releases | <https://github.com/ZhangMochen1314/deepresvalue/releases> |
 | Official website | <https://deepresvalue.com/> |
 
@@ -22,7 +22,7 @@ In the download folder, open PowerShell:
 Get-FileHash .\DeepResValue-0.1.38-setup.exe -Algorithm SHA256
 ```
 
-Compare the output character by character with the value for that version in [RELEASES.md](../../RELEASES.md). **If it does not match, do not install** 鈥?download again or switch channels.
+Compare the output character by character with the value for that version in [RELEASES.md](../../RELEASES.md). **If it does not match, do not install** — download again or switch channels.
 
 ## 3. System Requirements
 
@@ -39,9 +39,9 @@ Compare the output character by character with the value for that version in [RE
 
 1. Double-click the installer.
 2. **SmartScreen prompt**: the installer is **not code-signed**, so Windows shows "Windows protected your PC".
-   Click **More info** 鈫?**Run anyway**. This is expected, not a corrupted installer.
+   Click **More info** → **Run anyway**. This is expected, not a corrupted installer.
 3. Choose the install directory (per-user by default; the path can be changed).
-4. Wait for completion. The installer does **not** auto-launch the app 鈥?start it from the Start menu or the desktop shortcut.
+4. Wait for completion. The installer does **not** auto-launch the app — start it from the Start menu or the desktop shortcut.
 
 > In environments with application allowlists or endpoint protection, the installer may need to be allowed by policy. The platform does not provide a way to bypass system security policies.
 
@@ -49,19 +49,19 @@ Compare the output character by character with the value for that version in [RE
 
 1. Start DeepResValue.
 2. Sign in with the **same account you use on the web**.
-3. Choose a **workspace directory** 鈥?the default working directory for local execution and where your local files live.
+3. Choose a **workspace directory** — the default working directory for local execution and where your local files live.
    You can change it later in settings; changing it does not move existing files.
 4. You land in the main UI: sessions on the left, conversation in the middle, files and artifacts on the right.
 
 ## 6. Upgrade
 
-- In-app: **Settings 鈫?bottom of the Account page 鈫?Software Update**.
+- In-app: **Settings → bottom of the Account page → Software Update**.
 - Or download the new installer and install over the old one; the install directory is reused and workspace files are untouched.
 - Upgrading does not require signing in again.
 
 ## 7. Uninstall
 
-- Option 1: Windows **Settings 鈫?Apps 鈫?Installed apps 鈫?DeepResValue 鈫?Uninstall**.
+- Option 1: Windows **Settings → Apps → Installed apps → DeepResValue → Uninstall**.
 - Option 2: `Uninstall DeepResValue.exe` in the install directory.
 
 **What is removed and what is not**:
@@ -77,7 +77,7 @@ Compare the output character by character with the value for that version in [RE
 
 | Symptom | What to do |
 |---------|------------|
-| SmartScreen blocks the installer | More info 鈫?Run anyway (see section 4) |
+| SmartScreen blocks the installer | More info → Run anyway (see section 4) |
 | Antivirus flags/quarantines it | Add an exception and reinstall; if it persists, re-download from the official channel and verify SHA256 |
 | Install fails halfway | Check free disk space and directory permissions; close programs using that directory and retry |
 | Blank window / stuck loading after launch | Check that `deepresvalue.com` is reachable; restart the app; otherwise see [FAQ](./faq.en.md) |
@@ -85,4 +85,4 @@ Compare the output character by character with the value for that version in [RE
 
 ---
 
-Related: [Local Execution & Privacy](./local-execution.en.md) 路 [FAQ](./faq.en.md) 路 [Desktop Overview](./README.md)
+Related: [Local Execution & Privacy](./local-execution.en.md) · [FAQ](./faq.en.md) · [Desktop Overview](./README.md)

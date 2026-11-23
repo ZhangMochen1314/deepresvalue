@@ -4,7 +4,7 @@
 
 **Q: Windows shows "Windows protected your PC" when I run the installer. Is it broken?**
 A: No. The installer is **not code-signed**, so SmartScreen blocks it by default. Click **More info → Run anyway**.
-If you would rather verify first, compare the SHA256 as described in the [install guide](./install.en.md#2-verify-recommended-30-seconds).
+If you would rather verify first, compare the SHA256 as described in the [install guide](./install.en.md).
 
 **Q: My antivirus quarantined the installer.**
 A: Add an exception and reinstall. If it keeps getting quarantined, re-download from the official channel and verify the SHA256; if the hash matches and it is still blocked, the cause is your local security policy — the platform does not provide ways to bypass it.
