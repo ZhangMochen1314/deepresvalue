@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://deepresvalue.top/">Website</a> · <a href="#quick-start">Quick Start</a> · <a href="#documentation">Docs</a> · <a href="LICENSE">License</a>
+  <a href="https://deepresvalue.com/">Website</a> · <a href="#quick-start">Quick Start</a> · <a href="#documentation">Docs</a> · <a href="LICENSE">License</a>
 </p>
 
 ---
@@ -74,9 +74,9 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 - 中文一句话驱动复杂科研全流程
 - Every reasoning step, code execution, and data transformation is **fully traceable** and auditable
-- Research skills validated through **thousands of real research projects** — all research data built-in, Agent calls autonomously
+- All research data built-in, the Agent calls data sources autonomously
 
-> 100+ professional research skills guide the Agent through domain-specific workflows. No research analysis method is out of reach — the Agent writes code in real time guided by specialized skills and executes in the cloud.
+> 129 Research Experts guide the Agent through domain-specific workflows. Each expert is a packaged combination of domain-specific professional workflows and tools. No research analysis method is out of reach — the Agent writes code in real time guided by specialized experts and executes in the cloud.
 
 ---
 
@@ -114,22 +114,13 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 ---
 
-## Validation & Milestones
-
-- 🎓 **3,000+ users** from 985/211 universities — professors, PhD/Master students, and researchers
-- 📈 **Thousands of real-world research projects** validated across disciplines
-- ✅ **Product-Market Fit (PMF) achieved** — now in formal launch and growth phase
-- 🏫 **Founder**: graduate of a 985 university, with deep domain expertise in AI × research workflows
-
----
-
 ## Getting Started & Pricing
 
-1. Visit **[deepresvalue.top](https://deepresvalue.top/)** and sign up
+1. Visit **[deepresvalue.com](https://deepresvalue.com/)** and sign up
 2. Select your research mode (Academic / Mentor / Professional)
 3. Describe your research task in one sentence — the AI Agent takes it from there
 
-**开始使用**：访问 [deepresvalue.top](https://deepresvalue.top/)，注册后选择科研模式，一句中文描述任务即可开始。
+**开始使用**：访问 [deepresvalue.com](https://deepresvalue.com/)，注册后选择科研模式，一句中文描述任务即可开始。
 
 | | |
 |---|---|
@@ -146,8 +137,8 @@ This repository contains the public documentation and product introduction for D
 | Document | Path | Description |
 |----------|------|-------------|
 | Documentation Hub | [`docs/README.md`](docs/README.md) | Documentation index |
-| Product Intro (中文) | [`docs/product-intro.zh.md`](docs/product-intro.zh.md) | 产品介绍 |
-| Product Intro (English) | [`docs/product-intro.en.md`](docs/product-intro.en.md) | Product introduction |
+| Product Intro (中文) | [`docs/product-intro.zh.md`](docs/product-intro.zh.md) | 产品定位、核心能力、学科场景、验证里程碑 |
+| Product Intro (English) | [`docs/product-intro.en.md`](docs/product-intro.en.md) | Product positioning, core capabilities, discipline scenarios, milestones |
 | User Guide (中文) | [`docs/user-guide.zh.md`](docs/user-guide.zh.md) | 用户指南 |
 | User Guide (English) | [`docs/user-guide.en.md`](docs/user-guide.en.md) | User guide |
 | Getting Started | [`docs/getting-started/`](docs/getting-started/) | Setup, interface overview, quick start |
@@ -171,5 +162,5 @@ You are free to share and adapt this material for any purpose, provided you give
 ---
 
 <p align="center">
-  <sub>© 2024–2026 DeepResValue 深度研值 · <a href="https://deepresvalue.top/">deepresvalue.top</a></sub>
+  <sub>© 2024–2026 DeepResValue 深度研值 · <a href="https://deepresvalue.com/">deepresvalue.com</a></sub>
 </p>
