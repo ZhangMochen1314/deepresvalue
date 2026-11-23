@@ -1,6 +1,6 @@
 # Data Sources
 
-No data? No problem. DeepResValue's data acquisition capability operates on two levels: **built-in panel datasets** and **skill-driven data collection** from external sources. Describe your needs in Chinese and the AI automatically matches the appropriate data source.
+No data? No problem. DeepResValue's data acquisition capability operates on two levels: **built-in panel datasets** and **expert-driven data collection** from external sources. Describe your needs in Chinese and the AI automatically matches the appropriate data source.
 
 ## Built-in Panel Data
 
@@ -15,9 +15,9 @@ The data engine directly reads authoritative Parquet files, covering six dataset
 | 🏢 **Listed Company Governance** | 2000–2023, 84 indicators covering financials, governance, market data |
 | 📍 **Industry & Geography** | 2000–2023, stock codes, industry classification, province location |
 
-## Skill-Driven Data Collection
+## Expert-Driven Data Collection
 
-AI automatically loads the appropriate data collection skill to fetch structured data from external sources:
+AI automatically loads the appropriate data-collection expert to fetch structured data from external sources:
 
 | Domain | Available Data |
 |--------|---------------|
@@ -53,7 +53,7 @@ The platform has integrated **dozens of MCP connectors**, letting you call third
 ## Usage
 
 1. **Describe your data needs** — In the chat, state in Chinese what data type, time range, and variables you need.
-2. **AI auto-matches the source** — The AI determines whether the data is available in built-in panels or needs external collection, then automatically loads the appropriate skill.
+2. **AI auto-matches the source** — The AI determines whether the data is available in built-in panels or needs external collection, then automatically loads the appropriate expert.
 3. **Use directly for analysis** — Retrieved data can be immediately used for statistical analysis in the current conversation.
 
 ## Example Prompts

@@ -9,7 +9,7 @@
 | 降 AIGC 率 | [aigc-detection.zh.md](./aigc-detection.zh.md) | [aigc-detection.en.md](./aigc-detection.en.md) |
 | 排版功能 | [typesetting.zh.md](./typesetting.zh.md) | [typesetting.en.md](./typesetting.en.md) |
 | 文件上传 | [file-upload.zh.md](./file-upload.zh.md) | [file-upload.en.md](./file-upload.en.md) |
-| 技能系统 | [skills.zh.md](./skills.zh.md) | [skills.en.md](./skills.en.md) |
+| 科研领域专家 | [skills.zh.md](./skills.zh.md) | [skills.en.md](./skills.en.md) |
 | 分析溯源 | [reproducibility.zh.md](./reproducibility.zh.md) | [reproducibility.en.md](./reproducibility.en.md) |
 | 竞赛建模 | [competition-modeling.zh.md](./competition-modeling.zh.md) | [competition-modeling.en.md](./competition-modeling.en.md) |
 
