@@ -17,7 +17,7 @@ Mentor Mode is your 24/7 academic advisor — no topic direction? Unsure about m
 | Methodology Recommendation | Recommends the most suitable research methods and analytical frameworks based on your data and questions |
 | Feasibility Assessment | Evaluates academic value, data availability, and methodological fit of your topic |
 | Step-by-Step Guidance | Breaks complex research tasks into executable steps |
-| Instant Response | Available for discussion even late at night — 100× faster than waiting for your advisor's WeChat reply |
+| Instant Response | Available for discussion even late at night — 100× faster than waiting for your advisor's reply |
 
 ## Example Prompts
 

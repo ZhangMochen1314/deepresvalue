@@ -4,7 +4,7 @@
 
 ## Register & Login
 
-1. **Visit the platform** — Open your browser and go to [deepresvalue.top](https://deepresvalue.top).
+1. **Visit the platform** — Open your browser and go to [deepresvalue.com](https://deepresvalue.com).
 2. **Create an account** — Click **"Get Access"** or **"Login"** in the top-right corner. Register with your phone number and SMS verification code.
 3. **Enter the main interface** — After registration you are automatically redirected to the main workspace.
 

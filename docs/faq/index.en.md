@@ -6,7 +6,7 @@ Common questions about using DeepResValue, organized by category.
 
 ### How do I register?
 
-Visit [deepresvalue.top](https://deepresvalue.top), click "Get Access" or "Login" in the top-right corner. Register with your phone number and SMS verification code. New users automatically receive starter credits.
+Visit [deepresvalue.com](https://deepresvalue.com), click "Get Access" or "Login" in the top-right corner. Register with your phone number and SMS verification code. New users automatically receive starter credits.
 
 ### Are conversation records saved permanently?
 
@@ -20,11 +20,11 @@ Absolutely. DeepResValue is designed for "zero code." Just describe your analysi
 
 ### Are AI-generated results reliable? Can they be used in defense?
 
-Yes. DeepResValue uses frontier LLMs, validated through thousands of real research projects. Most importantly, every analysis step preserves complete code and execution logs — when committee members challenge your methods, display the evidence chain directly. 100% reproducible.
+Yes. DeepResValue uses frontier LLMs. Most importantly, every analysis step preserves complete code and execution logs — when committee members challenge your methods, display the evidence chain directly. 100% reproducible.
 
 ### What if I don't have data?
 
-The platform includes built-in city/provincial/county macro panels and listed company financial panels. Data collection skills also access financial markets, health, medical, biological, and literature external data sources. Describe your needs in Chinese and the AI returns structured data — no middlemen, no cost.
+The platform includes built-in city/provincial/county macro panels and listed company financial panels. Data-collection experts also access financial markets, health, medical, biological, and literature external data sources. Describe your needs in Chinese and the AI returns structured data — no middlemen, no cost.
 
 ### What file formats are supported?
 
