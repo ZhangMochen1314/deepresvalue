@@ -1,28 +1,23 @@
 # DeepResValue — Full Documentation
-
 # DeepResValue
 
-> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 100+ professional research skills, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Covers frontier methods including spatial econometrics (SAR/SEM/SDM), advanced econometrics (GMM/DID/IV/RDD), bioinformatics (genomics/transcriptomics/proteomics), CAD/engineering analysis, Bayesian statistics (MCMC/Stan/PyMC), machine learning & AI (deep learning/NLP/SHAP), structural equation modeling (SEM/CFA/IRT), epidemiology (meta-analysis/PSM/competing risks). Supports national competition scenarios: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
+> DeepResValue (深度研值) — AI Research Assistant Agent SaaS for all academic disciplines. 129 Research Experts, four compute kernels (Python, R, MATLAB/Octave, SPICE-ngspice), Word + LaTeX typesetting, MCP connectors, BYOK model support. Covers frontier methods including spatial econometrics (SAR/SEM/SDM), advanced econometrics (GMM/DID/IV/RDD), bioinformatics (genomics/transcriptomics/proteomics), CAD/engineering analysis, Bayesian statistics (MCMC/Stan/PyMC), machine learning & AI (deep learning/NLP/SHAP), structural equation modeling (SEM/CFA/IRT), epidemiology (meta-analysis/PSM/competing risks). Supports national competition scenarios: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship. Single Chinese sentence drives the full research workflow with full traceability. "让科研回归本质，让工具服务于思想，让创造不被重复所困"
 
 ## Notes
 
 - AI research assistant platform for researchers, graduate students, and faculty
 - Supports all academic disciplines with emphasis on humanities & social sciences
-- 3,000+ users from 985/211 universities; thousands of validated projects
-- Product-Market Fit achieved; in formal launch and growth phase
 - New users get a free usage quota on signup; pay-as-you-go credit top-ups available
 - Sharing your invite code earns credit rewards with no cap
 - Dozens of MCP connectors integrated and continuously expanding
 - Covers frontier methods: spatial econometrics, advanced econometrics, bioinformatics, CAD analysis, Bayesian statistics, machine learning/AI, structural equation modeling, epidemiology
 - Supports national competitions: Mathematical Modeling (CUMCM/MCM-ICM), Challenge Cup, Innovation & Entrepreneurship
-- Official website: https://deepresvalue.top/
+- Official website: https://deepresvalue.com/
 
 ## Keywords
 
 - 中文：空间计量 · 高级计量 · 生信分析 · CAD 分析 · 机器学习 · 贝叶斯统计 · 结构方程 · 流行病学 · 论文写作 · 数据分析 · 文献综述 · 科学计算 · 数学建模 · 三创赛 · 挑战杯 · 科研助手 · 深度研值
 - English: spatial econometrics · advanced econometrics · bioinformatics · CAD analysis · machine learning · Bayesian statistics · structural equation modeling · epidemiology · academic writing · data analysis · literature review · scientific computing · mathematical modeling · Challenge Cup · research assistant
-
-
 
 # docs/account/ambassador.en.md
 # Campus Ambassador Program
@@ -33,18 +28,17 @@ DeepResValue is recruiting campus ambassadors from universities nationwide — h
 
 | Benefit | Description |
 |---------|-------------|
-| **Full Beta Access** | All 100+ professional skills, conversation modes, multi-source data collection — early access, no queue |
-| **Promotion Support** | Exclusive promotion material package + poster templates + copy assets for easy sharing in class groups, WeChat Moments, and clubs |
+| **Full Beta Access** | All 129 Research Experts, conversation modes, multi-source data collection — early access, no queue |
+| **Promotion Support** | Exclusive promotion material package + poster templates + copy assets for easy sharing in class groups, social media, and clubs |
 | **Honor Certification** | DeepResValue Campus Ambassador certificate issued; outstanding ambassadors receive recommendation letters for resume enhancement |
 
 ## How to Join
 
-1. **Add WeChat** — Add WeChat **MoChen11-20**, note: "Ambassador + University Name".
+1. **Apply on the official website** — Open the Ambassador entry on the official website and submit your school and identity information.
 2. **Get qualified** — After review, receive beta access and ambassador benefits.
 3. **Start promoting** — Use exclusive materials to promote on campus, helping more students learn about DeepResValue.
 
 > The Campus Ambassador program is open to all currently enrolled university students regardless of major. Students from all disciplines are welcome to join.
-
 
 # docs/account/ambassador.zh.md
 # 校园大使计划
@@ -55,15 +49,15 @@ DeepResValue is recruiting campus ambassadors from universities nationwide — h
 
 | 权益 | 说明 |
 |------|------|
-| 全功能内测 | 所有专业技能、对话模式、多源数据搜集提前畅享，免排队 |
-| 推广支持 | 专属推广物料包 + 海报模板 + 文案素材，轻松在班级群、朋友圈、社团宣传 |
+| 全功能内测 | 129 位科研领域专家、对话模式、多源数据搜集提前畅享，免排队 |
+| 推广支持 | 专属推广物料包 + 海报模板 + 文案素材，轻松在班级群、社交平台、社团宣传 |
 | 荣誉认证 | 颁发 DeepResValue 校园大使证书，优秀大使可获推荐信，简历加分 |
 
 ## 如何加入
 
-1. **添加微信**
-2. **获取资格**
-3. **开始推广**
+1. **官网申请** — 访问平台官网，在「校园大使」入口填写学校与身份信息提交申请。
+2. **获取资格** — 审核通过后，开通内测资格与大使权益。
+3. **开始推广** — 使用专属物料在校园内推广，帮助更多同学了解深度研值。
 
 > 校园大使面向全国所有高校在读学生，无专业限制，欢迎各学科同学加入。
 
@@ -109,7 +103,6 @@ Effective methods to reduce credit consumption:
 > **Auto-prompt on low credits**: When you attempt to send a message but have fewer than 1 credit, a purchase window appears automatically without interrupting or losing your current conversation.
 
 > **Top bar color indicator**: Green when sufficient; orange warning at 1–5 credits; red "Insufficient Credits" at 0 — click to recharge anytime.
-
 
 # docs/account/credits.zh.md
 # 积分系统
@@ -176,7 +169,6 @@ The invite code can be found in the user settings page. Click the avatar area at
 
 > Each invite code can only be used when an invitee registers for the first time. Existing accounts cannot retroactively apply an invite code.
 
-
 # docs/account/invites.zh.md
 # 邀请与推荐
 
@@ -216,7 +208,6 @@ The invite code can be found in the user settings page. Click the avatar area at
 
 → [返回文档中心](../README.md)
 
-
 # docs/account/settings.en.md
 # Account Settings
 
@@ -252,7 +243,6 @@ The platform offers five interface themes. Click the theme button on the left ed
 | Warm | Beige warm tone, soft contrast | Extended reading, eye comfort |
 
 > Theme switching takes effect immediately — no page refresh required.
-
 
 # docs/account/settings.zh.md
 # 账户设置
@@ -298,7 +288,7 @@ Common questions about using DeepResValue, organized by category.
 
 ### How do I register?
 
-Visit [deepresvalue.top](https://deepresvalue.top), click "Get Access" or "Login" in the top-right corner. Register with your phone number and SMS verification code. New users automatically receive starter credits.
+Visit [deepresvalue.com](https://deepresvalue.com), click "Get Access" or "Login" in the top-right corner. Register with your phone number and SMS verification code. New users automatically receive starter credits.
 
 ### Are conversation records saved permanently?
 
@@ -312,11 +302,11 @@ Absolutely. DeepResValue is designed for "zero code." Just describe your analysi
 
 ### Are AI-generated results reliable? Can they be used in defense?
 
-Yes. DeepResValue uses frontier LLMs, validated through thousands of real research projects. Most importantly, every analysis step preserves complete code and execution logs — when committee members challenge your methods, display the evidence chain directly. 100% reproducible.
+Yes. DeepResValue uses frontier LLMs. Most importantly, every analysis step preserves complete code and execution logs — when committee members challenge your methods, display the evidence chain directly. 100% reproducible.
 
 ### What if I don't have data?
 
-The platform includes built-in city/provincial/county macro panels and listed company financial panels. Data collection skills also access financial markets, health, medical, biological, and literature external data sources. Describe your needs in Chinese and the AI returns structured data — no middlemen, no cost.
+The platform includes built-in city/provincial/county macro panels and listed company financial panels. Data-collection experts also access financial markets, health, medical, biological, and literature external data sources. Describe your needs in Chinese and the AI returns structured data — no middlemen, no cost.
 
 ### What file formats are supported?
 
@@ -375,7 +365,6 @@ You can get more credits through:
 
 MCP (Model Context Protocol) connectors let you call third-party professional data sources directly in conversation — such as PatSnap (patent & IP), PKULaw (legal search), Wind (financial data), iFinD (market data), Qichacha (business intelligence), and more — without leaving the platform. **Dozens of MCP connectors** are already integrated, covering patent/IP, legal, financial, business intelligence, academic literature, geolocation, survey, meeting, and quantitative data — **and continuously expanding**. **The platform charges no additional service fee** for MCP connectors; you only bear the third-party data source's own API costs (if any). Your tokens are encrypted and stored securely; you can disable or revoke access at any time.
 
-
 # docs/faq/index.zh.md
 # 常见问题
 
@@ -385,7 +374,7 @@ MCP (Model Context Protocol) connectors let you call third-party professional da
 
 ### 如何注册账号？
 
-访问平台官网 [deepresvalue.top](https://deepresvalue.top)，点击右上角「获取内测资格」或「登录」，支持手机号注册——填写手机号和短信验证码即可快速登录。首次注册后系统将自动赠送初始积分。
+访问平台官网 [deepresvalue.com](https://deepresvalue.com)，点击右上角「获取内测资格」或「登录」，支持手机号注册——填写手机号和短信验证码即可快速登录。首次注册后系统将自动赠送初始积分。
 
 ### 对话记录会永久保存吗？
 
@@ -399,11 +388,11 @@ MCP (Model Context Protocol) connectors let you call third-party professional da
 
 ### AI 生成的结果可靠吗？答辩时能用吗？
 
-可靠。深度研值搭载顶尖推理引擎，经数千个真实科研场景项目验证。最关键的是，每一步分析都保留完整代码和执行日志——答辩时评委质疑，直接展示证据链，100% 可复现。
+可靠。深度研值搭载前沿大模型。最关键的是，每一步分析都保留完整代码和执行日志——答辩时评委质疑，直接展示证据链，100% 可复现。
 
 ### 没有数据怎么办？
 
-平台预置城市/省份/县域宏观面板与上市公司面板数据，数据搜集技能还可接入金融行情、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据，不用中介代查，不花一分钱。
+平台预置城市/省份/县域宏观面板与上市公司面板数据，数据搜集专家还可接入金融行情、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据，不用中介代查，不花一分钱。
 
 ### 支持哪些文件格式？
 
@@ -423,7 +412,7 @@ MCP (Model Context Protocol) connectors let you call third-party professional da
 
 ### 上传的文件有大小限制吗？
 
-单个文件最大支持 100MB，单次对话最多上传 10 个文件。如需处理超大文件，建议先分割或压缩后再上传。
+单个文件最大支持 100MB，单次对话最多上传 **10 个文件**。如需处理超大文件，建议先分割或压缩后再上传。
 
 ### 同时能运行几个会话？
 
@@ -484,7 +473,6 @@ MCP (Model Context Protocol) connectors let you call third-party professional da
 
 → [返回文档中心](../README.md)
 
-
 # docs/features/academic-writing.en.md
 # Academic Writing
 
@@ -520,7 +508,6 @@ DeepResValue covers every stage of paper writing — from topic selection to def
 > In Academic Mode, AI output automatically conforms to academic standards including citation format, paragraph structure, and expression style.
 
 > AI-generated academic content should be personalized before use to ensure it reflects your research characteristics and advisor's requirements.
-
 
 # docs/features/academic-writing.zh.md
 # 学术写作
@@ -597,7 +584,6 @@ DeepResValue's exclusive Chinese AIGC detection reduction engine helps solve the
 
 > AIGC reduction is an auxiliary technique. For best results, add your personal insights and modifications on top of the AI output.
 
-
 # docs/features/aigc-detection.zh.md
 # 降 AIGC 率
 
@@ -638,7 +624,7 @@ DeepResValue's exclusive Chinese AIGC detection reduction engine helps solve the
 # docs/features/competition-modeling.en.md
 # Competition Modeling
 
-DeepResValue includes **100+ professional skills** covering all academic disciplines. Competition-specific modules are continuously updated to ensure every national-level competition has dedicated skill guidance.
+DeepResValue includes **129 Research Experts** covering all academic disciplines. Competition-specific modules are continuously updated to ensure every national-level competition has dedicated expert guidance.
 
 ## Supported Competitions
 
@@ -651,25 +637,25 @@ DeepResValue includes **100+ professional skills** covering all academic discipl
 
 ### 🏆 National Statistical Modeling Competition
 
-- Dedicated `DeepResValue-StatModel` skill
+- Dedicated `DeepResValue-StatModel` expert
 - Covers the full workflow: topic selection → data processing → model construction → report writing
 - DML / DID / RDD / Causal Forest / Synthetic Control — **all methods commonly used in award-winning submissions are fully supported**
 
 ### 🚀 Challenge Cup
 
 - Covers **"Challenge Cup" National Undergraduate Extracurricular Academic Science & Technology Works Competition** and **Entrepreneurship Plan Competition**
-- Built-in dedicated skills for topic selection, research design, data analysis, and report writing
+- Built-in dedicated experts for topic selection, research design, data analysis, and report writing
 - AI-assisted market analysis + financial forecasting + risk assessment
 
 ### 💡 Innovation & Entrepreneurship (三创赛)
 
 - Covers **National E-Commerce "Innovation, Creativity & Entrepreneurship" Challenge**
-- Full workflow skill: innovation project initiation → business planning → practice verification → pitch defense
+- Full workflow expert: innovation project initiation → business planning → practice verification → pitch defense
 - Business plans, market research analysis, data visualization, pitch decks — one-stop output
 
 ## Step-by-Step Usage
 
-1. **Select the competition skill** — In the skill panel, choose the dedicated competition skill (e.g., StatModel, Mathematical Modeling).
+1. **Select the competition expert** — In the expert panel, choose the dedicated competition expert (e.g., StatModel, Mathematical Modeling).
 2. **Describe the competition problem** — Paste the competition problem or requirements into the chat, explain your approach and where you need help.
 3. **Complete tasks step by step** — The AI guides and produces output following the competition workflow (topic selection → data processing → model construction → report writing).
 
@@ -681,15 +667,14 @@ DeepResValue includes **100+ professional skills** covering all academic discipl
 
 > "Typeset this Mathematical Modeling paper in LaTeX, following the national competition paper format requirements."
 
-> Competition skills are continuously updated, covering methods commonly used in national-level competitions. In a three-day-three-night contest, while others pull all-nighters writing code, you pull all-nighters polishing your paper.
+> Competition experts are continuously updated, covering methods commonly used in national-level competitions. In a three-day-three-night contest, while others pull all-nighters writing code, you pull all-nighters polishing your paper.
 
 > Familiarize yourself with platform features before the competition to maximize efficiency during the actual event.
-
 
 # docs/features/competition-modeling.zh.md
 # 竞赛建模
 
-深度研值内置 **100+ 个专业技能**，覆盖全学科科研场景，其中竞赛专项持续更新，确保每个国家级竞赛都有专属技能指导。
+深度研值内置 **129 位科研领域专家**，覆盖全学科科研场景，其中竞赛专项持续更新，确保每个国家级竞赛都有专属专家指导。
 
 ## 支持的竞赛类型
 
@@ -702,25 +687,25 @@ DeepResValue includes **100+ professional skills** covering all academic discipl
 
 ### 🏆 全国统计建模大赛
 
-- `DeepResValue-StatModel` 专属技能
+- `DeepResValue-StatModel` 专属专家
 - 覆盖选题论证 → 数据处理 → 模型构建 → 报告撰写全流程
 - DML / DID / RDD / 因果森林 / 合成控制——**往年获奖作品常用方法全部支持**
 
 ### 🚀 挑战杯
 
 - 覆盖**「挑战杯」全国大学生课外学术科技作品竞赛**与**大学生创业计划竞赛**
-- 内置专项技能，辅助选题论证、研究设计、数据分析与报告撰写
+- 内置专项专家，辅助选题论证、研究设计、数据分析与报告撰写
 - AI 辅助市场分析 + 财务预测 + 风险评估
 
 ### 💡 三创赛
 
 - 覆盖**全国大学生电子商务"创新、创意及创业"挑战赛**
-- 内置三创赛全流程制胜技能，覆盖创新立项 → 商业策划 → 实践验证 → 路演答辩
+- 内置三创赛全流程制胜专家，覆盖创新立项 → 商业策划 → 实践验证 → 路演答辩
 - 商业计划书、市场调研分析、数据可视化、路演 PPT 一站式输出
 
 ## 使用步骤
 
-1. **选择竞赛技能**
+1. **选择竞赛专家**
 2. **描述竞赛题目**
 3. **逐步完成任务**
 
@@ -738,7 +723,7 @@ DeepResValue includes **100+ professional skills** covering all academic discipl
 帮我用 LaTeX 排版这篇数学建模论文，按照国赛论文格式要求。
 ```
 
-> 竞赛技能持续更新中，覆盖国家级竞赛常用方法。三天三夜的比赛，别人通宵写代码，你通宵润色论文。
+> 竞赛专家持续更新中，覆盖国家级竞赛常用方法。三天三夜的比赛，别人通宵写代码，你通宵润色论文。
 
 > 竞赛期间建议提前熟悉平台功能，正式比赛时能更高效地利用 AI 辅助。
 
@@ -792,7 +777,6 @@ Upload your data (supporting Excel, CSV, PDF, Word, Stata, SAS, SQLite, and 80+ 
 > Average turnaround: from data upload to complete results, approximately **2 minutes**. All results are 100% reproducible with full code preservation.
 
 > Tip: Before uploading, streamline your file — remove irrelevant columns and keep only the observations needed for analysis. This effectively reduces credit consumption.
-
 
 # docs/features/data-analysis.zh.md
 # 数据分析
@@ -854,7 +838,7 @@ Upload your data (supporting Excel, CSV, PDF, Word, Stata, SAS, SQLite, and 80+ 
 # docs/features/data-sources.en.md
 # Data Sources
 
-No data? No problem. DeepResValue's data acquisition capability operates on two levels: **built-in panel datasets** and **skill-driven data collection** from external sources. Describe your needs in Chinese and the AI automatically matches the appropriate data source.
+No data? No problem. DeepResValue's data acquisition capability operates on two levels: **built-in panel datasets** and **expert-driven data collection** from external sources. Describe your needs in Chinese and the AI automatically matches the appropriate data source.
 
 ## Built-in Panel Data
 
@@ -869,9 +853,9 @@ The data engine directly reads authoritative Parquet files, covering six dataset
 | 🏢 **Listed Company Governance** | 2000–2023, 84 indicators covering financials, governance, market data |
 | 📍 **Industry & Geography** | 2000–2023, stock codes, industry classification, province location |
 
-## Skill-Driven Data Collection
+## Expert-Driven Data Collection
 
-AI automatically loads the appropriate data collection skill to fetch structured data from external sources:
+AI automatically loads the appropriate data-collection expert to fetch structured data from external sources:
 
 | Domain | Available Data |
 |--------|---------------|
@@ -907,7 +891,7 @@ The platform has integrated **dozens of MCP connectors**, letting you call third
 ## Usage
 
 1. **Describe your data needs** — In the chat, state in Chinese what data type, time range, and variables you need.
-2. **AI auto-matches the source** — The AI determines whether the data is available in built-in panels or needs external collection, then automatically loads the appropriate skill.
+2. **AI auto-matches the source** — The AI determines whether the data is available in built-in panels or needs external collection, then automatically loads the appropriate expert.
 3. **Use directly for analysis** — Retrieved data can be immediately used for statistical analysis in the current conversation.
 
 ## Example Prompts
@@ -922,11 +906,10 @@ The platform has integrated **dozens of MCP connectors**, letting you call third
 
 > Describe your needs and the AI handles the rest — **free, no intermediary, no complex queries**.
 
-
 # docs/features/data-sources.zh.md
 # 数据源管理
 
-没有数据也不用担心——深度研值的数据获取能力分两层：**平台预置面板数据**与**技能驱动的数据搜集**。用中文一句话描述需求，AI 自动匹配数据源并返回结构化数据。
+没有数据也不用担心——深度研值的数据获取能力分两层：**平台预置面板数据**与**专家驱动的数据搜集**。用中文一句话描述需求，AI 自动匹配数据源并返回结构化数据。
 
 ## 平台预置面板数据
 
@@ -941,9 +924,9 @@ The platform has integrated **dozens of MCP connectors**, letting you call third
 | 🏢 **上市公司治理控制变量** | 2000-2023 年，财务、治理、市场等 84 个指标 |
 | 📍 **上市公司行业与地理位置** | 2000-2023 年，证券代码、行业、所属省份 |
 
-## 技能驱动的数据搜集
+## 专家驱动的数据搜集
 
-AI 自动加载对应数据搜集技能，从外部数据源获取结构化数据：
+AI 自动加载对应数据搜集专家，从外部数据源获取结构化数据：
 
 | 领域 | 可搜集的数据 |
 |------|--------------|
@@ -1053,7 +1036,6 @@ Files generated during AI analysis (reports, charts, code, etc.) appear in the *
 
 > Maximum **10 files per conversation**. For oversized files, consider splitting or compressing before upload. Streamlining files before upload effectively reduces credit consumption.
 
-
 # docs/features/file-upload.zh.md
 # 文件上传
 
@@ -1124,7 +1106,6 @@ Literature cited in AI responses is marked with superscript markers (e.g., `[1]`
 
 > All citations are clickable for original source verification, making it easy to verify and cite.
 
-
 # docs/features/literature-review.zh.md
 # 文献综述
 
@@ -1177,12 +1158,11 @@ AI 回复中引用的文献均标注上标标记（如 `[1]`、`[2]`），点击
 | 降 AIGC 率 | [aigc-detection.zh.md](./aigc-detection.zh.md) | [aigc-detection.en.md](./aigc-detection.en.md) |
 | 排版功能 | [typesetting.zh.md](./typesetting.zh.md) | [typesetting.en.md](./typesetting.en.md) |
 | 文件上传 | [file-upload.zh.md](./file-upload.zh.md) | [file-upload.en.md](./file-upload.en.md) |
-| 技能系统 | [skills.zh.md](./skills.zh.md) | [skills.en.md](./skills.en.md) |
+| 科研领域专家 | [skills.zh.md](./skills.zh.md) | [skills.en.md](./skills.en.md) |
 | 分析溯源 | [reproducibility.zh.md](./reproducibility.zh.md) | [reproducibility.en.md](./reproducibility.en.md) |
 | 竞赛建模 | [competition-modeling.zh.md](./competition-modeling.zh.md) | [competition-modeling.en.md](./competition-modeling.en.md) |
 
 → [返回文档中心](../README.md)
-
 
 # docs/features/reproducibility.en.md
 # Analysis Traceability
@@ -1231,7 +1211,6 @@ During AI analysis, you can see in real time which tools it invokes:
 
 > If you need to include the analysis process as a thesis appendix, consider screenshotting the key code panels and execution results.
 
-
 # docs/features/reproducibility.zh.md
 # 分析溯源
 
@@ -1277,13 +1256,13 @@ During AI analysis, you can see in real time which tools it invokes:
 > 如需将分析过程作为论文附件，建议截图保存关键步骤的代码面板和执行结果。
 
 # docs/features/skills.en.md
-# Skills System
+# Research Experts
 
-DeepResValue includes **100+ professional skills** covering the full research workflow. Skills have been **validated through thousands of real research projects** and are at the **global cutting edge**. Selecting a matching skill causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality. All research data is built-in — just state your needs and the Agent calls autonomously. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
+DeepResValue includes **129 Research Experts** covering the full research workflow. Each expert is a packaged combination of domain-specific professional workflows and tools. Selecting a matching expert causes the AI to load domain-specific professional knowledge and analysis tools, significantly improving output quality. All research data is built-in — just state your needs and the Agent calls autonomously. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized experts and executes in the cloud.
 
-## Skill Categories
+## Expert Categories
 
-| Category | Representative Skills | Use Cases |
+| Category | Representative Experts | Use Cases |
 |----------|---------------------|-----------|
 | 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics (SAR/SEM/SDM), time series, mediation-moderation, multilevel HLM, SEM | Quantitative research |
 | 🤖 Causal Inference | Bayesian causal inference, ML-based causal, DID/RDD/IV/Synthetic Control, GMM, propensity score matching (PSM) | Frontier methodology |
@@ -1299,41 +1278,40 @@ DeepResValue includes **100+ professional skills** covering the full research wo
 | 🔎 Data Collection | Financial markets, Chinese economic data, health data (CDC), medical databases, biological data (EMBL-EBI/bioRxiv), literature search (NCPSSD/CNKI/arXiv/PubMed) | Data acquisition |
 | ⚙️ Engineering Computing | MATLAB script (.m) execution, SPICE circuit simulation, control systems (PID/state-space), signal processing | Automation/electronics/control |
 
-## How Skills Work
+## How Experts Work
 
-Selecting a skill is equivalent to loading a **domain-specific knowledge base** for the AI:
+Selecting an expert is equivalent to loading a **domain-specific knowledge base** for the AI:
 
-- **Empirical Analysis skills**: The AI understands the applicable conditions of various econometric methods and hypothesis testing procedures
-- **Competition skills**: The AI is familiar with competition scoring criteria and award-winning paper writing patterns
-- **Discipline-specific skills**: The AI loads the corresponding discipline's professional tool library and terminology system
+- **Empirical Analysis experts**: The AI understands the applicable conditions of various econometric methods and hypothesis testing procedures
+- **Competition experts**: The AI is familiar with competition scoring criteria and award-winning paper writing patterns
+- **Discipline-specific experts**: The AI loads the corresponding discipline's professional tool library and terminology system
 
 ## Usage Steps
 
-1. **Open the skill panel** — Find the skill selection entry in the conversation interface.
-2. **Select the appropriate skill** — Browse and choose the most matching skill based on your research needs.
-3. **Start the conversation** — After selecting a skill, enter your question normally. The AI provides more precise output based on the selected skill's knowledge base.
+1. **Open the expert panel** — Find the expert selection entry in the conversation interface.
+2. **Select the appropriate expert** — Browse and choose the most matching expert based on your research needs.
+3. **Start the conversation** — After selecting an expert, enter your question normally. The AI provides more precise output based on the selected expert's knowledge base.
 
 ## Example Scenarios
 
-> After selecting the "Full-Workflow Empirical Analysis" skill:
+> After selecting the "Full-Workflow Empirical Analysis" expert:
 > "Use DID to analyze a policy effect — run parallel trend tests, placebo tests, and robustness checks."
 
-> After selecting the "Professional Scientific Plotting" skill:
+> After selecting the "Professional Scientific Plotting" expert:
 > "Draw a forest plot from regression results, mark 95% confidence intervals, export as 300dpi high-resolution PNG."
 
-> Selecting a matching skill significantly improves output quality. Without selecting a skill, the AI still works but precision may be lower.
+> Selecting a matching expert significantly improves output quality. Without selecting an expert, the AI still works but precision may be lower.
 
-> The skill list is continuously updated. If you cannot find a perfect match, choose the closest one — the AI will adapt automatically.
-
+> The expert list is continuously updated. If you cannot find a perfect match, choose the closest one — the AI will adapt automatically.
 
 # docs/features/skills.zh.md
-# 技能系统
+# 科研领域专家
 
-深度研值内置 **100+ 个专业技能**，覆盖科研全流程。技能经**数千真实科研项目实战检验**，达到**全球顶尖水平**。选择匹配的技能后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。各类科研数据内置，只需说需求 Agent 自主调用。前沿科研分析方法全覆盖——没有做不了的科研分析方法，Agent 实时在专业 skills 指导下写代码、云端执行。
+深度研值内置 **129 位科研领域专家**，覆盖科研全流程。每位专家是对应领域的专业工作流和工具组合包。选择匹配的专家后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。各类科研数据内置，只需说需求 Agent 自主调用。前沿科研分析方法全覆盖——没有做不了的科研分析方法，Agent 实时在对应领域专家指导下写代码、云端执行。
 
-## 技能分类
+## 专家分类
 
-| 技能类别 | 代表技能（部分） | 适用场景 |
+| 专家类别 | 代表专家（部分） | 适用场景 |
 |----------|------------------|----------|
 | 🔬 实证分析 | Python 全流程实证分析、R 全流程实证分析、面板分析、空间计量（SAR/SEM/SDM）、时间序列、中介调节、多层HLM、结构方程模型 SEM | 各类量化研究 |
 | 🤖 因果推断 | 贝叶斯因果推断、机器学习因果、DID/RDD/IV/合成控制、GMM、倾向评分匹配 PSM | 前沿方法论 |
@@ -1351,33 +1329,33 @@ Selecting a skill is equivalent to loading a **domain-specific knowledge base** 
 
 ## 使用步骤
 
-1. **打开技能面板**
-2. **选择合适的技能**
+1. **打开专家面板**
+2. **选择合适的专家**
 3. **开始对话**
 
-## 技能如何工作
+## 专家如何工作
 
-选择技能相当于为 AI 加载了一套 **专业领域知识库**：
+选择专家相当于为 AI 加载了一套 **专业领域知识库**：
 
-- **实证分析技能**：AI 了解各类计量方法的适用条件、假设检验流程
-- **竞赛技能**：AI 熟悉竞赛评分标准、获奖论文写作模式
-- **学科专项技能**：AI 加载对应学科的专业工具库和术语体系
+- **实证分析专家**：AI 了解各类计量方法的适用条件、假设检验流程
+- **竞赛专家**：AI 熟悉竞赛评分标准、获奖论文写作模式
+- **学科专项专家**：AI 加载对应学科的专业工具库和术语体系
 
 ## 示例场景
 
 ```text
-选择「全流程实证分析」技能后：
+选择「全流程实证分析」专家后：
 用 DID 方法分析政策效应，需要做平行趋势检验、安慰剂检验和稳健性检验。
 ```
 
 ```text
-选择「专业科研绘图」技能后：
+选择「专业科研绘图」专家后：
 根据回归结果画森林图，标注 95% 置信区间，导出 300dpi 高清 PNG。
 ```
 
-> 选择匹配的技能后，AI 将加载对应领域的专业知识与分析工具，输出质量显著提升。不选技能时 AI 也能工作，但精准度可能较低。
+> 选择匹配的专家后，AI 将加载对应领域的专业知识与分析工具，输出质量显著提升。不选专家时 AI 也能工作，但精准度可能较低。
 
-> 技能列表持续更新中，如果找不到完全匹配的技能，选择最接近的即可，AI 会自动适配。
+> 专家列表持续更新中，如果找不到完全匹配的专家，选择最接近的即可，AI 会自动适配。
 
 # docs/features/typesetting.en.md
 # Typesetting
@@ -1389,7 +1367,7 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 - **LaTeX typesetting engine** generates journal-standard professional charts
 - **Multiple academic chart types**: three-line tables, regression tables, structural equation diagrams, event study plots — directly usable in papers
 - **Multi-format export**: PDF / Word / LaTeX source, submission-ready formatting in one click
-- **Professional scientific plotting**: Built-in DeepResValue-SciPlot skill covering 20+ academic chart types
+- **Professional scientific plotting**: Built-in DeepResValue-SciPlot plotting expert covering 20+ academic chart types
 
 ## Supported Chart Types
 
@@ -1414,10 +1392,9 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 
 > "Generate event study plots and parallel trend test plots conforming to academic publication standards."
 
-> Built-in DeepResValue-SciPlot plotting skill covers scatter plots, heatmaps, forest plots, path analysis diagrams, social network graphs, and 20+ other academic chart types.
+> Built-in DeepResValue-SciPlot plotting expert covers scatter plots, heatmaps, forest plots, path analysis diagrams, social network graphs, and 20+ other academic chart types.
 
 > Typesetting output requires some processing time. Complex documents may take tens of seconds.
-
 
 # docs/features/typesetting.zh.md
 # 排版功能
@@ -1429,7 +1406,7 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 - **LaTeX 排版引擎驱动**：生成期刊标准的专业图表
 - **多种学术图表**：三线表、回归表、结构方程图、事件研究图——直接复制进论文
 - **多格式导出**：导出 PDF / Word / LaTeX 源码，投稿格式一键达标
-- **专业科研绘图**：内置 DeepResValue-SciPlot 绘图技能，覆盖 20+ 学术图表类型
+- **专业科研绘图**：内置 DeepResValue-SciPlot 绘图专家，覆盖 20+ 学术图表类型
 
 ## 支持的图表类型
 
@@ -1460,7 +1437,7 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 生成事件研究图和平行趋势检验图，要求符合学术论文发表标准。
 ```
 
-> 内置 DeepResValue-SciPlot 绘图技能，覆盖散点图、热力图、森林图、路径分析图、社会网络图等 20+ 学术图表类型。
+> 内置 DeepResValue-SciPlot 绘图专家，覆盖散点图、热力图、森林图、路径分析图、社会网络图等 20+ 学术图表类型。
 
 > 排版输出需要一定的处理时间，复杂文档可能需要等待数十秒。
 
@@ -1478,8 +1455,6 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 - 🎓 **博士生**：攻学位论文、做前沿方法探索
 - 🔬 **教授/研究员**：做项目申报、带团队、写基金申请书
 
-> 平台上线以来，已成功服务 3000+ 名 985/211 高校教授、硕博与学生用户完成科研任务，经数千个真实科研场景项目验证，分析方法覆盖经济学、管理学、生物医学、环境科学、社会科学等全学科领域。
-
 ## 核心理念
 
 **权威 · 可靠 · 真实 · 易上手。**
@@ -1488,7 +1463,7 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 
 ### 🏛️ 权威引擎
 
-搭载 **DeepSeek V4 Flash** 顶尖推理模型，具备百万级 Token 深度上下文理解能力。不是简单的聊天机器人——它能真正理解你的研究问题，自主选择最优分析方法，生成专业级结果。
+搭载前沿大模型，具备百万级 Token 深度上下文理解能力。不是简单的聊天机器人——它能真正理解你的研究问题，自主选择最优分析方法，生成专业级结果。
 
 ### 🔍 完全可复现
 
@@ -1498,7 +1473,7 @@ DeepResValue includes built-in LaTeX and Word typesetting engines, **all cloud-p
 
 ### 📊 真实数据
 
-平台预置城市/省份/县域宏观面板与上市公司面板数据，数据搜集技能持续接入金融、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据，**免费、免中介、免复杂查询**。
+平台预置城市/省份/县域宏观面板与上市公司面板数据，数据搜集专家持续接入金融、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据，**免费、免中介、免复杂查询**。
 
 ### ⚡ 说中文就能用
 
@@ -1587,7 +1562,6 @@ Right-click any conversation in the sidebar:
 | **Cmd/Ctrl + /** | View keyboard shortcuts |
 | **Enter** | Send message from input box |
 
-
 # docs/getting-started/interface-overview.zh.md
 # 界面概览
 
@@ -1661,7 +1635,7 @@ Right-click any conversation in the sidebar:
 
 ## Register & Login
 
-1. **Visit the platform** — Open your browser and go to [deepresvalue.top](https://deepresvalue.top).
+1. **Visit the platform** — Open your browser and go to [deepresvalue.com](https://deepresvalue.com).
 2. **Create an account** — Click **"Get Access"** or **"Login"** in the top-right corner. Register with your phone number and SMS verification code.
 3. **Enter the main interface** — After registration you are automatically redirected to the main workspace.
 
@@ -1705,7 +1679,6 @@ Full-service paper workflow — from proposal to graduation thesis, from literat
 Stata-grade analysis, no coding required. Describe your analysis needs in Chinese — the AI automatically writes Python/R code, runs regressions, and generates publication-ready tables and charts.
 
 > Try asking: "Use DID to analyze this panel data, run parallel trend tests, output three-line tables"
-
 
 # docs/getting-started/quick-start.zh.md
 # 快速开始
@@ -1776,7 +1749,6 @@ Stata 级分析，说中文就行。用中文说出分析需求，AI 自动写 P
 
 → [返回文档中心](../README.md)
 
-
 # docs/modes/academic.en.md
 # Academic Mode
 
@@ -1835,7 +1807,6 @@ Academic Mode provides one-stop paper writing services from proposal to graduati
 3. **Start the conversation** — Takes effect immediately. Enter your paper writing or literature needs.
 
 > AIGC reduction testing shows detection rates reduced from 85% to below the safe threshold. Combining with manual polishing is recommended for optimal results.
-
 
 # docs/modes/academic.zh.md
 # 学术模式
@@ -1913,7 +1884,7 @@ Mentor Mode is your 24/7 academic advisor — no topic direction? Unsure about m
 | Methodology Recommendation | Recommends the most suitable research methods and analytical frameworks based on your data and questions |
 | Feasibility Assessment | Evaluates academic value, data availability, and methodological fit of your topic |
 | Step-by-Step Guidance | Breaks complex research tasks into executable steps |
-| Instant Response | Available for discussion even late at night — 100× faster than waiting for your advisor's WeChat reply |
+| Instant Response | Available for discussion even late at night — 100× faster than waiting for your advisor's reply |
 
 ## Example Prompts
 
@@ -1930,7 +1901,6 @@ Mentor Mode is your 24/7 academic advisor — no topic direction? Unsure about m
 3. **Start the conversation** — The switch takes effect immediately. Enter your research-related questions to begin.
 
 > Switching modes does not affect existing conversation history, but starting a new conversation with the new mode is recommended for the best experience.
-
 
 # docs/modes/mentor.zh.md
 # 导师模式
@@ -1952,7 +1922,7 @@ Mentor Mode is your 24/7 academic advisor — no topic direction? Unsure about m
 | 方法论推荐 | 根据你的数据和问题，推荐最适合的研究方法和分析框架 |
 | 可行性评估 | 评估选题的学术价值、数据可得性和方法论匹配度 |
 | 分步指导 | 将复杂的研究任务拆解为可执行的步骤 |
-| 即时响应 | 深夜也能讨论，比导师回微信快 100 倍 |
+| 即时响应 | 深夜也能讨论，比等待导师回复快 100 倍 |
 
 ## 使用场景
 
@@ -2028,7 +1998,6 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 
 > Before uploading, streamline your data — remove irrelevant columns and keep only the observations needed for analysis. This effectively improves analysis speed and saves credits.
 
-
 # docs/modes/professional.zh.md
 # 专业模式
 
@@ -2096,7 +2065,6 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 
 → [返回文档中心](../README.md)
 
-
 # docs/product-intro.en.md
 # DeepResValue — Product Introduction
 
@@ -2106,7 +2074,7 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 
 ## One-Line Summary
 
-**DeepResValue** is an AI research assistant for researchers across all disciplines — **zero-install, zero-configuration: open your browser for a full-stack research environment**. Drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. Works on **phone, tablet, and desktop** with one unified account. All frontier research analysis methods are supported — no method is out of reach. The Agent writes code in real time guided by specialized skills and executes in the cloud.
+**DeepResValue** is an AI research assistant for researchers across all disciplines — **zero-install, zero-configuration: open your browser for a full-stack research environment**. Drive analysis with a single Chinese sentence, automatically write code, search literature, and typeset papers. Works on **phone, tablet, and desktop** with one unified account. All frontier research analysis methods are supported — no method is out of reach. The Agent writes code in real time guided by specialized experts and executes in the cloud.
 
 ---
 
@@ -2116,7 +2084,7 @@ Professional Mode lets you achieve Stata-grade data analysis in Chinese — no p
 |------------|------------------------|
 | 🔴 **Code & statistics barrier** | Natural-language-driven (Chinese) — AI auto-writes and executes code for DID, DML, RDD, and other frontier methods |
 | 🔴 **Fragmented toolchain** | One-stop pipeline: Search → Analyze → Write → Typeset — no more switching between Stata, SPSS, Word, and LaTeX |
-| 🔴 **Data acquisition difficulty** | 6 built-in panel datasets (city/provincial/county/listed-company) + 100+ skills for multi-source data collection |
+| 🔴 **Data acquisition difficulty** | 6 built-in panel datasets (city/provincial/county/listed-company) + Research Experts for multi-source data collection |
 | 🔴 **Non-reproducible analysis** | Full code and execution logs preserved at every step — 100% traceable and reproducible for defense presentations |
 | 🔴 **Time-consuming typesetting** | Word + LaTeX professional typesetting engine **pre-configured in the cloud, ready to use** — export PDF/Word/LaTeX source with one click |
 | 🔴 **Language & expression barrier** | Fully Chinese interface with built-in AIGC detection reduction engine for confident paper submission |
@@ -2144,7 +2112,7 @@ All four compute kernels (Python / R / MATLAB-Octave / SPICE-ngspice) + Word / L
 
 - LaTeX engine generates journal-standard professional charts (three-line tables, regression tables, SEM diagrams, etc.)
 - Export **PDF / Word / LaTeX source** — meet submission format requirements instantly
-- Built-in DeepResValue-SciPlot plotting skill covering 20+ academic chart types
+- Built-in DeepResValue-SciPlot plotting expert covering 20+ academic chart types
 - **Cloud-pre-configured, ready to use** — no local TeX distribution or Office installation needed
 
 ### MCP External Connectors
@@ -2174,8 +2142,8 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 ### Chinese-Driven + Rigorous & Traceable
 
 - Fully Chinese interaction — just describe your analysis needs
-- 100+ professional research skills auto-matched, **validated through thousands of real research projects**
-- **All frontier research analysis methods supported** — no method is out of reach; Agent writes code in real time guided by specialized skills and executes in the cloud
+- 129 Research Experts auto-matched; each expert is a packaged combination of domain-specific professional workflows and tools
+- **All frontier research analysis methods supported** — no method is out of reach; the Agent writes code in real time guided by specialized experts and executes in the cloud
 - All research data built-in — just state your needs and the Agent calls autonomously
 - Complete code and execution logs at every step, meeting academic standards
 
@@ -2209,15 +2177,6 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ---
 
-## Verification & Milestones
-
-- 🏆 **3,000+ professors, graduate students, and undergrads from China's top 985/211 universities** have tested the platform
-- 📊 Validated through **thousands of real research scenario projects** across all disciplines
-- 🎓 Founder is a **graduate of a 985 university**, with deep understanding of research pain points
-- ✅ **Product-Market Fit (PMF) achieved** — now in official launch and expansion phase
-
----
-
 ## Pricing & Business Model
 
 | | Description |
@@ -2230,7 +2189,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ## Quick Start
 
-1. Visit [deepresvalue.top](https://deepresvalue.top)
+1. Visit [deepresvalue.com](https://deepresvalue.com)
 2. Click **"Get Access"** or **"Login"** in the top-right corner
 3. Register with your **phone number** — enter number and SMS verification code
 4. New users receive a free usage quota for immediate full-feature access
@@ -2241,11 +2200,10 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | Link | Description |
 |------|-------------|
-| 🌐 [deepresvalue.top](https://deepresvalue.top) | Official website & registration |
+| 🌐 [deepresvalue.com](https://deepresvalue.com) | Official website & registration |
 | 📖 [User Guide](./user-guide.en.md) | Complete usage guide |
 | 📋 [Help Center](./features/) | Section-by-section feature docs |
 | 📚 [Documentation Index](./README.md) | Back to docs home |
-
 
 # docs/product-intro.zh.md
 # DeepResValue 深度研值 — 产品介绍
@@ -2256,7 +2214,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ## 一句话简介
 
-**DeepResValue（深度研值）** 是面向全学科科研工作者的 AI 科研助手——**零安装零配置，打开网页即得满配科研环境**，用中文一句话驱动，自动写码分析、检索文献、排版论文。手机、平板、电脑三端互通，随时随地开展科研。前沿科研分析方法全覆盖，没有做不了的科研分析方法——Agent 实时在专业 skills 指导下写代码、云端执行。
+**DeepResValue（深度研值）** 是面向全学科科研工作者的 AI 科研助手——**零安装零配置，打开网页即得满配科研环境**，用中文一句话驱动，自动写码分析、检索文献、排版论文。手机、平板、电脑三端互通，随时随地开展科研。前沿科研分析方法全覆盖，没有做不了的科研分析方法——Agent 实时在对应领域专家指导下写代码、云端执行。
 
 ---
 
@@ -2266,7 +2224,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 |------|---------------|
 | 🔴 **代码与统计门槛高** | 中文一句话驱动，AI 自动写码执行——零编程即可完成 DID、DML、RDD 等前沿方法分析 |
 | 🔴 **工具链割裂** | 一站式完成检索 → 分析 → 写作 → 排版，无需在 Stata、SPSS、Word、LaTeX 之间反复切换 |
-| 🔴 **数据获取难** | 预置 6 套面板数据（城市/省级/县域/上市公司）+ 100+ 技能驱动多源数据搜集 |
+| 🔴 **数据获取难** | 预置 6 套面板数据（城市/省级/县域/上市公司）+ 领域专家驱动多源数据搜集 |
 | 🔴 **分析不可复现** | 全程保留完整代码与执行日志，100% 可追溯可复现，答辩时直接展示证据链 |
 | 🔴 **排版耗时费力** | Word + LaTeX 专业排版引擎**云端预配置开箱即用**，一键导出 PDF/Word/LaTeX 源码，投稿格式快速达标 |
 | 🔴 **语言与表达门槛** | 全中文交互界面，内置降 AIGC 检测率引擎，论文安心提交 |
@@ -2294,7 +2252,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 - LaTeX 排版引擎生成期刊标准专业图表（三线表、回归表、结构方程图等）
 - 支持导出 **PDF / Word / LaTeX 源码**，投稿格式一键达标
-- 内置 DeepResValue-SciPlot 绘图技能，覆盖 20+ 学术图表类型
+- 内置 DeepResValue-SciPlot 绘图专家，覆盖 20+ 学术图表类型
 - **云端预配置，开箱即用**——无需本地安装 TeX 发行版或 Office
 
 ### MCP 外部连接器
@@ -2324,8 +2282,8 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 ### 中文驱动 + 严谨可溯源
 
 - 全中文交互，说出分析需求即可自动完成全流程
-- 100+ 专业科研技能自动匹配，**经数千真实科研项目实战检验**
-- **前沿科研分析方法全覆盖**——没有做不了的科研分析方法，Agent 实时在专业 skills 指导下写代码、云端执行
+- 129 位科研领域专家自动匹配；每位专家是对应领域的专业工作流和工具组合包
+- **前沿科研分析方法全覆盖**——没有做不了的科研分析方法，Agent 实时在对应领域专家指导下写代码、云端执行
 - 各类科研数据内置，只需说需求 Agent 自主调用
 - 每一步分析保留完整代码与执行日志，满足学术规范要求
 
@@ -2359,15 +2317,6 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ---
 
-## 验证与里程碑
-
-- 🏆 **3000+ 名 985/211 高校教授、硕博与学生用户**真实测试体验
-- 📊 经 **数千个真实科研场景项目**验证，分析方法覆盖全学科领域
-- 🎓 创始人为 **985 高校毕业**，深谙科研痛点
-- ✅ 已完成 **产品验证（PMF）**，进入正式上线与扩张期
-
----
-
 ## 商业模式
 
 | | 说明 |
@@ -2380,7 +2329,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 ## 快速开始
 
-1. 访问平台官网 [deepresvalue.top](https://deepresvalue.top)
+1. 访问平台官网 [deepresvalue.com](https://deepresvalue.com)
 2. 点击右上角 **「获取体验资格」** 或 **「登录」**
 3. 支持 **手机号注册**：填写手机号和短信验证码即可快速登录
 4. 新用户注册即享免费使用额度，可立即体验完整功能
@@ -2391,11 +2340,10 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | 链接 | 说明 |
 |------|------|
-| 🌐 [deepresvalue.top](https://deepresvalue.top) | 官方网站与注册入口 |
+| 🌐 [deepresvalue.com](https://deepresvalue.com) | 官方网站与注册入口 |
 | 📖 [用户指南](./user-guide.zh.md) | 完整使用说明 |
 | 📋 [帮助中心](./features/) | 分册功能文档 |
 | 📚 [文档索引](./README.md) | 返回文档首页 |
-
 
 # docs/README.md
 # DeepResValue 深度研值 — 文档中心
@@ -2419,8 +2367,8 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 
 | 语言 | 文件 | 说明 |
 |------|------|------|
-| 🇨🇳 中文 | [user-guide.zh.md](./user-guide.zh.md) | 完整使用指南（快速开始/界面/核心功能/文件技能/溯源/对话管理/积分/FAQ/扩展能力） |
-| 🇬🇧 English | [user-guide.en.md](./user-guide.en.md) | Complete user guide (Quick Start / Interface / Core Features / Files & Skills / Traceability / Conversation / Credits / FAQ / Extensions) |
+| 🇨🇳 中文 | [user-guide.zh.md](./user-guide.zh.md) | 完整使用指南（快速开始/界面/核心功能/文件专家/溯源/对话管理/积分/FAQ/扩展能力） |
+| 🇬🇧 English | [user-guide.en.md](./user-guide.en.md) | Complete user guide (Quick Start / Interface / Core Features / Files & Experts / Traceability / Conversation / Credits / FAQ / Extensions) |
 
 ### 📋 帮助中心（分册）
 
@@ -2429,7 +2377,7 @@ Connect your own LLM API: DeepSeek, OpenAI, or any OpenAI-compatible endpoint. T
 | 分类 | 中文 | English |
 |------|------|---------|
 | **快速开始** | [入门](./getting-started/index.zh.md) · [快速开始](./getting-started/quick-start.zh.md) · [界面概览](./getting-started/interface-overview.zh.md) | [Welcome](./getting-started/index.en.md) · [Quick Start](./getting-started/quick-start.en.md) · [Interface](./getting-started/interface-overview.en.md) |
-| **核心功能** | [数据分析](./features/data-analysis.zh.md) · [数据源](./features/data-sources.zh.md) · [文献综述](./features/literature-review.zh.md) · [学术写作](./features/academic-writing.zh.md) · [降 AIGC](./features/aigc-detection.zh.md) · [排版](./features/typesetting.zh.md) · [文件上传](./features/file-upload.zh.md) · [技能](./features/skills.zh.md) · [溯源](./features/reproducibility.zh.md) · [竞赛](./features/competition-modeling.zh.md) | [Analysis](./features/data-analysis.en.md) · [Sources](./features/data-sources.en.md) · [Literature](./features/literature-review.en.md) · [Writing](./features/academic-writing.en.md) · [AIGC](./features/aigc-detection.en.md) · [Typesetting](./features/typesetting.en.md) · [Upload](./features/file-upload.en.md) · [Skills](./features/skills.en.md) · [Traceability](./features/reproducibility.en.md) · [Competition](./features/competition-modeling.en.md) |
+| **核心功能** | [数据分析](./features/data-analysis.zh.md) · [数据源](./features/data-sources.zh.md) · [文献综述](./features/literature-review.zh.md) · [学术写作](./features/academic-writing.zh.md) · [降 AIGC](./features/aigc-detection.zh.md) · [排版](./features/typesetting.zh.md) · [文件上传](./features/file-upload.zh.md) · [专家](./features/skills.zh.md) · [溯源](./features/reproducibility.zh.md) · [竞赛](./features/competition-modeling.zh.md) | [Analysis](./features/data-analysis.en.md) · [Sources](./features/data-sources.en.md) · [Literature](./features/literature-review.en.md) · [Writing](./features/academic-writing.en.md) · [AIGC](./features/aigc-detection.en.md) · [Typesetting](./features/typesetting.en.md) · [Upload](./features/file-upload.en.md) · [Experts](./features/skills.en.md) · [Traceability](./features/reproducibility.en.md) · [Competition](./features/competition-modeling.en.md) |
 | **使用模式** | [导师](./modes/mentor.zh.md) · [学术](./modes/academic.zh.md) · [专业](./modes/professional.zh.md) | [Mentor](./modes/mentor.en.md) · [Academic](./modes/academic.en.md) · [Professional](./modes/professional.en.md) |
 | **账户相关** | [积分](./account/credits.zh.md) · [邀请](./account/invites.zh.md) · [设置](./account/settings.zh.md) · [大使](./account/ambassador.zh.md) | [Credits](./account/credits.en.md) · [Invites](./account/invites.en.md) · [Settings](./account/settings.en.md) · [Ambassador](./account/ambassador.en.md) |
 | **常见问题** | [FAQ](./faq/index.zh.md) | [FAQ](./faq/index.en.md) |
@@ -2480,11 +2428,9 @@ docs/
 
 ## 关于 DeepResValue
 
-**DeepResValue（深度研值）** 是面向全学科科研工作者的 AI 科研助手，基于先进的大语言模型构建。平台已服务 **3000+ 名 985/211 高校教授、硕博与学生用户**，经 **数千个真实科研场景项目**验证。
+**DeepResValue（深度研值）** 是面向全学科科研工作者的 AI 科研助手，基于先进的大语言模型构建。
 
-- 🌐 官方网站：[https://deepresvalue.top/](https://deepresvalue.top/)
-- 📧 联系微信：MoChen11-20
-
+- 🌐 官方网站：[https://deepresvalue.com/](https://deepresvalue.com/)
 
 # docs/user-guide.en.md
 # DeepResValue — User Guide
@@ -2502,7 +2448,7 @@ docs/
 5. [Input Panel Features](#5-input-panel-features)
 6. [Core Features](#6-core-features)
 7. [Message Interaction](#7-message-interaction)
-8. [File Upload & Skills System](#8-file-upload--skills-system)
+8. [File Upload & Experts System](#8-file-upload--experts-system)
 9. [Analysis Traceability — 100% Reproducible](#9-analysis-traceability--100-reproducible)
 10. [Conversation Management](#10-conversation-management)
 11. [Credits & Account](#11-credits--account)
@@ -2523,8 +2469,6 @@ docs/
 
 **DeepResValue provides professional-grade support, making AI an equalizer for education.**
 
-> 🏆 **Proven Track Record**: The platform has served **3,000+ professors, graduate students, and undergrads from 985/211 universities** in completing research tasks, validated through **thousands of real research scenario projects** across economics, management, biomedical science, environmental science, social sciences, and more.
-
 **Core philosophy in eight words: Authoritative · Reliable · Authentic · Easy to Use.**
 
 ---
@@ -2543,11 +2487,11 @@ Every analysis step preserves **complete Python/R code and execution logs**. Ful
 
 ### 📊 Real Data
 
-Built-in city/provincial/county macro panels and listed company financial/governance panel data. Data collection skills can also access financial market data, health, medical, biological, and literature external data sources. Describe your needs in Chinese, and AI returns structured data — **more convenient and reliable**.
+Built-in city/provincial/county macro panels and listed company financial/governance panel data. Data-collection experts can also access financial market data, health, medical, biological, and literature external data sources. Describe your needs in Chinese, and AI returns structured data — **more convenient and reliable**.
 
 ### ⚡ Chinese Interaction — Just Speak Chinese
 
-No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized skills and executes in the cloud.
+No need to learn programming or statistical formulas. Describe your analysis needs in Chinese, with support for **Python and R** dual analysis engines, plus direct MATLAB script (.m) and SPICE circuit simulation execution. AI automatically selects methods, writes code, runs regressions, and produces publication-ready tables. **Register and start in 3 minutes**. All frontier research analysis methods are supported — no method is out of reach; the Agent writes code in real time guided by specialized experts and executes in the cloud.
 
 ### 🌐 Zero-Config Full-Stack — Open Browser & Go
 
@@ -2571,7 +2515,7 @@ When Focus Mode is enabled, AI first plans the complete execution strategy, gets
 
 ### Registration & Login
 
-1. Visit [deepresvalue.top](https://deepresvalue.top).
+1. Visit [deepresvalue.com](https://deepresvalue.com).
 2. Click **"Get Access"** or **"Login"** in the top-right corner.
 3. Register with your **phone number**: enter your number and SMS verification code.
 
@@ -2581,8 +2525,8 @@ When Focus Mode is enabled, AI first plans the complete execution strategy, gets
 
 After registration, guided cards walk you through core features (shown only once, skippable):
 
-- **Desktop**: 4 steps covering input box, mode switching, skill panel, and conversation sidebar
-- **Mobile**: 3 steps covering input box, credit rules, and skill selection
+- **Desktop**: 4 steps covering input box, mode switching, expert panel, and conversation sidebar
+- **Mobile**: 3 steps covering input box, credit rules, and expert selection
 
 ### Interface Overview
 
@@ -2708,7 +2652,7 @@ Upload your data (CSV, Excel, Stata, SAS, PDF, Word, 80+ formats) and describe y
 
 ### 6.2 Data Collection & Sources
 
-**No data? No problem.** Built-in panel datasets + skill-driven data collection from external sources including financial markets, economic data, health databases, medical databases, biological databases, and literature databases.
+**No data? No problem.** Built-in panel datasets + expert-driven data collection from external sources including financial markets, economic data, health databases, medical databases, biological databases, and literature databases.
 
 ### 6.3 Literature Review & Search
 
@@ -2727,12 +2671,12 @@ AI automatically searches Chinese and English literature, extracts key findings,
 
 ### 6.5 Competition Support
 
-Built-in 100+ professional skills with competition-specific modules:
+Built-in 129 Research Experts with competition-specific modules:
 
 - **Mathematical Modeling (CUMCM / MCM-ICM)**: Covers China's CUMCM and USA's MCM/ICM — full workflow from problem analysis to 20-page paper, including differential equations, optimization, neural networks, spatial econometrics
 - **National Statistical Modeling Competition**: Full workflow from topic selection to report writing; DML/DID/RDD/Causal Forest/Synthetic Control all supported
 - **Challenge Cup**: Covers the national extracurricular academic science & technology works competition and entrepreneurship plan competition — topic selection to report writing
-- **Innovation & Entrepreneurship (三创赛)**: Full workflow skill: innovation project → business planning → practice verification → pitch defense
+- **Innovation & Entrepreneurship (三创赛)**: Full workflow expert: innovation project → business planning → practice verification → pitch defense
 
 ### 6.6 AIGC Detection Reduction
 
@@ -2742,7 +2686,7 @@ Built-in Chinese and English academic AIGC detection reduction engine with a fiv
 
 - LaTeX typesetting engine generates journal-standard professional charts
 - Export **PDF / Word / LaTeX source** for instant submission readiness
-- Built-in DeepResValue-SciPlot plotting skill covering 20+ academic chart types
+- Built-in DeepResValue-SciPlot plotting expert covering 20+ academic chart types
 
 ---
 
@@ -2757,7 +2701,7 @@ Built-in Chinese and English academic AIGC detection reduction engine with a fiv
 
 ---
 
-## 8. File Upload & Skills System
+## 8. File Upload & Experts System
 
 ### Supported File Formats
 
@@ -2779,11 +2723,11 @@ DeepResValue supports **11 categories, 90+ file formats** across all disciplines
 
 > Max single file: **100MB**. Max files per conversation: **10**. All formats except video files (`.mp4` `.mov` `.avi`) are supported.
 
-### Skills System
+### Experts System
 
-100+ professional skills covering the full research workflow:
+129 Research Experts covering the full research workflow. Each expert is a packaged combination of domain-specific professional workflows and tools:
 
-| Category | Representative Skills | Use Cases |
+| Category | Representative Experts | Use Cases |
 |----------|---------------------|-----------|
 | 🔬 Empirical Analysis | Python/R full-workflow empirical, panel analysis, spatial econometrics, time series | Quantitative research |
 | 🤖 Causal Inference | Bayesian causal, ML causal, DID/RDD/IV/Synthetic Control | Frontier methodology |
@@ -2876,16 +2820,16 @@ A: Yes. They work independently. Combining them increases response time but maxi
 A: Absolutely. DeepResValue's design philosophy is "zero code." Just describe your analysis needs in Chinese — AI handles everything from method selection to code writing to result output.
 
 **Q: Are the AI results reliable and academically compliant?**
-A: Yes. DeepResValue uses frontier LLMs, validated through thousands of real research projects. Every step preserves complete code and execution logs for full traceability.
+A: Yes. DeepResValue uses frontier LLMs. Every step preserves complete code and execution logs for full traceability.
 
 **Q: What if I don't have data?**
-A: The platform has built-in city/provincial/county and listed company panel data. Data collection skills access financial, health, medical, biological, and literature external sources.
+A: The platform has built-in city/provincial/county and listed company panel data. Data-collection experts access financial, health, medical, biological, and literature external sources.
 
 **Q: What's the file size limit?**
 A: Max 100MB per file, max 10 files per conversation. All formats except video are supported.
 
 **Q: The AI expression is too obvious — what do I do?**
-A: Use the built-in AIGC detection reduction engine. Say "help me reduce AIGC detection rate" in the chat.
+A: Use the built-in AIGC detection reduction expert. Say "help me reduce AIGC detection rate" in the chat.
 
 **Q: The AI response was cut off.**
 A: Send "please continue" to resume from the breakpoint. Refresh the page if needed — history is preserved.
@@ -2905,11 +2849,11 @@ A: Yes. BYOK (Bring Your Own Key) is supported. Go to Settings → Model Setting
 
 | Benefit | Description |
 |---------|-------------|
-| 🔑 **Full Beta Access** | All 100+ skills, 3 conversation modes, multi-source data collection — early access |
+| 🔑 **Full Beta Access** | All 129 Research Experts, 3 conversation modes, multi-source data collection — early access |
 | 📢 **Promotion Support** | Exclusive material package + poster templates + copy assets |
 | 🏅 **Honor Certificate** | DeepResValue Campus Ambassador certificate; top ambassadors get recommendation letters |
 
-📱 Add WeChat **MoChen11-20**, note "Ambassador + University Name" to apply.
+Apply via the official website — fill in your school and identity information in the Ambassador entry.
 
 ---
 
@@ -2964,7 +2908,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 ---
 
-*The platform is continuously improving. For questions or feedback, add WeChat **MoChen11-20**.*
+*The platform is continuously improving. For questions or feedback, please use the feedback channel on the official website.*
 
 ---
 
@@ -2972,11 +2916,10 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 | Link | Description |
 |------|-------------|
-| 🌐 [deepresvalue.top](https://deepresvalue.top) | Official website |
+| 🌐 [deepresvalue.com](https://deepresvalue.com) | Official website |
 | 📖 [Product Introduction](./product-intro.en.md) | Product overview |
 | 📋 [Help Center](./features/) | Section-by-section docs |
 | 📚 [Documentation Index](./README.md) | Back to docs home |
-
 
 # docs/user-guide.zh.md
 # DeepResValue 深度研值 — 用户使用指南
@@ -3007,7 +2950,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
    - 6.6 [降 AIGC 检测率](#66-降-aigc-检测率)
    - 6.7 [专业学术排版](#67-专业学术排版)
 7. [消息交互功能](#7-消息交互功能)
-8. [文件上传与技能系统](#8-文件上传与技能系统)
+8. [文件上传与专家系统](#8-文件上传与专家系统)
 9. [分析过程溯源 — 100% 可复现](#9-分析过程溯源--100-可复现)
 10. [对话管理](#10-对话管理)
 11. [积分与账户](#11-积分与账户)
@@ -3030,8 +2973,6 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 **深度研值都能提供专业级支持，让大模型成为教育公平的均衡器。**
 
-> 🏆 **真实成绩**：平台已服务 **3000+ 名 985/211 高校教授、硕博与学生用户**完成科研任务，经 **数千个真实科研场景项目**验证，分析方法覆盖经济学、管理学、生物医学、环境科学、社会科学等全学科领域。
-
 **核心理念就八个字：权威 · 可靠 · 真实 · 易上手。**
 
 ---
@@ -3050,11 +2991,11 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 ### 📊 真实数据
 
-内置城市/省份/县域宏观面板与上市公司财务、治理面板数据；数据搜集技能还可接入金融行情、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据，**数据获取更便捷、更可靠**。
+内置城市/省份/县域宏观面板与上市公司财务、治理面板数据；数据搜集专家还可接入金融行情、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据，**数据获取更便捷、更可靠**。
 
 ### ⚡ 中文交互 — 说中文就行
 
-不需要学编程语言，不需要懂统计公式。用中文说出你的分析需求，同时支持 **Python 和 R** 双分析引擎，并可直接运行 MATLAB 脚本（.m）与 SPICE 电路仿真，AI 自动选方法、写代码、跑回归、出三线表。**注册即用，3 分钟上手**。前沿科研分析方法全覆盖——没有做不了的科研分析方法，Agent 实时在专业 skills 指导下写代码、云端执行。
+不需要学编程语言，不需要懂统计公式。用中文说出你的分析需求，同时支持 **Python 和 R** 双分析引擎，并可直接运行 MATLAB 脚本（.m）与 SPICE 电路仿真，AI 自动选方法、写代码、跑回归、出三线表。**注册即用，3 分钟上手**。前沿科研分析方法全覆盖——没有做不了的科研分析方法，Agent 实时在对应领域专家指导下写代码、云端执行。
 
 ### 🌐 零配置满配 — 打开网页即用
 
@@ -3082,7 +3023,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 ### 注册与登录
 
-1. 访问平台官网 [deepresvalue.top](https://deepresvalue.top)。
+1. 访问平台官网 [deepresvalue.com](https://deepresvalue.com)。
 2. 点击右上角 **「获取体验资格」** 或 **「登录」**。
 3. 支持 **手机号注册**：填写手机号和短信验证码即可快速登录。
 
@@ -3092,8 +3033,8 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 
 注册登录后，系统会用 **引导卡片** 带你熟悉核心功能（仅首次展示，可随时跳过）：
 
-- **桌面端**：依次讲解输入框、模式切换、技能面板与对话侧边栏（共 4 步）
-- **手机端**：精简为 3 步，覆盖输入框、积分规则与技能选择
+- **桌面端**：依次讲解输入框、模式切换、专家面板与对话侧边栏（共 4 步）
+- **手机端**：精简为 3 步，覆盖输入框、积分规则与专家选择
 - 点击 **「跳过」** 可随时退出；跳过后不再自动展示
 
 ### 界面概览
@@ -3127,7 +3068,7 @@ Use your own LLM API Key. After connecting, conversations use your model and quo
 - **4 张场景卡片**：🆘 论文指导 / 🏆 竞赛冲刺 / 📊 数据无忧 / 📄 排版无忧——点击即可查看完整能力预览并直接体验
 - **积分引导条**：新用户可展开查看积分消耗规则和省钱技巧
 - **快捷提示模板**：实证分析 / 文献综述 / 数据可视化——点击即可填充到输入框
-- **价值徽章**：标语下方的徽章行展示核心能力——百万上下文 / 100+技能 / AI辅助 / 零编程
+- **价值徽章**：标语下方的徽章行展示核心能力——百万上下文 / 129 位专家 / AI辅助 / 零编程
 
 > 💡 直接在输入框中描述你的需求，或点击场景卡片快速开始。
 > 📱 手机端为紧凑布局：4 张场景卡以 2×2 网格展示，价值徽章行仅在桌面端显示。
@@ -3325,7 +3266,7 @@ AI 当你的专属学术导师，一步步引导你完成研究设计、推荐�
 
 **没有数据？不用担心。**
 
-深度研值的数据获取能力分两层——**平台预置面板数据**与**技能驱动的数据搜集**：
+深度研值的数据获取能力分两层——**平台预置面板数据**与**专家驱动的数据搜集**：
 
 **平台预置面板数据**（6 个数据集，数据引擎直读权威 Parquet 文件）：
 
@@ -3338,7 +3279,7 @@ AI 当你的专属学术导师，一步步引导你完成研究设计、推荐�
 | 🏢 **上市公司治理控制变量** | 2000-2023 年，财务、治理、市场等 84 个指标 |
 | 📍 **上市公司行业与地理位置** | 2000-2023 年，证券代码、行业、所属省份 |
 
-**技能驱动的数据搜集**——AI 自动加载对应数据搜集技能，从外部数据源获取结构化数据：
+**专家驱动的数据搜集**——AI 自动加载对应数据搜集专家，从外部数据源获取结构化数据：
 
 | 领域 | 可搜集的数据 |
 |------|--------------|
@@ -3387,11 +3328,11 @@ AI 自动联网检索中英文文献，提炼核心观点，生成结构化综�
 
 ### 6.5 竞赛创新支持
 
-深度研值内置 **100+ 个专业技能**，覆盖全学科科研场景。其中竞赛专项持续更新，确保每个国家级竞赛都有针对性指导：
+深度研值内置 **129 位科研领域专家**，覆盖全学科科研场景。其中竞赛专项持续更新，确保每个国家级竞赛都有针对性指导：
 
 #### 🏆 全国统计建模大赛
 
-- 内置统计建模大赛专项技能，覆盖选题论证 → 数据处理 → 模型构建 → 报告撰写全流程
+- 内置统计建模大赛专项专家，覆盖选题论证 → 数据处理 → 模型构建 → 报告撰写全流程
 - DML / DID / RDD / 因果森林 / 合成控制——**前沿方法全面支持，帮助理解方法原理、独立完成**
 
 #### 🔢 数学建模（CUMCM / MCM-ICM）
@@ -3404,12 +3345,12 @@ AI 自动联网检索中英文文献，提炼核心观点，生成结构化综�
 #### 🚀 挑战杯
 
 - 覆盖「挑战杯」全国大学生课外学术科技作品竞赛与大学生创业计划竞赛
-- 内置专项技能，辅助选题论证、研究设计、数据分析与报告撰写
+- 内置专项专家，辅助选题论证、研究设计、数据分析与报告撰写
 
 #### 💡 三创赛
 
 - 覆盖全国大学生电子商务"创新、创意及创业"挑战赛
-- 内置三创赛全流程制胜技能，覆盖创新立项 → 商业策划 → 实践验证 → 路演答辩
+- 内置三创赛全流程制胜专家，覆盖创新立项 → 商业策划 → 实践验证 → 路演答辩
 - 商业计划书、市场调研分析、数据可视化、路演 PPT 全流程辅助
 - AI 辅助市场分析、财务预测与风险评估
 
@@ -3433,7 +3374,7 @@ AI 自动联网检索中英文文献，提炼核心观点，生成结构化综�
 - LaTeX 排版引擎驱动，生成期刊标准的专业图表
 - 三线表、回归表、结构方程图、事件研究图——可直接用于论文投稿准备
 - 导出 **PDF / Word / LaTeX 源码**，投稿格式快速达标
-- **专业科研绘图**：内置 DeepResValue-SciPlot 绘图技能，覆盖散点图、热力图、森林图、路径分析图、社会网络图、脑区激活图等 20+ 学术图表类型
+- **专业科研绘图**：内置 DeepResValue-SciPlot 绘图专家，覆盖散点图、热力图、森林图、路径分析图、社会网络图、脑区激活图等 20+ 学术图表类型
 
 ---
 
@@ -3499,7 +3440,7 @@ AI 回复过程中，你可以：
 
 ---
 
-## 8. 文件上传与技能系统
+## 8. 文件上传与专家系统
 
 ### 支持的文件格式
 
@@ -3527,11 +3468,11 @@ AI 回复过程中，你可以：
 2. 上传后，输入框上方会显示对应的**文件标签**。
 3. 点击标签上的 **×** 可移除该文件。
 
-### 技能系统
+### 专家系统
 
-深度研值内置 **100+ 个专业技能**，覆盖科研全流程。以下是部分核心技能分类：
+深度研值内置 **129 位科研领域专家**，覆盖科研全流程。每位专家是对应领域的专业工作流和工具组合包。以下是部分核心专家分类：
 
-| 技能类别 | 代表技能（部分） | 适用场景 |
+| 专家类别 | 代表专家（部分） | 适用场景 |
 |----------|------------------|----------|
 | 🔬 实证分析 | Python 全流程实证分析、R 全流程实证分析、面板分析、空间计量（SAR/SEM/SDM）、时间序列、中介调节、多层HLM、结构方程模型 SEM | 各类量化研究 |
 | 🤖 因果推断 | 贝叶斯因果推断、机器学习因果、DID/RDD/IV/合成控制、GMM、倾向评分匹配 PSM | 前沿方法论 |
@@ -3547,7 +3488,7 @@ AI 回复过程中，你可以：
 | 🔎 数据搜集 | 金融行情、中国经济数据、健康数据（CDC）、医学数据库、生物数据（EMBL-EBI/bioRxiv）、文献检索（NCPSSD/CNKI/arXiv/PubMed） | 数据获取与选题准备 |
 | ⚙️ 工科计算 | MATLAB 脚本（.m）执行、SPICE 电路仿真、控制系统（PID/状态空间）、信号处理 | 自动化/电子/控制类 |
 
-> 💡 选择匹配的技能后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。
+> 💡 选择匹配的专家后，AI 将加载对应领域的专业知识与分析工具，输出质量更高。
 
 ### 产出文件
 
@@ -3737,7 +3678,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 | 🎁 **邀请人** | **+200 积分** | 当你的邀请码被他人成功注册使用时，自动到账 |
 | 🆕 **被邀请人** | **+100 积分** | 使用他人邀请码注册成功后，自动获得新人奖励 |
 
-> 💡 **如何分享？** 点击侧边栏「邀请推荐」按钮，复制你的专属邀请链接，转发到课题组群、班级群或朋友圈即可。邀请面板还会实时显示你的邀请人数、获得奖励和被邀请者充值金额。**邀请奖励不设上限**——每多邀请一人就多获得 200 积分。
+> 💡 **如何分享？** 点击侧边栏「邀请推荐」按钮，复制你的专属邀请链接，转发到课题组群、班级群或社交平台即可。邀请面板还会实时显示你的邀请人数、获得奖励和被邀请者充值金额。**邀请奖励不设上限**——每多邀请一人就多获得 200 积分。
 
 ### 查看积分
 
@@ -3783,13 +3724,13 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 ### Q4：AI 生成的结果可靠吗？满足学术规范吗？
 
-**可靠。** 深度研值搭载前沿大模型，经数千个真实科研场景项目验证。最关键的是，**每一步分析都保留完整代码和执行日志**——分析全程可追溯，满足学术规范要求。
+**可靠。** 深度研值搭载前沿大模型。最关键的是，**每一步分析都保留完整代码和执行日志**——分析全程可追溯，满足学术规范要求。
 
 ---
 
 ### Q5：没有数据怎么办？
 
-平台预置城市/省份/县域宏观面板与上市公司面板数据，数据搜集技能还可接入金融行情、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据。数据获取更便捷、更可靠。
+平台预置城市/省份/县域宏观面板与上市公司面板数据，数据搜集专家还可接入金融行情、健康、医学、生物、文献等外部数据源。用中文一句话描述需求，AI 精准返回结构化数据。数据获取更便捷、更可靠。
 
 ---
 
@@ -3801,7 +3742,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 ### Q7：AI 的表达痕迹太重怎么办？
 
-深度研值内置**降 AIGC 检测率引擎**（`chinese-de-aigc` 技能）：采用「定位→诊断→改写→自评→复查」五步闭环工作流，系统消除中文 17 类 + 英文结构化 AI 写作痕迹，覆盖知网 AMLC、万方、维普、Turnitin、GPTZero 五大检测器。在对话中说「帮我降低 AIGC 检测率」即可触发。
+深度研值内置**降 AIGC 检测率专家**：采用「定位→诊断→改写→自评→复查」五步闭环工作流，系统消除中文 17 类 + 英文结构化 AI 写作痕迹，覆盖知网 AMLC、万方、维普、Turnitin、GPTZero 五大检测器。在对话中说「帮我降低 AIGC 检测率」即可触发。
 
 ---
 
@@ -3811,7 +3752,7 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 1. 在 AI 回复过程中，你也可以随时点击输入框右侧的 **停止按钮** 主动中断生成
 2. 中断或意外截断后，在输入框中发送 **「请继续」**，AI 会从断点继续生成
 3. 刷新页面后重新打开该对话，大部分情况下历史结果已保存
-4. 如反复出现问题，请添加微信 **MoChen11-20** 联系技术支持
+4. 如反复出现问题，请通过官网反馈渠道联系技术支持
 
 ---
 
@@ -3901,29 +3842,17 @@ AI 在分析过程中生成的文件（报告、图表、代码等）会自动�
 
 | 权益 | 说明 |
 |------|------|
-| 🔑 **全功能内测** | 100+ 个专业技能、3 种对话模式、多源数据搜集——所有功能提前畅享，优先体验 |
-| 📢 **校园传播支持** | 专属传播物料包 + 海报模板 + 文案素材，轻松在班级群、朋友圈、社团分享 |
+| 🔑 **全功能内测** | 129 位科研领域专家、3 种对话模式、多源数据搜集——所有功能提前畅享，优先体验 |
+| 📢 **校园传播支持** | 专属传播物料包 + 海报模板 + 文案素材，轻松在班级群、社交平台、社团分享 |
 | 🏅 **荣誉认证** | 颁发 DeepResValue 校园体验官证书，优秀体验官可获推荐信，简历加分 |
 
 ### 如何加入
 
-📱 添加微信 **MoChen11-20**，备注「体验官 + 学校名称」，获取体验资格。
-
-**扫码加入各平台群聊：**
-
-| 🎵 抖音 | 💬 微信 | 📘 小红书 |
-|:---:|:---:|:---:|
-| ![抖音群](/images/qrcode-douyin.png) | ![微信](/images/qrcode-wechat.png) | ![小红书](/images/qrcode-xiaohongshu.png) |
-| 扫码加入 | 扫码添加 | 扫码关注 |
-
-| 📝 知乎 | 🎬 B 站 | 🐧 QQ |
-|:---:|:---:|:---:|
-| ![知乎](/images/qrcode-zhihu.png) | ![B 站](/images/qrcode-bilibili.png) | ![QQ](/images/qrcode-qq.png) |
-| 扫码关注 | 扫码订阅 | 扫码添加 |
+访问平台官网，在「校园体验官」入口填写学校与身份信息提交申请，审核通过后即可获取体验资格。
 
 ---
 
-*平台持续迭代中，如有任何问题或建议，请添加微信 **MoChen11-20** 提交反馈。你的每一条意见，都在帮助深度研值变得更好。*
+*平台持续迭代中，如有任何问题或建议，请通过官网反馈渠道提交。你的每一条意见，都在帮助深度研值变得更好。*
 
 ---
 
@@ -4032,7 +3961,6 @@ BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能
 
 ---
 
-
 # README.md
 <!-- DeepResValue (深度研值) — Public Repository README -->
 <!-- Keywords: AI research assistant, 科研 Agent, SaaS, academic, data analysis -->
@@ -4049,7 +3977,7 @@ BYOK（Bring Your Own Key）让你使用自己的 LLM API Key 接入对话功能
 </p>
 
 <p align="center">
-  <a href="https://deepresvalue.top/">Website</a> · <a href="#quick-start">Quick Start</a> · <a href="#documentation">Docs</a> · <a href="LICENSE">License</a>
+  <a href="https://deepresvalue.com/">Website</a> · <a href="#quick-start">Quick Start</a> · <a href="#documentation">Docs</a> · <a href="LICENSE">License</a>
 </p>
 
 ---
@@ -4110,9 +4038,9 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 - 中文一句话驱动复杂科研全流程
 - Every reasoning step, code execution, and data transformation is **fully traceable** and auditable
-- Research skills validated through **thousands of real research projects** — all research data built-in, Agent calls autonomously
+- All research data built-in, the Agent calls data sources autonomously
 
-> 100+ professional research skills guide the Agent through domain-specific workflows. No research analysis method is out of reach — the Agent writes code in real time guided by specialized skills and executes in the cloud.
+> 129 Research Experts guide the Agent through domain-specific workflows. Each expert is a packaged combination of domain-specific professional workflows and tools. No research analysis method is out of reach — the Agent writes code in real time guided by specialized experts and executes in the cloud.
 
 ---
 
@@ -4150,22 +4078,13 @@ Plug in your own LLM provider keys (DeepSeek, OpenAI, Qwen, or any OpenAI-compat
 
 ---
 
-## Validation & Milestones
-
-- 🎓 **3,000+ users** from 985/211 universities — professors, PhD/Master students, and researchers
-- 📈 **Thousands of real-world research projects** validated across disciplines
-- ✅ **Product-Market Fit (PMF) achieved** — now in formal launch and growth phase
-- 🏫 **Founder**: graduate of a 985 university, with deep domain expertise in AI × research workflows
-
----
-
 ## Getting Started & Pricing
 
-1. Visit **[deepresvalue.top](https://deepresvalue.top/)** and sign up
+1. Visit **[deepresvalue.com](https://deepresvalue.com/)** and sign up
 2. Select your research mode (Academic / Mentor / Professional)
 3. Describe your research task in one sentence — the AI Agent takes it from there
 
-**开始使用**：访问 [deepresvalue.top](https://deepresvalue.top/)，注册后选择科研模式，一句中文描述任务即可开始。
+**开始使用**：访问 [deepresvalue.com](https://deepresvalue.com/)，注册后选择科研模式，一句中文描述任务即可开始。
 
 | | |
 |---|---|
@@ -4182,8 +4101,8 @@ This repository contains the public documentation and product introduction for D
 | Document | Path | Description |
 |----------|------|-------------|
 | Documentation Hub | [`docs/README.md`](docs/README.md) | Documentation index |
-| Product Intro (中文) | [`docs/product-intro.zh.md`](docs/product-intro.zh.md) | 产品介绍 |
-| Product Intro (English) | [`docs/product-intro.en.md`](docs/product-intro.en.md) | Product introduction |
+| Product Intro (中文) | [`docs/product-intro.zh.md`](docs/product-intro.zh.md) | 产品定位、核心能力、学科场景、验证里程碑 |
+| Product Intro (English) | [`docs/product-intro.en.md`](docs/product-intro.en.md) | Product positioning, core capabilities, discipline scenarios, milestones |
 | User Guide (中文) | [`docs/user-guide.zh.md`](docs/user-guide.zh.md) | 用户指南 |
 | User Guide (English) | [`docs/user-guide.en.md`](docs/user-guide.en.md) | User guide |
 | Getting Started | [`docs/getting-started/`](docs/getting-started/) | Setup, interface overview, quick start |
@@ -4207,5 +4126,5 @@ You are free to share and adapt this material for any purpose, provided you give
 ---
 
 <p align="center">
-  <sub>© 2024–2026 DeepResValue 深度研值 · <a href="https://deepresvalue.top/">deepresvalue.top</a></sub>
+  <sub>© 2024–2026 DeepResValue 深度研值 · <a href="https://deepresvalue.com/">deepresvalue.com</a></sub>
 </p>
